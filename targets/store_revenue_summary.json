@@ -1,0 +1,12 @@
+{
+  "name": "Store Revenue Summary",
+  "purpose": "Calculates total revenue per store per day",
+  "inputs": {
+    "store_name": "Name of the store where the sale happened",
+    "product_code": "Unique identifier of the item sold",
+    "units_sold": "Number of units sold in the transaction",
+    "price_per_unit": "Price of a single unit",
+    "transaction_date": "Date the sale happened",
+    "discount_pct": "Discount applied to the sale, as a percentage"
+  }
+}
