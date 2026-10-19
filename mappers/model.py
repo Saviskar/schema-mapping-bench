@@ -1,8 +1,12 @@
+# Model.py - This asks the TypeSafe model which upstream column feeds each downstream input
+
 import os
 
 from typesafe_sdk import Choice, TypeSafeClient
 
 
+# Builds one question for each downstream input and sends them all to the model in one call
+# (Each answer has the column the model picked, how confident it is and the probability of every column)
 def schema_mapping_model_typesafe(ticket, options):
     # Start with an empty dictionary of questions
     questions = {}

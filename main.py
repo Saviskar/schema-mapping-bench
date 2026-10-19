@@ -1,3 +1,5 @@
+# Main.py - This runs the whole mapping from the command line
+
 import argparse
 import json
 
@@ -8,6 +10,9 @@ from mappers.model import schema_mapping_model_typesafe
 from mappers.preprocessing import build_ticket, get_options
 
 
+# Loads the API key, reads the CSV and the target, builds the ticket and options,
+# asks the model to map the columns and prints the answers as JSON
+# (--expected is read but not used yet)
 def main():
     dotenv.load_dotenv()
 
