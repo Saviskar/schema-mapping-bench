@@ -1,0 +1,12 @@
+{
+  "artist_name": "Artist",
+  "tour_name": "Tour title",
+  "box_office_total": "Actual gross",
+  "inflation_corrected_total": "Adjusted gross (in 2022 dollars)",
+  "concert_count": "Shows",
+  "earnings_per_concert": "Average gross",
+  "years_active": "Year(s)",
+  "list_position": "Rank",
+  "average_ticket_price": "none",
+  "total_attendance": "none"
+}

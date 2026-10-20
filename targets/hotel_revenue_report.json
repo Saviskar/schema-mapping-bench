@@ -1,0 +1,16 @@
+{
+  "name": "Hotel Revenue Report",
+  "purpose": "Calculates room revenue per hotel per night, split by guest country",
+  "inputs": {
+    "booking_ref": "Booking reference the hotel gave the guest",
+    "guest_email": "Email address of the guest who stays in the room",
+    "guest_country": "Country the guest comes from, as a 2-letter code",
+    "check_in_date": "Date the guest arrives at the hotel",
+    "nights": "Number of nights the guest stays",
+    "room_rate": "Price of the room for one night, before tax",
+    "booking_total": "Total amount charged for the booking, including tax",
+    "hotel_name": "Name of the hotel the booking is for",
+    "passport_number": "Guest's passport number",
+    "room_type": "Type of room booked, such as King, Twin or Suite"
+  }
+}

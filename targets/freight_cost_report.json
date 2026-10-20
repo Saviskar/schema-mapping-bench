@@ -1,0 +1,16 @@
+{
+  "name": "Freight Cost Report",
+  "purpose": "Calculates freight cost per kilogram for each carrier, lane and pickup week",
+  "inputs": {
+    "shipment_id": "ID the shipper uses to refer to the shipment",
+    "carrier_name": "Name of the company that carried the shipment",
+    "origin_city": "City the shipment was picked up from",
+    "destination_city": "City the shipment was delivered to",
+    "pickup_date": "Date the carrier picked up the shipment",
+    "chargeable_weight_kg": "Weight the carrier charged for (the higher of actual and dimensional weight), in kilograms",
+    "freight_charge": "Base charge for moving the shipment, before fuel surcharge, extra charges and tax",
+    "fuel_surcharge_pct": "Fuel surcharge as a percentage of the base charge",
+    "customs_duty": "Import duty paid on the shipment",
+    "driver_name": "Name of the driver who carried the shipment"
+  }
+}

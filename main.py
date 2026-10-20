@@ -12,7 +12,7 @@ from mappers.preprocessing import build_ticket, get_options
 
 # Loads the API key, reads the CSV and the target, builds the ticket and options,
 # asks the model to map the columns and prints the answers as JSON
-# (--expected is read but not used yet)
+# (with --expected it also prints each pick next to the expected column)
 def main():
     dotenv.load_dotenv()
 
@@ -34,8 +34,16 @@ def main():
     answers = schema_mapping_model_typesafe(ticket, options)
     print(json.dumps({k: v.model_dump() for k, v in answers.items()}, indent=2))
 
+    if args.expected:
+        with open(args.expected) as f:
+            expected = json.load(f)
+
+        # one line per input: the expected column and the column the model picked (x marks a wrong pick)
+        print()
+        for name, correct in expected.items():
+            choice = answers[name + "_column"].choice
+            mark = " " if choice == correct else "x"
+            print(f"{mark} {name:17} expected={correct:14} picked={choice}")
+
 if __name__ == "__main__":
     main()
-
-# STEP 01: WRITE DOWN THE EXPECTED VALUE AND THE VALUE GOT FROM THE MODEL
-# STEP 01: DISPLAY THE ACCURACY AND CONFIDENCE (PROBABILITES IF NEEDED)

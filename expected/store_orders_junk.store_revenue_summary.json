@@ -1,0 +1,8 @@
+{
+  "store_name": "loc",
+  "product_code": "item_ref",
+  "units_sold": "pcs",
+  "price_per_unit": "amt_ea",
+  "transaction_date": "doc_dt",
+  "discount_pct": "adj_pct"
+}

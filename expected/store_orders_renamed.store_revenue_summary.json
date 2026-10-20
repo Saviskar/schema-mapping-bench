@@ -1,0 +1,8 @@
+{
+  "store_name": "col_03",
+  "product_code": "col_06",
+  "units_sold": "col_09",
+  "price_per_unit": "col_12",
+  "transaction_date": "col_18",
+  "discount_pct": "col_16"
+}

@@ -1,0 +1,12 @@
+{
+  "booking_ref": "ref_c",
+  "guest_email": "txt_d",
+  "guest_country": "cd_c",
+  "check_in_date": "dt_b",
+  "nights": "num_c",
+  "room_rate": "amt_d",
+  "booking_total": "amt_a",
+  "hotel_name": "txt_f",
+  "passport_number": "none",
+  "room_type": "none"
+}
