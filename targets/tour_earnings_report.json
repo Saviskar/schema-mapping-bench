@@ -1,0 +1,16 @@
+{
+  "name": "Tour Earnings Report",
+  "purpose": "Compares how much each artist's concert tours earned, in total and per concert",
+  "inputs": {
+    "artist_name": "Name of the performer who headlined the tour",
+    "tour_name": "Name of the concert tour",
+    "box_office_total": "Total ticket money the tour made, in the dollars of the years it ran (not corrected for inflation)",
+    "inflation_corrected_total": "Total ticket money the tour made, converted to 2022 prices",
+    "concert_count": "Number of concerts played on the tour",
+    "earnings_per_concert": "Average ticket money made at each concert",
+    "years_active": "Year or years the tour ran",
+    "list_position": "Where the tour currently sits in this list of highest-earning tours",
+    "average_ticket_price": "Average price of a single ticket",
+    "total_attendance": "Total number of people who attended the tour"
+  }
+}

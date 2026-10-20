@@ -1,0 +1,12 @@
+{
+  "shipment_id": "shp_ref",
+  "carrier_name": "lsp",
+  "origin_city": "from_loc",
+  "destination_city": "to_loc",
+  "pickup_date": "pu_dt",
+  "chargeable_weight_kg": "chg_wt",
+  "freight_charge": "linehaul",
+  "fuel_surcharge_pct": "fsc_rt",
+  "customs_duty": "none",
+  "driver_name": "none"
+}
