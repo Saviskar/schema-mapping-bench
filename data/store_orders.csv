@@ -1,4 +1,4 @@
-order_ref,sku,qty_ordered,order_ts,unit_cost,branch,cust_email
+order_ref,sku,qty_ordered,order_ts,unit_price,branch,cust_email
 ORD-5001,SKU-1001,3,2026-09-01 09:14:00,19.99,Downtown,ana@example.com
 ORD-5002,SKU-1002,1,2026-09-01 11:42:00,249.00,Airport,ben@example.com
 ORD-5003,SKU-1003,12,2026-09-02 08:05:00,2.50,Downtown,

@@ -62,7 +62,7 @@ Keeping these in separate folders means any CSV can be tested against any target
 
 | Function | What it does | Why |
 |---|---|---|
-| `get_upstream_columns(df)` | For each column, records its dtype, up to 10 unique non-null sample values, its null % and its unique % | Column names alone are ambiguous. Seeing actual values (`Downtown`, `19.99`), types and the null/unique ratios gives the model evidence. For example, 100% unique means an ID. |
+| `get_upstream_columns(df, n_samples=10, seed=0)` | For each column, records its dtype, up to `n_samples` non-null sample values (repeated common values plus a seeded random pick, each cut to 80 characters), its null % and its unique % | Column names alone are ambiguous. Seeing actual values (`Downtown`, `19.99`), types and the null/unique ratios gives the model evidence. For example, 100% unique means an ID. |
 | `get_options(df)` | Builds `{column: column}` for every column, plus `"none"` | These are the only answers the model can choose from, so it can't make up a column name. `"none"` covers target inputs that have no source, like `discount_pct` in the sample data. |
 | `build_ticket(df, target)` | Returns `{"downstream_node": target, "upstream_columns": ...}` | This is the `state` sent to the model: what's needed next to what's available. |
 
@@ -78,7 +78,7 @@ Keeping these in separate folders means any CSV can be tested against any target
 ## `main.py`
 
 1. Loads `.env` to get `TYPESAFE_API_KEY`.
-2. Parses `csv_file`, `--target` and `--expected`.
+2. Parses `csv_file`, `--target`, `--expected` and `--samples` (sample values per column, default 10).
 3. Loads the target JSON and reads the CSV with pandas.
 4. Runs `build_ticket` → `get_options` → `schema_mapping_model_typesafe`.
 5. Prints the answers as JSON.
