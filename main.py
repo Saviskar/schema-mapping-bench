@@ -20,6 +20,8 @@ def main():
     parser.add_argument("csv_file", help="Path to the input CSV file")
     parser.add_argument("--target", required=True, help="Path to the target JSON file")
     parser.add_argument("--expected", help="Path to a JSON file of expected column mappings")
+    # to change the number of sample rows that the model takes so we can experiment with how much samples do we need for better accuracy
+    parser.add_argument("--samples", type=int, default=10, help="Number of example values per column")
 
     args = parser.parse_args()
 
@@ -27,7 +29,7 @@ def main():
         target = json.load(f)
 
     df = pd.read_csv(args.csv_file)
-    ticket = build_ticket(df, target)
+    ticket = build_ticket(df, target, args.samples)
     options = get_options(df)
     answers = schema_mapping_model_typesafe(ticket, options)
     print(json.dumps({k: v.model_dump() for k, v in answers.items()}, indent=2))

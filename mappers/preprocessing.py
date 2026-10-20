@@ -1,15 +1,45 @@
 # Preprocessing.py - This turns the raw data into what the model sees
 
+# longest a sample value can be before it gets cut 
+# (ADJUST THRESHOLD) - 80 WAS SET BECAUSE COLUMNS MIGHT HAVE PRODUCT DESCRIPTION AND THAT CAN BE TOO LONG
+# SO THE MODEL WILL BE SLOW AND CAN BE EXPENSIVE AS WELL (HAVE TO TEST IF THE REASONING IS ACTUALLY CORRECT)
+MAX_SAMPLE_LEN = 80
+
+# cuts long values so one big text cell can't fill up the prompt
+# ("..." at the end tells the model it was cut)
+def shorten(value):
+    if len(value) > MAX_SAMPLE_LEN:
+        return value[:MAX_SAMPLE_LEN] + "..."
+    return value
+
+# Picks up to n example values from a column: first the most common values that repeat
+# (up to half of n), then a random pick from the rest so values from the whole file show up
+# (The seed is fixed so the same file always gives the same samples)
+
+# (LINE 27)
+# Why "more than once": in an ID column every value appears once, so nothing is "common." Without this rule, the code would just take the first few IDs, which is the old problem again.
+# Why "up to half": so common values can't take every slot. There is always room for random values from across the file.
+def get_samples(series, n=10, seed=0):
+    values = series.dropna().astype(str).map(shorten)
+    counts = values.value_counts()
+    if len(counts) <= n:  # few unique values: show all of them, most common first
+        return counts.index.tolist()
+    common = counts[counts > 1].index[: n // 2].tolist()
+    rest = counts.drop(common)
+    # common values first, then fill the slots that are left with a random pick from the rest
+    # (the seed makes it pick the same values every run)
+    return common + rest.sample(n - len(common), random_state=seed).index.tolist()
+
 # Takes a table of data and builds a short summary of each columns: its data type,
 # some example values, how much of it is empty and how much of it is unique
 # (This is the summary that the model gets to see)
-def get_upstream_columns(df):
+def get_upstream_columns(df, n_samples=10, seed=0):
     upstream_columns = {}
     for col in df.columns:
         series = df[col]
         upstream_columns[col] = {
             "type": str(series.dtype),
-            "samples": series.dropna().astype(str).unique()[:10].tolist(), # up to 10 unique non-empty values
+            "samples": get_samples(series, n_samples, seed),
             "null_pct": round(float(series.isna().mean()) * 100, 1),
             "unique_pct": round(series.nunique() / len(series) * 100, 1),
         }
@@ -24,8 +54,8 @@ def get_options(df):
     return options
 
 # describes what the downstream node needs, along with the upstream columns
-def build_ticket(df, target):
+def build_ticket(df, target, n_samples=10, seed=0):
     return {
         "downstream_node": target,
-        "upstream_columns": get_upstream_columns(df),
+        "upstream_columns": get_upstream_columns(df, n_samples, seed),
     }
