@@ -1,0 +1,12 @@
+{
+  "country_name": "country",
+  "country_code": "iso_code",
+  "year": "year",
+  "electricity_generated_twh": "electricity_generation",
+  "coal_share_of_electricity": "coal_share_elec",
+  "renewables_share_of_electricity": "renewables_share_elec",
+  "carbon_intensity": "carbon_intensity_elec",
+  "net_imports_twh": "net_elec_imports",
+  "household_price": "none",
+  "grid_losses_twh": "none"
+}

@@ -1,0 +1,12 @@
+{
+  "parcel_id": "PID",
+  "neighbourhood": "Neighborhood",
+  "sale_price": "SalePrice",
+  "living_area_sqft": "Gr Liv Area",
+  "lot_area_sqft": "Lot Area",
+  "year_built": "Year Built",
+  "sale_year": "Yr Sold",
+  "sale_type": "Sale Type",
+  "street_address": "none",
+  "property_tax": "none"
+}

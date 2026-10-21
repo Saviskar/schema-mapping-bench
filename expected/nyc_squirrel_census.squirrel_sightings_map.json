@@ -1,0 +1,12 @@
+{
+  "squirrel_id": "unique_squirrel_id",
+  "park_area": "hectare",
+  "sighting_date": "date",
+  "time_of_day": "shift",
+  "fur_colour": "primary_fur_color",
+  "age_group": "age",
+  "longitude": "long",
+  "height_above_ground_ft": "above_ground_sighter_measurement",
+  "weight_grams": "none",
+  "observer_name": "none"
+}

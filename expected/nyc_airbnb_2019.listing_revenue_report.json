@@ -1,0 +1,12 @@
+{
+  "listing_id": "id",
+  "host_id": "host_id",
+  "listing_title": "name",
+  "borough": "neighbourhood_group",
+  "neighbourhood": "neighbourhood",
+  "nightly_price": "price",
+  "days_available": "availability_365",
+  "last_review_date": "last_review",
+  "cleaning_fee": "none",
+  "guest_rating": "none"
+}

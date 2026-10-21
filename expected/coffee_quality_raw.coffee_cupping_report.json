@@ -1,0 +1,12 @@
+{
+  "origin_country": "Country.of.Origin",
+  "farm_name": "Farm.Name",
+  "harvest_year": "Harvest.Year",
+  "grading_date": "Grading.Date",
+  "total_cup_score": "Total.Cup.Points",
+  "aroma_score": "Aroma",
+  "min_altitude_m": "altitude_low_meters",
+  "bag_count": "Number.of.Bags",
+  "roast_level": "none",
+  "price_per_kg": "none"
+}

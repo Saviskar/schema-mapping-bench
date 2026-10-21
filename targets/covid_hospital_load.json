@@ -1,0 +1,16 @@
+{
+  "name": "COVID Hospital Load",
+  "purpose": "Tracks hospital and ICU pressure in each country over time",
+  "inputs": {
+    "country_code": "3-letter ISO code of the country",
+    "country_name": "Name of the country",
+    "report_date": "Date the figures are for",
+    "total_cases": "Total confirmed cases so far",
+    "daily_deaths_7day_avg": "Deaths reported per day, averaged over the last 7 days",
+    "icu_patients": "Number of COVID patients in intensive care on that day",
+    "hospital_patients": "Number of COVID patients in hospital on that day",
+    "hospital_beds_per_1000": "Hospital beds for every 1,000 people",
+    "ventilators_in_use": "Number of ventilators in use on that day",
+    "staff_absences": "Number of hospital staff off sick on that day"
+  }
+}

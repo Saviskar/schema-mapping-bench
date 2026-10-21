@@ -1,0 +1,12 @@
+{
+  "country_name": "country",
+  "country_code": "iso_code",
+  "year": "year",
+  "population": "population",
+  "annual_co2_mt": "co2",
+  "co2_per_person_t": "co2_per_capita",
+  "co2_change_pct": "co2_growth_prct",
+  "coal_co2_mt": "coal_co2",
+  "carbon_tax_rate": "none",
+  "renewable_share_pct": "none"
+}

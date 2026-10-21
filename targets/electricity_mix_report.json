@@ -1,0 +1,16 @@
+{
+  "name": "Electricity Mix Report",
+  "purpose": "Compares where each country's electricity comes from, year by year",
+  "inputs": {
+    "country_name": "Name of the country",
+    "country_code": "3-letter ISO code of the country",
+    "year": "Year the figures are for",
+    "electricity_generated_twh": "Electricity the country generated that year, in terawatt-hours",
+    "coal_share_of_electricity": "Percentage of the country's electricity made from coal",
+    "renewables_share_of_electricity": "Percentage of the country's electricity made from renewable sources",
+    "carbon_intensity": "Grams of CO2 emitted for each kilowatt-hour of electricity generated",
+    "net_imports_twh": "Electricity imported minus electricity exported that year, in terawatt-hours",
+    "household_price": "Average price households pay for electricity",
+    "grid_losses_twh": "Electricity lost in the grid before it reaches customers, in terawatt-hours"
+  }
+}

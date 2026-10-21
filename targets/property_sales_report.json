@@ -1,0 +1,16 @@
+{
+  "name": "Property Sales Report",
+  "purpose": "Calculates median sale price per suburb per month",
+  "inputs": {
+    "suburb": "Suburb the property is in",
+    "sale_price": "Price the property sold for, in Australian dollars",
+    "sale_date": "Date the property was sold",
+    "property_type": "Type of property, such as house, unit or townhouse",
+    "sale_method": "How the sale went, such as sold at auction, sold before auction or passed in",
+    "agency_name": "Real estate agency that handled the sale",
+    "latitude": "Latitude of the property",
+    "land_size_sqm": "Size of the land the property sits on, in square meters",
+    "buyer_name": "Name of the person who bought the property",
+    "stamp_duty": "Stamp duty the buyer paid on the sale"
+  }
+}
