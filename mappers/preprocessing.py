@@ -17,7 +17,7 @@ def shorten(value):
 # (The seed is fixed so the same file always gives the same samples)
 
 # (LINE 27)
-# Why "more than once": in an ID column every value appears once, so nothing is "common." Without this rule, the code would just take the first few IDs, which is the old problem again.
+# Why "more than once": in an ID column every value appears once, so nothing is "common." Without this rule, the code would just take the first few IDs, which brings back the problem of only seeing the top of the file.
 # Why "up to half": so common values can't take every slot. There is always room for random values from across the file.
 def get_samples(series, n=10, seed=0):
     values = series.dropna().astype(str).map(shorten)
