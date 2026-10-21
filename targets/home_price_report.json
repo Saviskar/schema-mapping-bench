@@ -1,0 +1,16 @@
+{
+  "name": "Home Price Report",
+  "purpose": "Calculates sale price per square foot of living area for each neighbourhood and year built",
+  "inputs": {
+    "parcel_id": "Parcel number the city uses to identify the property",
+    "neighbourhood": "Neighbourhood the home is in",
+    "sale_price": "Price the home sold for, in dollars",
+    "living_area_sqft": "Living area above ground, in square feet",
+    "lot_area_sqft": "Size of the lot the home sits on, in square feet",
+    "year_built": "Year the home was first built",
+    "sale_year": "Year the home was sold",
+    "sale_type": "Type of deed or contract the home was sold under, such as warranty deed or contract",
+    "street_address": "Street address of the home",
+    "property_tax": "Property tax charged on the home each year"
+  }
+}

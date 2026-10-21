@@ -1,0 +1,12 @@
+{
+  "suburb": "Suburb",
+  "sale_price": "Price",
+  "sale_date": "Date",
+  "property_type": "Type",
+  "sale_method": "Method",
+  "agency_name": "SellerG",
+  "latitude": "Lattitude",
+  "land_size_sqm": "Landsize",
+  "buyer_name": "none",
+  "stamp_duty": "none"
+}

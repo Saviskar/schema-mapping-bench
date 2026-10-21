@@ -1,0 +1,16 @@
+{
+  "name": "Squirrel Sightings Map",
+  "purpose": "Maps squirrel sightings by park area, time of day and fur colour",
+  "inputs": {
+    "squirrel_id": "ID given to each squirrel sighting",
+    "park_area": "Grid square of the park the squirrel was seen in",
+    "sighting_date": "Date the squirrel was seen",
+    "time_of_day": "Whether the squirrel was seen in the morning or the afternoon",
+    "fur_colour": "Main colour of the squirrel's fur",
+    "age_group": "Whether the squirrel is an adult or a juvenile",
+    "longitude": "Longitude where the squirrel was seen",
+    "height_above_ground_ft": "How high above the ground the squirrel was, in feet",
+    "weight_grams": "Weight of the squirrel, in grams",
+    "observer_name": "Name of the volunteer who saw the squirrel"
+  }
+}

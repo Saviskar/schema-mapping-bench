@@ -1,0 +1,12 @@
+{
+  "film_title": "Title",
+  "production_budget": "Production Budget",
+  "worldwide_box_office": "Worldwide Gross",
+  "us_box_office": "US Gross",
+  "release_date": "Release Date",
+  "distributor": "Distributor",
+  "runtime_minutes": "Running Time min",
+  "critic_score": "Rotten Tomatoes Rating",
+  "lead_actor": "none",
+  "marketing_spend": "none"
+}

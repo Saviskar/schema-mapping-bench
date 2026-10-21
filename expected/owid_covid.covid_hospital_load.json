@@ -1,0 +1,12 @@
+{
+  "country_code": "iso_code",
+  "country_name": "location",
+  "report_date": "date",
+  "total_cases": "total_cases",
+  "daily_deaths_7day_avg": "new_deaths_smoothed",
+  "icu_patients": "icu_patients",
+  "hospital_patients": "hosp_patients",
+  "hospital_beds_per_1000": "hospital_beds_per_thousand",
+  "ventilators_in_use": "none",
+  "staff_absences": "none"
+}

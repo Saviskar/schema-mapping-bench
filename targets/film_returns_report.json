@@ -1,0 +1,16 @@
+{
+  "name": "Film Returns Report",
+  "purpose": "Calculates each film's box office return on its budget, by distributor and release year",
+  "inputs": {
+    "film_title": "Title of the film",
+    "production_budget": "Money spent making the film, in dollars",
+    "worldwide_box_office": "Ticket money the film made around the world, in dollars",
+    "us_box_office": "Ticket money the film made in the United States, in dollars",
+    "release_date": "Date the film came out",
+    "distributor": "Company that released the film in cinemas",
+    "runtime_minutes": "Length of the film, in minutes",
+    "critic_score": "Percentage of critics who gave the film a good review",
+    "lead_actor": "Name of the film's lead actor",
+    "marketing_spend": "Money spent advertising the film"
+  }
+}

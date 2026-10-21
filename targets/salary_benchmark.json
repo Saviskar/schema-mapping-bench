@@ -1,0 +1,16 @@
+{
+  "name": "Salary Benchmark",
+  "purpose": "Compares yearly pay for each job title across industries and countries",
+  "inputs": {
+    "job_title": "Job title the person holds",
+    "industry": "Industry the person works in",
+    "base_salary": "Yearly salary, before bonuses and other extra pay",
+    "bonus_pay": "Bonuses, overtime and other extra pay the person gets in a year, on top of salary",
+    "currency": "Currency the salary is paid in",
+    "country": "Country the person works in",
+    "city": "City the person works in",
+    "years_in_field": "Years of experience the person has in their current field",
+    "employer_name": "Name of the company the person works for",
+    "hours_per_week": "Number of hours the person works in a typical week"
+  }
+}

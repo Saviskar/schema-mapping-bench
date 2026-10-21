@@ -1,0 +1,16 @@
+{
+  "name": "Listing Revenue Report",
+  "purpose": "Estimates nightly revenue per neighbourhood from listing prices and availability",
+  "inputs": {
+    "listing_id": "ID of the listing",
+    "host_id": "ID of the host who runs the listing",
+    "listing_title": "Title the host wrote for the listing",
+    "borough": "Borough of New York City the listing is in",
+    "neighbourhood": "Neighbourhood within the borough that the listing is in",
+    "nightly_price": "Price for one night, in dollars",
+    "days_available": "Number of days in the year the listing can be booked",
+    "last_review_date": "Date of the listing's most recent review",
+    "cleaning_fee": "Fee charged for cleaning after each stay",
+    "guest_rating": "Average star rating guests gave the listing"
+  }
+}

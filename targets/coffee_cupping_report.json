@@ -1,0 +1,16 @@
+{
+  "name": "Coffee Cupping Report",
+  "purpose": "Ranks coffee lots by cupping score for each country and harvest year",
+  "inputs": {
+    "origin_country": "Country the coffee beans were grown in",
+    "farm_name": "Name of the farm that grew the coffee",
+    "harvest_year": "Year or season the coffee was harvested",
+    "grading_date": "Date the coffee was graded by the cupping panel",
+    "total_cup_score": "Overall cupping score, out of 100",
+    "aroma_score": "Score given for the coffee's smell, out of 10",
+    "min_altitude_m": "Lowest altitude the coffee was grown at, in meters",
+    "bag_count": "Number of bags in the lot",
+    "roast_level": "How dark the beans were roasted, such as light, medium or dark",
+    "price_per_kg": "Price paid for one kilogram of the coffee"
+  }
+}

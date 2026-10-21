@@ -12,3 +12,6 @@ __pycache__/
 
 # macos
 .DS_Store
+
+# too large for github
+data/owid_covid.csv

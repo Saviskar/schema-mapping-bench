@@ -1,0 +1,12 @@
+{
+  "job_title": "job_title",
+  "industry": "industry",
+  "base_salary": "annual_salary",
+  "bonus_pay": "other_monetary_comp",
+  "currency": "currency",
+  "country": "country",
+  "city": "city",
+  "years_in_field": "years_of_experience_in_field",
+  "employer_name": "none",
+  "hours_per_week": "none"
+}

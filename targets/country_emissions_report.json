@@ -1,0 +1,16 @@
+{
+  "name": "Country Emissions Report",
+  "purpose": "Compares each country's yearly CO2 emissions, in total and per person",
+  "inputs": {
+    "country_name": "Name of the country",
+    "country_code": "3-letter ISO code of the country",
+    "year": "Year the figures are for",
+    "population": "Number of people living in the country",
+    "annual_co2_mt": "Fossil CO2 emitted inside the country that year, in million tonnes, not counting land-use change",
+    "co2_per_person_t": "Fossil CO2 emitted per person that year, in tonnes, not counting land-use change",
+    "co2_change_pct": "Percentage change in fossil CO2 emissions from the year before",
+    "coal_co2_mt": "CO2 emitted from burning coal that year, in million tonnes",
+    "carbon_tax_rate": "Price the country charges per tonne of CO2 emitted",
+    "renewable_share_pct": "Percentage of the country's energy that comes from renewable sources"
+  }
+}
