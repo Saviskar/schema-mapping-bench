@@ -6,7 +6,7 @@ import json
 import dotenv
 import pandas as pd
 
-from mappers.model import schema_mapping_model_typesafe
+from mappers.models import MODELS
 from mappers.preprocessing import build_ticket, get_options
 
 
@@ -20,6 +20,7 @@ def main():
     parser.add_argument("csv_file", help="Path to the input CSV file")
     parser.add_argument("--target", required=True, help="Path to the target JSON file")
     parser.add_argument("--expected", help="Path to a JSON file of expected column mappings")
+    parser.add_argument("--model", choices=sorted(MODELS), default="jev", help="Model to run")
     # to change the number of sample rows that the model takes so we can experiment with how much samples do we need for better accuracy
     parser.add_argument("--samples", type=int, default=10, help="Number of example values per column")
 
@@ -31,8 +32,8 @@ def main():
     df = pd.read_csv(args.csv_file)
     ticket = build_ticket(df, target, args.samples)
     options = get_options(df)
-    answers = schema_mapping_model_typesafe(ticket, options)
-    print(json.dumps({k: v.model_dump() for k, v in answers.items()}, indent=2))
+    answers = MODELS[args.model](ticket, options)
+    print(json.dumps(answers, indent=2))
 
     if args.expected:
         with open(args.expected) as f:
@@ -41,7 +42,7 @@ def main():
         # one line per input: the expected column and the column the model picked (x marks a wrong pick)
         print()
         for name, correct in expected.items():
-            choice = answers[name + "_column"].choice
+            choice = answers[name]["choice"]
             mark = " " if choice == correct else "x"
             print(f"{mark} {name:17} expected={correct:14} picked={choice}")
 

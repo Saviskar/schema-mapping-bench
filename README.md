@@ -20,15 +20,14 @@ Then put your real key in `.env`. `.env` is gitignored, and `.env.example` is th
 ## Run
 
 ```bash
-python main.py data/store_orders.csv --target targets/store_revenue_summary.json
+python main.py data/store_orders.csv --target targets/store_revenue_summary.json --model jev
 ```
 
 This prints one answer per target input:
 
 ```json
 {
-  "store_name_column": {
-    "type": "choice",
+  "store_name": {
     "choice": "<csv column or \"none\">",
     "confidence": 0.0,
     "probabilities": { "<column>": 0.0, "none": 0.0 }
@@ -36,7 +35,7 @@ This prints one answer per target input:
 }
 ```
 
-`--expected` is accepted but not used yet. It's reserved for scoring the answers against known mappings.
+`probabilities` is only there for models that give one for every column (Jev does). `--model` defaults to `jev`. `--expected` prints each pick next to the expected column.
 
 ## Layout
 
@@ -45,7 +44,9 @@ data/       input CSVs (the upstream data)
 targets/    JSON descriptions of what a downstream node needs
 mappers/
   preprocessing.py   turns a CSV + target into what the model sees
-  model.py           asks the model to make the mapping
+  models/            one adapter per model, all with the same map_columns signature
+    __init__.py      MODELS registry (name → adapter)
+    jev.py           TypeSafe Jev adapter
 main.py     CLI that wires the parts together
 requirements.txt   pinned dependencies
 .env.example       template for .env
@@ -66,19 +67,23 @@ Keeping these in separate folders means any CSV can be tested against any target
 | `get_options(df)` | Builds `{column: column}` for every column, plus `"none"` | These are the only answers the model can choose from, so it can't make up a column name. `"none"` covers target inputs that have no source, like `discount_pct` in the sample data. |
 | `build_ticket(df, target)` | Returns `{"downstream_node": target, "upstream_columns": ...}` | This is the `state` sent to the model: what's needed next to what's available. |
 
-## `mappers/model.py`
+## `mappers/models/`
 
-`schema_mapping_model_typesafe(ticket, options)`:
+Every adapter is `map_columns(ticket, options)` and returns `{input: {"choice": column, "confidence": 0-1}}`, plus `"probabilities"` if the model gives them. `main.py` and `eval.py` pick one by name from `MODELS` with `--model`.
+
+To add a model: write `mappers/models/<name>.py` with a `map_columns` function, then add it to `MODELS` in `__init__.py`.
+
+`jev.py`:
 
 1. Creates one `Choice` question for each input in `ticket["downstream_node"]["inputs"]`, keyed `<input>_column`.
 2. Each question's instructions point at `downstream_node.inputs.<name>`, a path into the ticket, so the key names in `build_ticket` must stay as they are.
 3. All the questions use the same `options` as their `criteria`.
-4. Sends everything in one `client.system_one(state=ticket, questions=...)` call and returns `response.answers`. Each answer contains `choice`, `confidence` and a `probabilities` value for every option.
+4. Sends everything in one `client.system_one(state=ticket, questions=...)` call, then returns each answer's `choice`, `confidence` and `probabilities` under the input name.
 
 ## `main.py`
 
 1. Loads `.env` to get `TYPESAFE_API_KEY`.
-2. Parses `csv_file`, `--target`, `--expected` and `--samples` (sample values per column, default 10).
+2. Parses `csv_file`, `--target`, `--expected`, `--model` (default `jev`) and `--samples` (sample values per column, default 10).
 3. Loads the target JSON and reads the CSV with pandas.
-4. Runs `build_ticket` → `get_options` → `schema_mapping_model_typesafe`.
+4. Runs `build_ticket` → `get_options` → `MODELS[--model]`.
 5. Prints the answers as JSON.
