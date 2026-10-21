@@ -47,6 +47,7 @@ mappers/
   models/            one adapter per model, all with the same map_columns signature
     __init__.py      MODELS registry (name → adapter)
     jev.py           TypeSafe Jev adapter
+    llm.py           shared adapter for OpenAI-compatible models (Gemini, DeepSeek, ...)
 main.py     CLI that wires the parts together
 requirements.txt   pinned dependencies
 .env.example       template for .env
@@ -71,7 +72,9 @@ Keeping these in separate folders means any CSV can be tested against any target
 
 Every adapter is `map_columns(ticket, options)` and returns `{input: {"choice": column, "confidence": 0-1}}`, plus `"probabilities"` if the model gives them. `main.py` and `eval.py` pick one by name from `MODELS` with `--model`.
 
-To add a model: write `mappers/models/<name>.py` with a `map_columns` function, then add it to `MODELS` in `__init__.py`.
+To add a model:
+- **OpenAI-compatible** (Gemini, Grok, DeepSeek, Qwen, GLM, Kimi, MiniMax, OpenRouter): add an entry to `LLMS` in `llm.py`, and its key to `.env` and `.env.example`. It shows up in `MODELS` under the entry's name.
+- **Anything else**: write `mappers/models/<name>.py` with a `map_columns` function, then add it to `MODELS` in `__init__.py`.
 
 `jev.py`:
 
@@ -80,9 +83,16 @@ To add a model: write `mappers/models/<name>.py` with a `map_columns` function, 
 3. All the questions use the same `options` as their `criteria`.
 4. Sends everything in one `client.system_one(state=ticket, questions=...)` call, then returns each answer's `choice`, `confidence` and `probabilities` under the input name.
 
+`llm.py`:
+
+1. Each `LLMS` entry has `model`, `base_url`, `api_key_env` and optional `extra` (settings only that model needs, e.g. `reasoning_effort`).
+2. Sends the ticket as JSON in one call, with a JSON schema whose `enum` limits each `choice` to the real columns or `"none"`.
+3. A broken reply, a missing input or a column that isn't in `options` comes back as `"invalid"`, so it counts as wrong.
+4. No `probabilities` (the model reports its own `confidence`), so `eval.py` shows `p=-`.
+
 ## `main.py`
 
-1. Loads `.env` to get `TYPESAFE_API_KEY`.
+1. Loads `.env` to get the API keys.
 2. Parses `csv_file`, `--target`, `--expected`, `--model` (default `jev`) and `--samples` (sample values per column, default 10).
 3. Loads the target JSON and reads the CSV with pandas.
 4. Runs `build_ticket` → `get_options` → `MODELS[--model]`.

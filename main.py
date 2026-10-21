@@ -20,7 +20,7 @@ def main():
     parser.add_argument("csv_file", help="Path to the input CSV file")
     parser.add_argument("--target", required=True, help="Path to the target JSON file")
     parser.add_argument("--expected", help="Path to a JSON file of expected column mappings")
-    parser.add_argument("--model", choices=sorted(MODELS), default="jev", help="Model to run")
+    parser.add_argument("--model", choices=sorted(MODELS.keys()), default="jev", help="Model to run")
     # to change the number of sample rows that the model takes so we can experiment with how much samples do we need for better accuracy
     parser.add_argument("--samples", type=int, default=10, help="Number of example values per column")
 
@@ -43,8 +43,11 @@ def main():
         print()
         for name, correct in expected.items():
             choice = answers[name]["choice"]
-            mark = " " if choice == correct else "x"
-            print(f"{mark} {name:17} expected={correct:14} picked={choice}")
+            if choice == correct:
+                mark = "OK"
+            else:
+                mark = "x "
+            print(f"{mark} {name.ljust(17)} expected={correct.ljust(14)} picked={choice}")
 
 if __name__ == "__main__":
     main()
