@@ -1,0 +1,1 @@
+python3 main.py data/titanic.csv --target targets/passenger_boarding_report.json --expected expected/titanic.passenger_boarding_report.json --model jev

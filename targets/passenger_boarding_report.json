@@ -1,0 +1,9 @@
+{
+  "name": "Passenger Boarding Report",
+  "purpose": "Counts passengers by ticket class and the port they boarded at, and how many siblings or spouses travelled with them",
+  "inputs": {
+    "ticket_class": "Class of the passenger's ticket: first, second or third",
+    "siblings_spouses_aboard": "Number of brothers, sisters, husbands or wives travelling on the ship with the passenger",
+    "boarding_port": "Port where the passenger got on the ship"
+  }
+}

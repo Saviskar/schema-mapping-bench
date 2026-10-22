@@ -5,6 +5,11 @@ import os
 
 from openai import OpenAI
 
+# OpenRouter hosts many open models (DeepSeek, Qwen, Kimi, GLM, MiMo) behind one key
+OPENROUTER_URL = "https://openrouter.ai/api/v1"
+# keep reasoning low (the answer is short), and only use OpenRouter hosts that follow the JSON schema
+OPENROUTER_EXTRA = {"reasoning": {"effort": "low"}, "provider": {"require_parameters": True}}
+
 # one entry per model: its model name, where to send it, which .env key to use,
 # and any extra settings only that model needs
 LLMS = {
@@ -13,6 +18,36 @@ LLMS = {
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
         "api_key_env": "GEMINI_API_KEY",
         "extra": {"reasoning_effort": "low"},
+    },
+    "deepseek-flash": {
+        "model": "deepseek/deepseek-v4.1-flash",
+        "base_url": OPENROUTER_URL,
+        "api_key_env": "OPENROUTER_API_KEY",
+        "extra": OPENROUTER_EXTRA,
+    },
+    "qwen-27b": {
+        "model": "qwen/qwen3.8-27b",
+        "base_url": OPENROUTER_URL,
+        "api_key_env": "OPENROUTER_API_KEY",
+        "extra": OPENROUTER_EXTRA,
+    },
+    "kimi-k3": {
+        "model": "moonshotai/kimi-k3",
+        "base_url": OPENROUTER_URL,
+        "api_key_env": "OPENROUTER_API_KEY",
+        "extra": OPENROUTER_EXTRA,
+    },
+    "glm-flash": {
+        "model": "z-ai/glm-5.3-flash",
+        "base_url": OPENROUTER_URL,
+        "api_key_env": "OPENROUTER_API_KEY",
+        "extra": OPENROUTER_EXTRA,
+    },
+    "mimo-flash": {
+        "model": "xiaomi/mimo-v2.6-flash",
+        "base_url": OPENROUTER_URL,
+        "api_key_env": "OPENROUTER_API_KEY",
+        "extra": OPENROUTER_EXTRA,
     },
 }
 
