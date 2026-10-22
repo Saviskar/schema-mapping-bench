@@ -20,7 +20,7 @@ Then put your real key in `.env`. `.env` is gitignored, and `.env.example` is th
 ## Run
 
 ```bash
-python main.py data/store_orders.csv --target targets/store_revenue_summary.json --model jev
+python3 main.py data/store_orders.csv --target targets/store_revenue_summary.json --model jev
 ```
 
 This prints one answer per target input:

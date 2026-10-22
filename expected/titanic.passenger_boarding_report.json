@@ -1,0 +1,5 @@
+{
+  "ticket_class": "Pclass",
+  "siblings_spouses_aboard": "SibSp",
+  "boarding_port": "Embarked"
+}
