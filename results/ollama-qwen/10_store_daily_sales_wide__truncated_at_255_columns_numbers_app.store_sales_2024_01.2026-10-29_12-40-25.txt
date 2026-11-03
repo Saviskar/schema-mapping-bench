@@ -1,0 +1,7 @@
+model    = ollama-qwen
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_01.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_01.json
+time     = 2026-10-29_12-40-25
+args     = 
+

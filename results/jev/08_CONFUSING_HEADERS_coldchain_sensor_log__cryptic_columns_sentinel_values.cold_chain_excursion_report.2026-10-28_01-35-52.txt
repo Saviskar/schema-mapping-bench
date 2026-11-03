@@ -1,0 +1,307 @@
+model    = jev
+csv      = data/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.csv
+target   = targets/cold_chain_excursion_report.json
+expected = expected/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.cold_chain_excursion_report.json
+time     = 2026-10-28_01-35-52
+args     = 
+
+{
+  "reading_seq": {
+    "choice": "id",
+    "confidence": 0.98,
+    "probabilities": {
+      "id": 0.98,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.02
+    }
+  },
+  "logger_id": {
+    "choice": "dev",
+    "confidence": 0.99,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.99,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.01
+    }
+  },
+  "reading_time": {
+    "choice": "t",
+    "confidence": 1.0,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 1.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.0
+    }
+  },
+  "air_temperature": {
+    "choice": "v1",
+    "confidence": 0.88,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.89,
+      "v2": 0.0,
+      "v3": 0.06,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.03,
+      "Unnamed: 12": 0.0,
+      "none": 0.02
+    }
+  },
+  "humidity": {
+    "choice": "v2",
+    "confidence": 0.99,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.99,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.01
+    }
+  },
+  "battery_voltage": {
+    "choice": "v3",
+    "confidence": 0.36,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.06,
+      "v2": 0.07,
+      "v3": 0.41000000000000003,
+      "s": 0.08,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.01,
+      "z": 0.01,
+      "Unnamed: 12": 0.01,
+      "none": 0.35
+    }
+  },
+  "signal_strength": {
+    "choice": "s",
+    "confidence": 0.98,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.98,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.02
+    }
+  },
+  "status_flags": {
+    "choice": "f",
+    "confidence": 1.0,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 1.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.0
+    }
+  },
+  "gps_position": {
+    "choice": "loc",
+    "confidence": 1.0,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 1.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.0
+    }
+  },
+  "shipment_ref": {
+    "choice": "ref",
+    "confidence": 1.0,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 1.0,
+      "fw": 0.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.0
+    }
+  },
+  "firmware_version": {
+    "choice": "fw",
+    "confidence": 1.0,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 1.0,
+      "z": 0.0,
+      "Unnamed: 12": 0.0,
+      "none": 0.0
+    }
+  },
+  "product_core_temperature": {
+    "choice": "z",
+    "confidence": 0.78,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.05,
+      "v2": 0.0,
+      "v3": 0.09999999999999999,
+      "s": 0.0,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.8,
+      "Unnamed: 12": 0.0,
+      "none": 0.05
+    }
+  },
+  "operator_alarm_mark": {
+    "choice": "none",
+    "confidence": 0.74,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.01,
+      "s": 0.0,
+      "f": 0.18,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.01,
+      "Unnamed: 12": 0.04,
+      "none": 0.76
+    }
+  },
+  "ambient_temperature": {
+    "choice": "none",
+    "confidence": 0.7,
+    "probabilities": {
+      "id": 0.0,
+      "dev": 0.0,
+      "t": 0.0,
+      "v1": 0.05,
+      "v2": 0.01,
+      "v3": 0.14,
+      "s": 0.01,
+      "f": 0.0,
+      "loc": 0.0,
+      "ref": 0.0,
+      "fw": 0.0,
+      "z": 0.06,
+      "Unnamed: 12": 0.01,
+      "none": 0.72
+    }
+  }
+}
+latency=627ms  input_tokens=5031  output_tokens=1702
+
+OK reading_seq       expected=id             picked=id
+OK logger_id         expected=dev            picked=dev
+OK reading_time      expected=t              picked=t
+OK air_temperature   expected=v1             picked=v1
+OK humidity          expected=v2             picked=v2
+OK battery_voltage   expected=v3             picked=v3
+OK signal_strength   expected=s              picked=s
+OK status_flags      expected=f              picked=f
+OK gps_position      expected=loc            picked=loc
+OK shipment_ref      expected=ref            picked=ref
+OK firmware_version  expected=fw             picked=fw
+OK product_core_temperature expected=z              picked=z
+OK operator_alarm_mark expected=Unnamed: 12|none picked=none
+OK ambient_temperature expected=none           picked=none
+
+right    = 14/14

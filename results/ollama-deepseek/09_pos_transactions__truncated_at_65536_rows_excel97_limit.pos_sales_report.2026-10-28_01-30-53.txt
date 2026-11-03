@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/09_pos_transactions__truncated_at_65536_rows_excel97_limit.csv
+target   = targets/pos_sales_report.json
+expected = expected/09_pos_transactions__truncated_at_65536_rows_excel97_limit.pos_sales_report.json
+time     = 2026-10-28_01-30-53
+args     = 
+
+{
+  "fiscal_period": {
+    "choice": "none",
+    "confidence": 0
+  },
+  "transaction_id": {
+    "choice": "none",
+    "confidence": 132964.42788
+  },
+  "line_position": {
+    "choice": "store",
+    "confidence": -55
+  },
+  "transaction_time": {
+    "choice": "txn_datetime",
+    "confidence": 58500309.32
+  },
+  "store": {
+    "choice": "discount",
+    "confidence": -2205
+  },
+  "cashier": {
+    "choice": "payment_method",
+    "confidence": -1
+  },
+  "sku": {
+    "choice": "txn_datetime",
+    "confidence": 221304377
+  },
+  "quantity": {
+    "choice": "payment_method",
+    "confidence": 4.3410799
+  },
+  "unit_price": {
+    "choice": "discount",
+    "confidence": -Infinity
+  },
+  "discount_amount": {
+    "choice": "none",
+    "confidence": 24.03
+  },
+  "line_total": {
+    "choice": "none",
+    "confidence": 15002
+  },
+  "payment_method": {
+    "choice": "store",
+    "confidence": 130
+  },
+  "customer_phone": {
+    "choice": "none",
+    "confidence": 2
+  },
+  "customer_name": {
+    "choice": "unit_price",
+    "confidence": 13867.503219
+  }
+}
+latency=60787ms  input_tokens=1754  output_tokens=1157
+
+x  fiscal_period     expected=fiscal_period  picked=none
+x  transaction_id    expected=txn_id         picked=none
+x  line_position     expected=line           picked=store
+OK transaction_time  expected=txn_datetime   picked=txn_datetime
+x  store             expected=store          picked=discount
+x  cashier           expected=cashier        picked=payment_method
+x  sku               expected=sku            picked=txn_datetime
+x  quantity          expected=qty            picked=payment_method
+x  unit_price        expected=unit_price     picked=discount
+x  discount_amount   expected=discount       picked=none
+x  line_total        expected=line_total     picked=none
+x  payment_method    expected=payment_method picked=store
+x  customer_phone    expected=customer_phone picked=none
+x  customer_name     expected=none           picked=unit_price
+
+right    = 1/14

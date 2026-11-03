@@ -1,0 +1,18 @@
+{
+  "sku": "ATTR_101",
+  "barcode": "ATTR_117",
+  "product_name": "ATTR_102@en_LK",
+  "brand": "ATTR_230",
+  "category": "ATTR_118",
+  "sub_category": "ATTR_118_1",
+  "pack_size": "ATTR_305",
+  "selling_price": "ATTR_410",
+  "unit_cost": "ATTR_410_B",
+  "launch_date": "ATTR_512",
+  "supplier_code": "ATTR_620",
+  "hs_code": "ATTR_621",
+  "size_variant": "ATTR_306",
+  "lifecycle_status": "ATTR_900",
+  "price_currency": "none",
+  "size_system": "none"
+}

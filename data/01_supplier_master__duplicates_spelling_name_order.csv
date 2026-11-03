@@ -1,0 +1,146 @@
+supplier_id,Supplier Name,Contact Person ,Phone/Mobile,e-mail,City/Town,country,Postal Code,VAT No.,Pmt Terms,Category,Onboarded On,Active?
+100231,Rainbow Logistics PLC,Eng. Tharindu Jayasinghe,728560726,accounts[at]rainbowlogisti.lk,Chennai,IN,600001,33TKWZJ7673R1Z2,NT14,LG,2020-08-21,X
+SUP-1007,Apex Tea Enterprises,asanka wijesinghe,+94 75 118 0628,orders@apextea.lk,Matara,Sri Lanka,81000,1922731327000,14 Days,Raw Materials,27/05/2022,no
+SUP-1006,Blue Line Dairy Traders,Mohamed Liyanage,075-4491259,,MATARA,Sri Lanka,81000,137191627-7000,Cash,Raw Materials,26/08/2019,Y
+0000100119,Rajarata Rubber PLC,Hiruni Wickramasinghe,TBD,sales[at]rajaratarubber.lk,Mumbai,IN,400001,33LYFCG5558R1Z1,NT30,RM,none,
+4042,Prime Tea PLC,de Silva Lakshmi,077-7712473,sales@primetea.lk,Colombo 03,Sri Lanka ,00300,131183519-7000,14,Raw Mat,5/9/2022,1
+0000100182,Blue Line Electricals & Co.,Lahiru Ratnayake,077-2454784,info@bluelineelectr.lk,Yalpanam,LK,40000,152763850-7000,NT60,SP,2017-03-01,
+4051,Pinnacle Dairy & Co.,Sunil Gamage,0765585928,orders@pinnacledairy.com,Kandi,Sri Lanka,20000,155470589-7000,30,Raw Mat,6/26/2020,TRUE
+0000100462,Delta Plastics Traders,W.S. Wickramasinghe,0709097254,accounts@deltaplastics.lk,RATNAPURA,LK,70000,157911795-7000,NT14,PK,2015-06-16,
+SUP-1028,Delat Plastics Traders,S. Wickramasinghe,070-9097254,NIL,RATNAPURA,Sri Lanka,70000,157911795-7000,Net 14 days,Packaging,16/06/2015,yes
+100301,Harbour Packaging Enterprises,D.A. Wickramasinghe,0769346026,info@harbourpackagi.com,Matara,LK,81000,143393663-7000,NT60,PK,2017-09-08,
+SUP-1018,Delta Steel Holdings ,Rizwan Hameed,+94 74 179 6762,accounts@deltasteel.lk; accounts@deltasteel.lk,Trincomale,Sri Lanka,31000,166066035-7000,COD,Spare Parts,20/11/2017,yes
+100336,Coral Plastics Private Limited,Arjun K. Weerasinghe,9.47427E+10,orders@coralplastics.com,Trincomalee,LK,31000,1.44727E+12,NT30,PK,2017-04-10,
+4078,RAINBOW PACKAGING (PVT) LTD,sunil kumara,0713432639,accounts@rainbowpackagi.lk,Jaffana,Sri Lanka,40000,110931719-7000,14,Packing Material,11/15/2023,1
+0000100266,Blue Line Steel (Private) Limited,Imran Fernando,9.47483E+10,orders@bluelinesteel.lk,Kurunegala,LK,60000,1625054307000,NT45,SP,2017-08-16,X
+SUP-1019,Meridian IT Solutions Industries,Malini Wijesinghe,751397654,orders@meridianitsolu.lk,Matara,Sri Lanka,81000,133514052-7000,COD,Other,30/07/2021,Yes
+0000100252,Royal Cleaning Services Enterprises,niroshan marikar,071-3618808,accounts@royalcleanings.lk,Shenzhen,CN,518000,608472347374909,NT45,SV,00/01/1900,
+0000100392,Coral Chemicals Enterprises,Tharindu Silva,9.47017E+10,,Nuwara Eliya,LK,22200,120875626-7000,NT60,CH,2019-09-08,
+4054,Colombo Rubber PLC,"Ranasinghe, Imran",9.47715E+10,null,Colombo 03,Ceylon,00300,1.11831E+12,45,Raw Mat,10/12/2018,TRUE
+4069,Nova Logistics Holdings (Pvt) Ltd,SILVA Lakshmi,075-5557523,info@novalogistics.lk,Kurunegala,Ceylon,60000,191013499-7000,0,Transport,12/3/2021,1
+SUP-1001,Emerald Paper Industries,Prasanna Silva,+94 74 607 3815,a@a.com,Negombo,Sri Lanka,11500,140751628-7000,14 Days,Packaging,1969-12-31 18:30:00,Y
+0000100434,Prime Electricals Industries,null,+94 72 283 6719,sales@primeelectrica.lk,Colombo 03,LK,300,1455413447000,NT14,SP,2022-09-18,
+0000100406,Golden Tea (Pvt) Ltd,ravi gunawardena,0774025608,info@goldentea.lk,Colombo-03,LK,300,1.5195E+12,NT45,RM,2024-05-26,
+0000100385,Apex Freight Enterprises,Sunil Rajendran,+94 76 740 3033,orders@apexfreight.com,Kandy,LK,20000,173329494-7000,NT14,LG,2022-06-04,
+0000100056,Colombo IT Solutions (Private) Limited,G.S.K. Fernando,9.47081E+10,mailto:accounts@colomboitsolut.lk,Kandy,LK,20000,1664354437000,NT45,SV,2020-05-19,
+SUP-1022,Summti Freight Industries,B.H.A. Kumara,071-6865740,mailto:accounts@summitfreight.lk,Trincomalee,Sri Lanka,31000,162129934-7000,Net 14,Other,29/10/2020,On Hold
+100287,Unity Spice Traders,Nirmala Kumara,077-5189705,mailto:orders@unityspice.lk,Kandy ,LK,20000,111681324-7000,NT60,RM,2017-06-07,
+SUP-1025,Emerald Chemicals & Co.,WIJESINGHE Vithya,072-6417834,orders@emeraldchemica.com,Kollupitiya,Sri Lanka,99999,1496847037000,60 days,Misc,22/10/2016,N
+0000100504,PINNACLE DAIRY & CO.,S. Gamage,765585928,orders@pinnacledairy.com,NULL,LK,20000,155470589-7000,NT30,RM,2020-06-26,
+SUP-1013,Island Engineering & Co. .,HERATH Ishara,0706165087,orders@islandengineer.lk,Kurunegala,Sri Lanka,60000,186830247-7000,45 days,Engineering,17/03/2019,yes
+4033,Lotus Logistics Exporters,Chamari Fernando,0743258615,none@none.com,Nuwara Eliya,Ceylon,22200,1637746677000,60,Transport,11/13/2016,TRUE
+SUP-1024,Island Paper (Private) Limited,M.J.N.H. Pathirana,724304874,orders@islandpaper.com,Galle,Ceylon,80000,0,Advance,Pakaging,21/04/2022,Yes
+SUP-1014,uRhuna Engineering (Private) Limited,Chaminda Ratnayake,719687656,sales@ruhunaengineer.lk,Colombo 10,Sri Lanka,1000,1.65341E+12,30 days,Spare Parts,20/12/2016,Y
+0000100315,Silverline Spice P.L.C.,?,+94 71 880 4275,info@silverlinespic.com; accounts@silverlinespic.com,Galle,LK,80000,166964344-7000,NT30,RM,2019-07-15,
+0000100511,Island  Engineering & Co.,ishara herath,0706165087,orders@islandengineer.lk,Kurunegala,LK,60000,1.8683E+12,NT45,SP,2019-03-17,
+0000100189,Summit Logistics Holdings,Priyanka K. Weerasinghe,074-3922205,sales@summitlogistic.lk; accounts@summitlogistic.lk,COL-01,LK,00100,148977359-7000,NT45,LG,2018-09-03,
+0000100448,Golden Paper Exporters,Sanjeewa N. Kumara,+94 77 577 7030,accounts@goldenpaper.lk,Shenzhen,CN,518000,920990554268175,NT14,PK,2020-08-20,
+100196,Silverline Tea Enterprises,Kasun Gunawardena,,accounts@silverlinetea.lk,Ratnapura,LK,70000,1.63187E+12,NT14,RM,2023-01-21,
+4060,Ranibow Cold Storage Traders,R. Rathnayake,072-5336002,info@rainbowcoldsto.lk,Jaffna,SL,40000,179400528-7000,60,Transport,unknown,TRUE
+4081,Meridian Cleaning Services Enterprises (Pvt) Ltd,KUMARA Kamal,0729937860,,Ratnapura,SL,70000,1.81768E+12,60,Misc,7/27/2021,0
+0000100399,Dleta Packaging Traders,Priyanka Karunaratne,756043803,orders@deltapackaging.lk,Colombo 01,LK,100,162616215-7000,NT14,PK,2019-07-24,
+100175,Southern Freight Enterprises,LIYANAGE Shanika,+94 70 392 1284,,Nuwara Eliya,LK,22200,128098085-7000,NT60,LG,NIL,
+0000100469,Coral Paper Enterprises,-,075-0549987,accounts@coralpaper.lk,Migamuwa,LK,11500,132777194-7000,NT14,PK,2016-12-25,X
+SUP-1009,Lanka Dairy Enterprises,malini abeysekera,+94 76 252 9142,n/a,Jaffna,Sri Lanka,null,191154571-7000,Net 60 days,raw materials,31/10/2017,Yes
+0000100308,Evergreen Rubber Industries,Malini M. Rajendran,074-7046783,mailto:info@evergreenrubbe.lk,#N/A,LK,22200,165309608-7000,NT00,RM,2016-12-20,
+0000100168,Lotus Plastics (Pvt) Ltd,Tharindu Gunawardena,076-4749471,accounts@lotusplastics.lk,Ratnapura,LK,70000,1398636057000,NT30,PK,2021-06-02,
+0000100259,Rajarata Steel Industries,Sachini N. Perera,749764063,info@rajaratasteel.lk,Colombo 03,LK,300,133303035-7000,NT14,SP,2018-06-01,
+0000100329,Delta  Chemicals PLC,"Perera, Chamari",071-0955734,orders@deltachemicals.com,Jaffna,LK,40000,120867806-7000,NT14,CH,2017-04-28,X
+0000100070,Sunrise Coir (Pvt) Ltd,Wickramasinghe N.,+94 72 282 8489,mailto:info@sunrisecoir.lk,B'caloa,LK,30000,123851362-7000,NT00,RM,1969-12-31 18:30:00,
+SUP-1015,Harbour Coir PLC,Fathima Bandara,+94 77 401 9516,orders@harbourcoir.lk,Galle,Sri Lanka,80000,1591950017000,30 Days,Misc,26/10/2018,yes
+4021,Rajarata Cold Storage & Co.,malini karunaratne,0768952671,info@rajaratacoldst.com,Galle Fort,Sri Lanka,80000,183193652-7000,60,Transport,9/13/2020,TRUE
+100238,Prime Engineering (Pvt) Ltd,"Kanagaratnam, Harsha",0769781505,ORDERS@PRIMEENGINEERI.LK,Chennai,IN,600001,33JEDGS4857R1Z2,NT00,SP,2020-07-08,
+SUP-1023,Unity Cleaning Services Holdings,Marikar I.,077-7868430,info@unitycleanings.lk,n/a,Sri Lanka,30000,187870283-7000,30 days,General,15/11/2017,Y
+0000100077,Ceylon Cleaning Services Traders,Rizwan Abeysekera,,orders@ceyloncleaning.lk,Colombo 01,LK,00100,191341478-7000,NT30,SV,2019-01-08,Pending
+100336,Coral Plastics Private Limited,Arjun K. Weerasinghe,9.47427E+10,orders@coralplastics.com,Trincomalee,LK,31000,1.44727E+12,NT30,PK,2017-04-10,
+0000100413,Blue Line Spice PLC,Rajendran S.,+94 70 100 9628,sales@bluelinespice.com,B'caloa,LK,30000,196132697-7000,NT00,RM,2019-04-25,
+0000100084,Hill Country Chemicals Holdings,ruwan karunaratne,+94 76 604 2928,orders@hillcountryche.lk,Shenzhen,CN,518000,206186243779321,NT14,CH,2021-11-25,
+100161,Southern Cold Storage Industries,Vithya Ranasinghe,0745789861,sales@southerncoldst.lk,B'caloa,LK,30000,178836524-7000,NT30,LG,2016-01-31,
+SUP-1011,Summit Rubber Holdings (Pvt) Ltd,Rizwan D. Perera,+94 77 137 4786,accounts@summitrubber.lk,NuwaraEliya,Sri Lanka,22200,154902730-7000,Net 45,raw materials,07/06/2023,Y
+0000100098,DELTA PAPER & CO.,gayan karunaratne,700453352,sales@deltapaper.lk,Mathara,LK,81000,179516643-7000,NT45,PK,2015-11-30,
+0000100133,Ceylon Plastics Traders,Suresh Jayawardena,775135420,orders@ceylonplastics.lk,Matara,LK,81000,1.70053E+12,NT45,PK,2021-09-25,
+100147,Pinnacle Coir Exporters,Kavitha Ismail,0779872543,sales@pinnaclecoir.lk,NEGOMBO,LK,11500,189805051-7000,NT14,RM,2019-02-09,X
+4066,Hill Country Rubber Exporters,WICKRAMASINGHE Vithya,074-7833472,info@hillcountryrub.lk,Negombo,Sri Lanka,11500,1.56438E+12,60,Raw Mat,9/2/2016,1
+SUP-1019,Meridian IT Solutions Industries,Malini Wijesinghe,751397654,orders@meridianitsolu.lk,Matara,Sri Lanka,81000,133514052-7000,COD,Other,30/07/2021,Yes
+SUP-1017,Coral Agro Exporters,M. Ranasinghe,0714474653,orders@coralagro.com,Gall,Srilanka,80000,145945965-7000,45 days,Raw Material,10/11/2022,yes
+4006,Lanka Engineering (Private) Limited,Wijesinghe R.,n/a,mailto:sales@lankaengineeri.lk,Colombo 03,Sri Lanka,00300,155161016-7000,45,Hardware,11/16/2018,On Hold
+4075,KANDY PAPER & CO.,Sunil Liyanage,+94 75 022 0734,sales@kandypaper.lk,Trincomalee,LKA,31000,1.55778E+12,0,Packing Material,12/9/2015,1
+0000100112,Kandy Dairy Industries,"Bandara, Nuwan",710372118,info@kandydairy.lk,Ratnapura,LK,70000,1199324537000,NT00,RM,2018-02-28,
+0000100014,Island Packaging Exporters,S. Nadarajah,9.477E+10,orders@islandpackagin.lk,Nuwara Eliya,LK,22200,1.6936E+12,NT30,PK,2016-09-06,X
+SUP-1020,Delta  Electricals (Pvt) Ltd,Kamal Rathnayake,076-3413860,NIL,Nuwara Eliya,Sri Lanka,22200,120556529-7000,Net 14 days,Spare Parts,11/04/2019,Y
+0000100245,Rajarata Dairy (Pvt) Ltd,asanka perera,748151655,-,Matara,LK,81000,165727646-7000,NT00,RM,2020-10-16,
+0000100217,Sunrise Logistics Exporters,Ishara Nadarajah,,accounts@sunriselogisti.lk,Galle,LK,80000,1.5156E+12,NT60,LG,2015-01-13,X
+4039,Sunrise IT Solutions Exporters,L. Gunawardena,9.47552E+10,accounts@sunriseitsolut.lk,Galle,LKA,99999,,0,Misc,6/4/2021,1
+4024,Southern Steel & Co.,Dr. Nuwan Karunaratne,0701704568,orders@southernsteel.com,N'Eliya,Sri Lanka,22200,135083393-7000,30,Hardware,NIL,TRUE
+0000100343,Unity Paper Industries ,B.P. Gamage,+94 74 597 6683,accounts@unitypaper.lk,-,LK,1000,168761144-7000,NT30,PK,2015-05-05,
+0000100490,Royal Engineering Enterprises,Jayasinghe Sunil,9.47497E+10,info@royalengineeri.lk,Matara,LK,81000,182273302-7000,NT45,SP,2017-06-20,X
+0000100420,Sunrise Packaging Industries,Rathnayake A.,0760897670,orders@sunrisepackagi.com,Nuwara Eliya,LK,22200,1507378907000,NT30,PK,2019-01-18,
+SUP-1027,Harbour Plastics Holdings ,Prof. Dilani Hameed,0755375366,info@harbourplastic.lk,Guangzhou,China,510000,083934735714321,Net 60 days,Packaging,30/03/2020,yes
+4036,Island Electricals Industries,Sanjeewa R. Marikar,070-6009723,sales@islandelectric.lk,Jaffna,Sri Lanka,40000,n/a,60,Hardware,8/21/2021,1
+0000100028,Apex Packaging Traders (Pvt) Ltd,Janani de Silva,071-5150735,info@apexpackaging.lk,Kandy,LK,20000,129881154-7000,NT60,PK,2021-02-13,
+4084,Colombo IT Solutions (Pvt) Ltd,Kavitha Fernando,708107475,accounts@colomboitsolut.lk,Kandy,Ceylon,20000,166435443-7000,45,Misc,5/19/2020,TRUE
+0000100273,Golden Coir PLC,RANASINGHE Suresh,0774631352,NIL,Jaffna,LK,99999,153943786-7000,NT14,RM,2020-08-07,
+SUP-1008,Prime Spice Industries,Fathima Marikar,702713054,accounts@primespice.lk,?,United Arab Emirates,00000,7.04287E+14,60 days,Raw Materials,04/10/2015,Yes
+0000100014,Island Packaging Exporters,S. Nadarajah,9.477E+10,orders@islandpackagin.lk,Nuwara Eliya,LK,22200,1.6936E+12,NT30,PK,2016-09-06,X
+SUP-1026,Summit Engineering Exporters,Ravi M. Herath,075-9179305,accounts@summitengineer.com,Nuwara Eliya,Sri Lanka,22200,121010949-7000,Net 45 days,Spare Parts,23/11/2022,yes
+100126,Ocean IT Solutions Holdings,arjun nadarajah,0742330890,info@oceanitsolutio.com,Colombo 01,LK,100,134417900-7000,NT30,SV,1970-01-01 05:30:00,
+SUP-1003,Golden Cleaning Services PLC,Asanka K. Pathirana,9.4753E+10,orders@goldencleaning.lk,Dubai,United Arab Emirates,00000,229372038831980,Advance,N/A,29/12/2022,N
+100441,Lanka Cleaning Services Traders,Dr. Chamari Wickramasinghe,0701570124,accounts@lankacleanings.lk,Colombo Fort,LK,100,163917613-7000,NT30,SV,2018-03-01,X
+0000100483,Silverline Electricals (Private) Limited,Mendis Anjali,071-9084603,orders[at]silverlineelec.com,Kurunegala,LK,60000,140947182-7000,NT60,SP,2017-03-20,Pending
+4063,Lotus Coir & Co.,FERNANDO Tharindu,726363459,info@lotuscoir.lk,Gall,SL,80000,126869266-7000,45,Raw Mat,8/20/2019,1
+0000100350,Silverline Chemicals & Co.,Malini Rajendran,713491031,info@silverlinechem.lk,Colombo 01,LK,00100,182508045-7000,NT30,CH,2021-07-09,
+0000100070,Sunrise Coir (Pvt) Ltd,Wickramasinghe N.,+94 72 282 8489,mailto:info@sunrisecoir.lk,B'caloa,LK,30000,123851362-7000,NT00,RM,1969-12-31 18:30:00,
+SUP-1004,Ceylon Logistics Industries,Mohamed Herath,+94 75 957 9407,accounts@ceylonlogistic.lk,Colombo 03,Sri Lanka,300,160349491-7000,Net 30,Freight,01/06/2022,yes
+SUP-1031,Rainbow Freight Enterprises.,Kanagaratnam N.,072-7015595,sales@rainbowfreight.lk,Jaffna,Sri Lanka,40000,NIL,Net 30 days,Logistics,19/11/2023,yes
+4057,Silverline IT Solutions PLC,Sanjeewa S. Pathirana,0778913371,orders@silverlineitso.lk,Colombo 01,Sri Lanka,100,160675257-7000,30,Misc,5/30/2024,1
+4030,Blue Line Agro Exporters,Weerasinghe Gayan,+94 77 368 1558,sales@bluelineagro.com,Matara,SriLanka,81000,191564312-7000,14,Raw Mat,10/25/2023,FALSE
+100049,Ceylon Engineering (Pvt) Ltd,Dhanushka Jayasinghe,074-6126745,info@ceylonengineer.lk,Kandy,LK,20000,110347399-7000,NT00,SP,2018-03-11,X
+0000100210,Lanka  Steel Industries,Imran Samarasinghe,729684587,n/a,Shenzhen,CN,518000,318708681436175,NT30,SP,2019-11-13,
+0000100203,Island Logistics (Pvt) Ltd,P. Ismail,071-6083445,sales@islandlogistic.lk,Matara,LK,81000,1.12518E+12,NT30,LG,2033-03-11,
+0000100063,Meridian Freight Enterprises,Eng. Arjun Ratnayake,070-7456218,info@meridianfreigh.lk,Ratnapura,LK,70000,174636506-7000,NT00,LG,,
+SUP-1035,Blue Line Spice PLC,S. Rajendran,0701009628,sales@bluelinespice.com,Batticaloa,Sri Lanka,30000,1.96133E+12,Cash,Misc,25/04/2019,Yes
+4060,Ranibow Cold Storage Traders,R. Rathnayake,072-5336002,info@rainbowcoldsto.lk,Jaffna,SL,40000,179400528-7000,60,Transport,unknown,TRUE
+SUP-1010,Island Rubber PLC,Prof. Dilani Mendis,0743404309,"accounts@islandrubber,lk",Jafna,Sri Lanka,40000,194091704-7000,Net 30 days,raw materials,05/01/2024,No
+100427,Nova Packaging & Co.,P.S.W.S. Marikar,0764424953,orders@novapackaging.com,Batticaloa,LK,30000,190151468-7000,NT45,PK,2018-01-28,
+SUP-1012,Summit Chemicals Exporters,Sunil Hameed,+94 77 767 2411,orders@summitchemical.lk,Guangzhou,China,510000,801506942347915,45 Days,Chemical,1970-01-01 00:00:00,Yes
+0000100154,Kandy Cleaning Services (Pvt) Ltd,chaminda selvaraj,076-3744575,orders@kandycleanings.lk,Kandy,LK,20000,160271725-7000,NT00,SV,2019-02-09,
+4009,Island Dairy Enterprises,Prof. Suresh Kumara,768014432,ORDERS@ISLANDDAIRY.LK,Nuwara Eliya,sri lanka,22200,1179973987000,0,Raw Mat,4/2/2019,1
+SUP-1004,Ceylon Logistics Industries,Mohamed Herath,+94 75 957 9407,accounts@ceylonlogistic.lk,Colombo 03,Sri Lanka,300,160349491-7000,Net 30,Freight,01/06/2022,yes
+4027,Kandy Coir (Private) Limited,A.N.S. Wickramasinghe,0755176499,sales@kandycoir.lk,Nuwara-Eliya,S. Lanka,22200,158399674-7000,14,Raw Mat,7/7/2015,1
+4015,Evergreen Paper and Co,,071-5922764,sales@evergreenpaper.lk,Kurunegala,Ceylon,60000,187562653-7000,14,Packing Material,2/24/2024,1
+0000100224,Island IT Solutions PLC,Ravi Weerasinghe,077-0228169,info@islanditsoluti.com,Jaffna,LK,40000,1.56814E+12,NT30,SV,2023-08-13,
+100378,rajarata plastics traders,Niroshan Fernando,+94 70 920 3266,accounts@rajarataplasti.lk,Colmbo 03,LK,300,141308513-7000,NT60,PK,2021-03-05,
+0000100021,Nova Steel (Private) Limited,HERATH Ruwan,071-4736185,info@novasteel.lk,Galle,LK,80000,153966339-7000,NT45,SP,2022-04-29,X
+100049,Ceylon Engineering (Pvt) Ltd,Dhanushka Jayasinghe,074-6126745,info@ceylonengineer.lk,Kandy,LK,20000,110347399-7000,NT00,SP,2018-03-11,X
+0000100007,Harbour Plastics Holdings,"Hameed, Dilani",755375366,info@harbourplastic.lk,Guangzhou,CN,510000,083934735714321,NT60,PK,2020-03-30,
+0000100252,Royal Cleaning Services Enterprises,niroshan marikar,071-3618808,accounts@royalcleanings.lk,Shenzhen,CN,518000,608472347374909,NT45,SV,00/01/1900,
+100294,Emerald Steel Enterprises,N.S. Ranasinghe,--,none@none.com,Jaffna,LK,-,149064324-7000,NT45,SP,2018-04-23,
+4012,Colombo Plastics Holdings,vithya gamage,077-8723520,orders@colomboplastic.com,Mumbai,India,400001,33AFBNM9259R1Z4,14,Packing Material,6/30/2022,1
+0000100371,Evergreen Tea Traders,Fathima Fernando,+94 72 367 6683,info@evergreentea.lk,Sharjah,AE,00000,4.47403E+14,NT00,RM,2016-12-15,
+SUP-1032,Apex Freight Enterprises,N.S. Rajendran,767403033,orders@apexfreight.com,KANDY,Sri Lanka,20000,1733294947000,14 Days,Freight,04/06/2022,Yes
+0000100455,Meridian Cleaning Services Enterprises,KUMARA Kamal,null,orders@meridiancleani.lk,Ratnapura,LK,70000,1.81768E+12,NT60,SV,2021-07-27,X
+100105,delta agro traders,KUMARA Nimal,769617516,orders@deltaagro.com,Kollupitiya,LK,300,180948807-7000,NT14,RM,2018-10-06,
+SUP-1033,Silverline  IT Solutions PLC,Sanjeewa Pathirana,TBD,orders@silverlineitso.lk,Colombo 01,Sri Lanka,100,160675257-7000,Net 30 days,Services,30/05/2024,Y
+SUP-1016,Emerald Logistics Industries,A.J.T. Ismail,0776693230,accounts@emeraldlogisti.lk,Chennai,INDIA,600001,33HGUGC4372R1Z8,30 Days,Transport,06/04/2022,No
+0000100476,Kandy Paper & Co.,"Liyanage, Sunil",,sales@kandypaper.lk,Trinco,LK,31000,1.55778E+12,NT00,PK,2015-12-09,
+100364,Rainbow Packaging (Pvt) Ltd,A.R.S. Kumara,0713432639,accounts@rainbowpackagi.lk,Jaffna,LK,40000,110931719-7000,NT14,PK,2023-11-15,
+100322,Apex Chemicals & Co. ,Sivakumar Silva,0703878358,sales@apexchemicals.lk,Negambo,LK,#N/A,0,NT45,CH,-,Blocked
+SUP-1005,Ocean Coir (Pvt) Ltd,,555-3485,accounts@oceancoir.com,Jaffna,Sri Lanka,40000,115028455-7000,Net 14,Raw Materials,25/04/2019,Yes
+100140,Ceylon Spice PLC,D.H. Ismail,,orders@ceylonspice.com,Colombo 10,LK,1000,194173126-7000,NT14,RM,2018-01-20,
+0000100035,Southern Electricals (Pvt) Ltd,Prof. Anjali de Silva,761975812,orders@southernelectr.lk,Galle,LK,80000,1911289527000,NT60,SP,2016-03-21,
+4003,Southern Packaging Enterprises,Nadarajah R.,0765972784,info@southernpackag.lk,Fort,Srilanka,00100,n/a,0,Packing Material,8/31/2022,FALSE
+4072,emerald steel enterprises,Suresh Ranasinghe,0722672991,orders@emeraldsteel.lk,Jaffna,Ceylon,40000,149064324-7000,45,Hardware,1900-01-00,TRUE
+0000100357,RAINBOW ELECTRICALS HOLDINGS,Eng. Janaka Wijesinghe,077-0666260,sales@rainbowelectri.com,Ratnapura,LK,70000,-,NT14,SP,2019-09-05,
+0000100098,DELTA PAPER & CO.,gayan karunaratne,700453352,sales@deltapaper.lk,Mathara,LK,81000,179516643-7000,NT45,PK,2015-11-30,
+4045,Island Spice (Pvt) Ltd,HAMEED Suresh,555-3485,sales@islandspice.lk,Mumbai,Bharat,400001,33USMVE2900R1Z3,30,Raw Mat,8/27/2019,1
+4018,Ceylon Coir (Private) Limited,de Silva Sivakumar,+94 77 745 4463,orders@ceyloncoir.com,Matara,Ceylon,81000,182959575-7000,30,Raw Mat,9/8/2021,1
+100091,Rainbow Freight Enterprises,-,unknown,sales@rainbowfreight.lk,Jafna,LK,40000,1.15213E+12,NT30,LG,2023-11-19,
+SUP-1021,Unity Agro (Private) Limited,Tharindu Gamage,+94 76 181 1940,sales@unityagro.lk,Galle,Sri Lanka,80000,112821842-7000,Cash,Raw Materials,03/08/2017,yes
+SUP-1002,Hill Country Dairy Traders,Dilani Nadarajah,+94 70 483 0790,sales@hillcountrydai.com,Chennai,India,600001,33RKBHB6613R1Z8,60 Days,Raw Materials,26/06/2022,Yes
+SUP-1029,Nova  Packaging & Co.,Dr. Sivakumar Marikar,9.47644E+10,ORDERS@NOVAPACKAGING.COM,Batticaloa,Sri Lanka,30000,190151468-7000,Net 45,Packaging,28/01/2018,Y
+SUP-1030,Sunrise Logistics Exporters,I. Nadarajah,+94 76 215 6864,accounts@sunriselogisti.lk,GALLE,Sri Lanka,80000,1.5156E+12,Net 60 days,Freight,13/01/2015,No
+4048,Serendib Cleaning Services & Co.,NA,0707073558,INFO@SERENDIBCLEANI.LK,Colombo-03,Sri Lanka,300,1.69495E+12,30,Misc,10/12/2019,1
+0000100280,Royal  Agro Enterprises,G. Selvaraj,+94 75 290 7899,n/a,,LK,#N/A,194937911-7000,NT30,RM,01/01/1900,
+SUP-1034,southern cold storage industries,Vithya Ranasinghe,074-5789861,sales@southerncoldst.lk,Batticoloa,Sri Lanka,30000,178836524-7000,30 days,Freight,31/01/2016,yes
+100042,Raajrata Paper (Pvt) Ltd,Chamari Gunawardena,+94 71 629 2777,info@rajaratapaper.com,Migamuwa,LK,11500,142417334-7000,NT30,PK,2023-06-25,X
+0000100497,Unity Tea Traders,Kamal Selvaraj,0766856449,sales@unitytea.com; accounts@unitytea.com,Kurunegala,LK,60000,1.19641E+12,NT00,RM,2031-12-23,

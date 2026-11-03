@@ -1,0 +1,20 @@
+{
+  "name": "Supplier Master Sync",
+  "purpose": "Loads every supplier into the new procurement system as one clean record per supplier",
+  "inputs": {
+    "supplier_id": "ID the old systems used for the supplier",
+    "supplier_name": "Registered name of the supplier company",
+    "contact_person": "Full name of the person to contact at the supplier",
+    "phone": "Phone number of the supplier",
+    "email": "Email address to send orders and invoices to",
+    "city": "City or town the supplier is based in",
+    "country": "Country the supplier is based in",
+    "postal_code": "Postal code of the supplier's address",
+    "vat_number": "Supplier's VAT registration number",
+    "payment_terms": "How many days the company has to pay the supplier's invoices",
+    "supplier_category": "Kind of goods or services the supplier provides",
+    "onboarding_date": "Date the supplier was first set up",
+    "is_active": "Whether the company can still buy from the supplier",
+    "source_system": "Name of the system the supplier record was exported from"
+  }
+}

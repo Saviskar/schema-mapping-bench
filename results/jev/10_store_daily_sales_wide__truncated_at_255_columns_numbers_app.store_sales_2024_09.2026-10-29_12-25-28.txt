@@ -1,0 +1,156 @@
+model    = jev
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_09.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_09.json
+time     = 2026-10-29_12-25-28
+args     = 
+
+{
+  "store_code": {
+    "choice": "Store Code",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Code": 1.0,
+      "none": 0.0
+    }
+  },
+  "store_name": {
+    "choice": "Store Name",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Name": 1.0,
+      "none": 0.0
+    }
+  },
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 1.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_09_01": {
+    "choice": "20240901",
+    "confidence": 0.98,
+    "probabilities": {
+      "1/8": 0.0,
+      "20240901": 0.99,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_02": {
+    "choice": "20240902",
+    "confidence": 0.98,
+    "probabilities": {
+      "2/8": 0.0,
+      "20240902": 0.99,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_03": {
+    "choice": "20240903",
+    "confidence": 0.97,
+    "probabilities": {
+      "3/8": 0.01,
+      "20240903": 0.98,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_04": {
+    "choice": "20240904",
+    "confidence": 0.97,
+    "probabilities": {
+      "4/8": 0.01,
+      "20240904": 0.98,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_05": {
+    "choice": "20240905",
+    "confidence": 0.99,
+    "probabilities": {
+      "09/05/2024": 0.01,
+      "05.07.": 0.0,
+      "20240905": 0.99,
+      "none": 0.0
+    }
+  },
+  "sales_2024_09_06": {
+    "choice": "20240906",
+    "confidence": 0.97,
+    "probabilities": {
+      "6/8": 0.01,
+      "20240906": 0.98,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_07": {
+    "choice": "20240907",
+    "confidence": 1.0,
+    "probabilities": {
+      "07.07.": 0.0,
+      "20240907": 1.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_09_08": {
+    "choice": "20240908",
+    "confidence": 0.98,
+    "probabilities": {
+      "08.07.": 0.0,
+      "20240908": 0.99,
+      "none": 0.01
+    }
+  },
+  "sales_2024_09_09": {
+    "choice": "none",
+    "confidence": 0.45,
+    "probabilities": {
+      "04/09/2024": 0.21,
+      "09.07.": 0.16,
+      "none": 0.63
+    }
+  },
+  "sales_2024_09_30": {
+    "choice": "none",
+    "confidence": 0.36,
+    "probabilities": {
+      "30/8": 0.32,
+      "none": 0.68
+    }
+  },
+  "sales_2024_12_31": {
+    "choice": "none",
+    "confidence": 1.0,
+    "probabilities": {
+      "none": 1.0
+    }
+  },
+  "full_year_total": {
+    "choice": "none",
+    "confidence": 1.0,
+    "probabilities": {
+      "none": 1.0
+    }
+  }
+}
+latency=3688ms  input_tokens=140998  output_tokens=52941
+
+OK store_code        expected=Store Code     picked=Store Code
+OK store_name        expected=Store Name     picked=Store Name
+OK region            expected=Region         picked=Region
+OK sales_2024_09_01  expected=20240901       picked=20240901
+OK sales_2024_09_02  expected=20240902       picked=20240902
+OK sales_2024_09_03  expected=20240903       picked=20240903
+OK sales_2024_09_04  expected=20240904       picked=20240904
+OK sales_2024_09_05  expected=20240905       picked=20240905
+OK sales_2024_09_06  expected=20240906       picked=20240906
+OK sales_2024_09_07  expected=20240907       picked=20240907
+OK sales_2024_09_08  expected=20240908       picked=20240908
+OK sales_2024_09_09  expected=none           picked=none
+OK sales_2024_09_30  expected=none           picked=none
+OK sales_2024_12_31  expected=none           picked=none
+OK full_year_total   expected=none           picked=none
+
+right    = 15/15

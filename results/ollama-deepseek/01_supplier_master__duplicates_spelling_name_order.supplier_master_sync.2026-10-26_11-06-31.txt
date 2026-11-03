@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/01_supplier_master__duplicates_spelling_name_order.csv
+target   = targets/supplier_master_sync.json
+expected = expected/01_supplier_master__duplicates_spelling_name_order.supplier_master_sync.json
+time     = 2026-10-26_11-06-31
+args     = 
+
+{
+  "supplier_id": {
+    "choice": "Onboarded On",
+    "confidence": -1
+  },
+  "supplier_name": {
+    "choice": "Onboarded On",
+    "confidence": 3500
+  },
+  "contact_person": {
+    "choice": "Onboarded On",
+    "confidence": -0.2411
+  },
+  "phone": {
+    "choice": "Onboarded On",
+    "confidence": -117150750.256664
+  },
+  "email": {
+    "choice": "Active?",
+    "confidence": 35980062967.19655
+  },
+  "city": {
+    "choice": "Onboarded On",
+    "confidence": -2
+  },
+  "country": {
+    "choice": "e-mail",
+    "confidence": 10
+  },
+  "postal_code": {
+    "choice": "VAT No.",
+    "confidence": 1.7
+  },
+  "vat_number": {
+    "choice": "Active?",
+    "confidence": 19.5064
+  },
+  "payment_terms": {
+    "choice": "Onboarded On",
+    "confidence": 2.0
+  },
+  "supplier_category": {
+    "choice": "country",
+    "confidence": 8.500492
+  },
+  "onboarding_date": {
+    "choice": "Category",
+    "confidence": 25800760000
+  },
+  "is_active": {
+    "choice": "City/Town",
+    "confidence": 0.38078
+  },
+  "source_system": {
+    "choice": "City/Town",
+    "confidence": 430.0
+  }
+}
+latency=53410ms  input_tokens=1706  output_tokens=1041
+
+x  supplier_id       expected=supplier_id    picked=Onboarded On
+x  supplier_name     expected=Supplier Name  picked=Onboarded On
+x  contact_person    expected=Contact Person  picked=Onboarded On
+x  phone             expected=Phone/Mobile   picked=Onboarded On
+x  email             expected=e-mail         picked=Active?
+x  city              expected=City/Town      picked=Onboarded On
+x  country           expected=country        picked=e-mail
+x  postal_code       expected=Postal Code    picked=VAT No.
+x  vat_number        expected=VAT No.        picked=Active?
+x  payment_terms     expected=Pmt Terms      picked=Onboarded On
+x  supplier_category expected=Category       picked=country
+x  onboarding_date   expected=Onboarded On   picked=Category
+x  is_active         expected=Active?        picked=City/Town
+x  source_system     expected=none           picked=City/Town
+
+right    = 0/14

@@ -1,0 +1,22 @@
+{
+  "name": "Product Margin Report",
+  "purpose": "Calculates the profit margin of every product in the catalog, grouped by category and brand",
+  "inputs": {
+    "sku": "Item code the company uses for the product",
+    "barcode": "13-digit barcode printed on the pack",
+    "product_name": "Name of the product",
+    "brand": "Brand of the product",
+    "category": "Main category the product belongs to",
+    "sub_category": "Sub-category within the main category",
+    "pack_size": "Amount in one pack, e.g. 500g or 1L",
+    "selling_price": "Price the product is sold to customers for",
+    "unit_cost": "What the company pays to buy one unit of the product",
+    "launch_date": "Date the product was first put on sale",
+    "supplier_code": "Code of the supplier the product is bought from",
+    "hs_code": "Customs tariff code used when the product is imported",
+    "size_variant": "Size of this version of the product, such as a clothing size, shoe size or pipe diameter",
+    "lifecycle_status": "Whether the product is still sold, being phased out or discontinued",
+    "price_currency": "Currency the price is in",
+    "size_system": "Sizing system the shoe sizes use: UK, US or EU"
+  }
+}

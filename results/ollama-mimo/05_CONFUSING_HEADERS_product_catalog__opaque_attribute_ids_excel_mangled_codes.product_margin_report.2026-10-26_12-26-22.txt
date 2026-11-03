@@ -1,0 +1,93 @@
+model    = ollama-mimo
+csv      = data/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.csv
+target   = targets/product_margin_report.json
+expected = expected/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.product_margin_report.json
+time     = 2026-10-26_12-26-22
+args     = 
+
+{
+  "sku": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "barcode": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "product_name": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "brand": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "category": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sub_category": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "pack_size": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "selling_price": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "unit_cost": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "launch_date": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "supplier_code": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "hs_code": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "size_variant": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "lifecycle_status": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "price_currency": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "size_system": {
+    "choice": "invalid",
+    "confidence": 0.0
+  }
+}
+latency=128232ms  input_tokens=1898  output_tokens=2198
+
+x  sku               expected=ATTR_101       picked=invalid
+x  barcode           expected=ATTR_117       picked=invalid
+x  product_name      expected=ATTR_102@en_LK picked=invalid
+x  brand             expected=ATTR_230       picked=invalid
+x  category          expected=ATTR_118       picked=invalid
+x  sub_category      expected=ATTR_118_1     picked=invalid
+x  pack_size         expected=ATTR_305       picked=invalid
+x  selling_price     expected=ATTR_410       picked=invalid
+x  unit_cost         expected=ATTR_410_B     picked=invalid
+x  launch_date       expected=ATTR_512       picked=invalid
+x  supplier_code     expected=ATTR_620       picked=invalid
+x  hs_code           expected=ATTR_621       picked=invalid
+x  size_variant      expected=ATTR_306       picked=invalid
+x  lifecycle_status  expected=ATTR_900       picked=invalid
+x  price_currency    expected=none           picked=invalid
+x  size_system       expected=none           picked=invalid
+
+right    = 0/16

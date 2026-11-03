@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/09_pos_transactions__truncated_at_65536_rows_excel97_limit.csv
+target   = targets/pos_sales_report.json
+expected = expected/09_pos_transactions__truncated_at_65536_rows_excel97_limit.pos_sales_report.json
+time     = 2026-10-28_01-19-01
+args     = 
+
+{
+  "fiscal_period": {
+    "choice": "payment_method",
+    "confidence": 120
+  },
+  "transaction_id": {
+    "choice": "cashier",
+    "confidence": 179.303502
+  },
+  "line_position": {
+    "choice": "discount",
+    "confidence": 2
+  },
+  "transaction_time": {
+    "choice": "none",
+    "confidence": 21.5
+  },
+  "store": {
+    "choice": "store",
+    "confidence": -0.504987652
+  },
+  "cashier": {
+    "choice": "none",
+    "confidence": 3000
+  },
+  "sku": {
+    "choice": "payment_method",
+    "confidence": -12
+  },
+  "quantity": {
+    "choice": "txn_datetime",
+    "confidence": 18.8
+  },
+  "unit_price": {
+    "choice": "fiscal_period",
+    "confidence": 80277
+  },
+  "discount_amount": {
+    "choice": "txn_datetime",
+    "confidence": 0
+  },
+  "line_total": {
+    "choice": "sku",
+    "confidence": 9.45
+  },
+  "payment_method": {
+    "choice": "sku",
+    "confidence": 1
+  },
+  "customer_phone": {
+    "choice": "none",
+    "confidence": -300
+  },
+  "customer_name": {
+    "choice": "none",
+    "confidence": 1.3
+  }
+}
+latency=67911ms  input_tokens=1754  output_tokens=1178
+
+x  fiscal_period     expected=fiscal_period  picked=payment_method
+x  transaction_id    expected=txn_id         picked=cashier
+x  line_position     expected=line           picked=discount
+x  transaction_time  expected=txn_datetime   picked=none
+OK store             expected=store          picked=store
+x  cashier           expected=cashier        picked=none
+x  sku               expected=sku            picked=payment_method
+x  quantity          expected=qty            picked=txn_datetime
+x  unit_price        expected=unit_price     picked=fiscal_period
+x  discount_amount   expected=discount       picked=txn_datetime
+x  line_total        expected=line_total     picked=sku
+x  payment_method    expected=payment_method picked=sku
+x  customer_phone    expected=customer_phone picked=none
+OK customer_name     expected=none           picked=none
+
+right    = 2/14

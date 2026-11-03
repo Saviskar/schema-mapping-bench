@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/01_supplier_master__duplicates_spelling_name_order.csv
+target   = targets/supplier_master_sync.json
+expected = expected/01_supplier_master__duplicates_spelling_name_order.supplier_master_sync.json
+time     = 2026-10-26_11-11-16
+args     = 
+
+{
+  "supplier_id": {
+    "choice": "Supplier Name",
+    "confidence": -699.0609
+  },
+  "supplier_name": {
+    "choice": "e-mail",
+    "confidence": -2
+  },
+  "contact_person": {
+    "choice": "none",
+    "confidence": -10
+  },
+  "phone": {
+    "choice": "country",
+    "confidence": 70
+  },
+  "email": {
+    "choice": "Onboarded On",
+    "confidence": -11.15
+  },
+  "city": {
+    "choice": "Category",
+    "confidence": 1852008
+  },
+  "country": {
+    "choice": "Onboarded On",
+    "confidence": -1.21
+  },
+  "postal_code": {
+    "choice": "Supplier Name",
+    "confidence": -507540
+  },
+  "vat_number": {
+    "choice": "Active?",
+    "confidence": 1
+  },
+  "payment_terms": {
+    "choice": "Active?",
+    "confidence": -1
+  },
+  "supplier_category": {
+    "choice": "country",
+    "confidence": -35
+  },
+  "onboarding_date": {
+    "choice": "none",
+    "confidence": -395
+  },
+  "is_active": {
+    "choice": "Active?",
+    "confidence": -25.177580003240575
+  },
+  "source_system": {
+    "choice": "Onboarded On",
+    "confidence": -1
+  }
+}
+latency=53039ms  input_tokens=1706  output_tokens=987
+
+x  supplier_id       expected=supplier_id    picked=Supplier Name
+x  supplier_name     expected=Supplier Name  picked=e-mail
+x  contact_person    expected=Contact Person  picked=none
+x  phone             expected=Phone/Mobile   picked=country
+x  email             expected=e-mail         picked=Onboarded On
+x  city              expected=City/Town      picked=Category
+x  country           expected=country        picked=Onboarded On
+x  postal_code       expected=Postal Code    picked=Supplier Name
+x  vat_number        expected=VAT No.        picked=Active?
+x  payment_terms     expected=Pmt Terms      picked=Active?
+x  supplier_category expected=Category       picked=country
+x  onboarding_date   expected=Onboarded On   picked=none
+OK is_active         expected=Active?        picked=Active?
+x  source_system     expected=none           picked=Onboarded On
+
+right    = 1/14

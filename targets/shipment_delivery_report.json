@@ -1,0 +1,21 @@
+{
+  "name": "Shipment Delivery Report",
+  "purpose": "Tracks on-time delivery and freight cost per kilogram for each carrier and lane",
+  "inputs": {
+    "shipment_id": "ID of the shipment",
+    "sales_order_ref": "Number of the sales order the shipment was sent for",
+    "origin_hub": "Hub or depot the shipment left from",
+    "destination_city": "City the shipment was sent to",
+    "carrier": "Courier company that carried the shipment",
+    "ship_date": "Date the shipment left the hub",
+    "estimated_arrival": "Date the shipment was expected to arrive",
+    "delivered_at": "Date and time the shipment was actually delivered",
+    "gross_weight": "Total weight of the shipment, including packaging",
+    "parcel_dimensions": "Length, width and height of the parcel",
+    "lane_distance": "Distance by road from the origin hub to the destination",
+    "freight_cost": "Amount the carrier charged to move the shipment",
+    "status": "Where the shipment is now, e.g. in transit or delivered",
+    "goods_value": "Value of the goods inside the shipment, as declared for insurance",
+    "item_count": "Number of items packed in the shipment"
+  }
+}

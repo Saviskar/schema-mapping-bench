@@ -1,0 +1,13 @@
+{
+  "snapshot_date": "snapshot_date",
+  "warehouse_code": "WH",
+  "sku": "SKU",
+  "item_name": "Item Description",
+  "closing_stock": "On Hand",
+  "qty_received": "Inbound",
+  "qty_issued": "Outbound",
+  "reorder_level": "Reorder Lvl",
+  "last_count_time": "last_counted",
+  "counted_by": "Counted By",
+  "unit_of_measure": "none"
+}

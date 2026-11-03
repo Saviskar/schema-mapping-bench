@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.csv
+target   = targets/cold_chain_excursion_report.json
+expected = expected/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.cold_chain_excursion_report.json
+time     = 2026-10-28_01-07-20
+args     = 
+
+{
+  "reading_seq": {
+    "choice": "dev",
+    "confidence": -1
+  },
+  "logger_id": {
+    "choice": "s",
+    "confidence": -1.7
+  },
+  "reading_time": {
+    "choice": "dev",
+    "confidence": 10.282
+  },
+  "air_temperature": {
+    "choice": "t",
+    "confidence": -7.090731026
+  },
+  "humidity": {
+    "choice": "f",
+    "confidence": 196
+  },
+  "battery_voltage": {
+    "choice": "none",
+    "confidence": 100
+  },
+  "signal_strength": {
+    "choice": "dev",
+    "confidence": 3
+  },
+  "status_flags": {
+    "choice": "dev",
+    "confidence": 41.42073
+  },
+  "gps_position": {
+    "choice": "dev",
+    "confidence": 0.5
+  },
+  "shipment_ref": {
+    "choice": "s",
+    "confidence": -20
+  },
+  "firmware_version": {
+    "choice": "none",
+    "confidence": 7075
+  },
+  "product_core_temperature": {
+    "choice": "Unnamed: 12",
+    "confidence": 193.145
+  },
+  "operator_alarm_mark": {
+    "choice": "none",
+    "confidence": -1.3
+  },
+  "ambient_temperature": {
+    "choice": "t",
+    "confidence": 0
+  }
+}
+latency=82350ms  input_tokens=1491  output_tokens=1133
+
+x  reading_seq       expected=id             picked=dev
+x  logger_id         expected=dev            picked=s
+x  reading_time      expected=t              picked=dev
+x  air_temperature   expected=v1             picked=t
+x  humidity          expected=v2             picked=f
+x  battery_voltage   expected=v3             picked=none
+x  signal_strength   expected=s              picked=dev
+x  status_flags      expected=f              picked=dev
+x  gps_position      expected=loc            picked=dev
+x  shipment_ref      expected=ref            picked=s
+x  firmware_version  expected=fw             picked=none
+x  product_core_temperature expected=z              picked=Unnamed: 12
+OK operator_alarm_mark expected=Unnamed: 12|none picked=none
+x  ambient_temperature expected=none           picked=t
+
+right    = 1/14

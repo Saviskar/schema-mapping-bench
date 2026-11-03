@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHKEY",
+  "sales_order_ref": "SHREF",
+  "origin_hub": "SHLOC1",
+  "destination_city": "SHLOC2  ",
+  "carrier": "SHVND",
+  "ship_date": "SHDT1",
+  "estimated_arrival": "SHDT2",
+  "delivered_at": "SHDT3",
+  "gross_weight": "SHQTY",
+  "parcel_dimensions": "SHSIZ",
+  "lane_distance": "SHMTR",
+  "freight_cost": "SHVAL",
+  "status": "SHSTS ",
+  "goods_value": "none",
+  "item_count": "none"
+}

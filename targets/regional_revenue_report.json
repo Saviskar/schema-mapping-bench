@@ -1,0 +1,18 @@
+{
+  "name": "Regional Revenue Report",
+  "purpose": "Compares full-year revenue and growth across sales regions and product categories",
+  "inputs": {
+    "region": "Sales region",
+    "product_category": "Product category",
+    "q1_revenue": "Revenue for the first quarter of the financial year",
+    "q2_revenue": "Revenue for the second quarter of the financial year",
+    "q3_revenue": "Revenue for the third quarter of the financial year",
+    "q4_revenue": "Revenue for the fourth quarter of the financial year",
+    "full_year_revenue": "Revenue for the whole financial year",
+    "yoy_growth_pct": "Growth in revenue compared with the year before, as a percentage",
+    "analyst_notes": "Comments the analyst added to the figures",
+    "currency": "Currency the revenue is in",
+    "monthly_revenue": "Revenue for a single month",
+    "store_code": "Code of the store that made the sale"
+  }
+}

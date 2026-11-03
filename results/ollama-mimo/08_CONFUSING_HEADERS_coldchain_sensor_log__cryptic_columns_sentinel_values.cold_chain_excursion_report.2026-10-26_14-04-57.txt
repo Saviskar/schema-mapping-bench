@@ -1,0 +1,83 @@
+model    = ollama-mimo
+csv      = data/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.csv
+target   = targets/cold_chain_excursion_report.json
+expected = expected/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.cold_chain_excursion_report.json
+time     = 2026-10-26_14-04-57
+args     = 
+
+{
+  "reading_seq": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "logger_id": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "reading_time": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "air_temperature": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "humidity": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "battery_voltage": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "signal_strength": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "status_flags": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "gps_position": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "shipment_ref": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "firmware_version": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "product_core_temperature": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "operator_alarm_mark": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "ambient_temperature": {
+    "choice": "invalid",
+    "confidence": 0.0
+  }
+}
+latency=150882ms  input_tokens=1499  output_tokens=2597
+
+x  reading_seq       expected=id             picked=invalid
+x  logger_id         expected=dev            picked=invalid
+x  reading_time      expected=t              picked=invalid
+x  air_temperature   expected=v1             picked=invalid
+x  humidity          expected=v2             picked=invalid
+x  battery_voltage   expected=v3             picked=invalid
+x  signal_strength   expected=s              picked=invalid
+x  status_flags      expected=f              picked=invalid
+x  gps_position      expected=loc            picked=invalid
+x  shipment_ref      expected=ref            picked=invalid
+x  firmware_version  expected=fw             picked=invalid
+x  product_core_temperature expected=z              picked=invalid
+x  operator_alarm_mark expected=Unnamed: 12|none picked=invalid
+x  ambient_temperature expected=none           picked=invalid
+
+right    = 0/14

@@ -1,0 +1,149 @@
+model    = ollama-deepseek
+csv      = data/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.csv
+target   = targets/purchase_order_tracker.json
+expected = expected/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.purchase_order_tracker.json
+time     = 2026-10-27_23-46-54
+args     = 
+
+{
+  "export_row_index": {
+    "choice": "Amount",
+    "confidence": 8
+  },
+  "po_number": {
+    "choice": "Date_",
+    "confidence": 2024.3505
+  },
+  "line_item": {
+    "choice": "Description",
+    "confidence": -Infinity
+  },
+  "vendor_id": {
+    "choice": "ITM",
+    "confidence": 9773200119674.057
+  },
+  "buyer_name": {
+    "choice": "Column1",
+    "confidence": 8400
+  },
+  "vendor_name": {
+    "choice": "Amount",
+    "confidence": -1232.50545
+  },
+  "material_code": {
+    "choice": "ITM",
+    "confidence": 2024245616
+  },
+  "material_description": {
+    "choice": "WERKS",
+    "confidence": 327
+  },
+  "order_qty": {
+    "choice": "Amount",
+    "confidence": 22010.01980005851
+  },
+  "unit_of_measure": {
+    "choice": "ITM",
+    "confidence": 97
+  },
+  "line_total": {
+    "choice": "STAT",
+    "confidence": 1
+  },
+  "unit_price": {
+    "choice": "WERKS",
+    "confidence": 18201978
+  },
+  "vat_amount": {
+    "choice": "Date_",
+    "confidence": -20.5648
+  },
+  "currency": {
+    "choice": "Amount",
+    "confidence": 15.000099004
+  },
+  "po_date": {
+    "choice": "ITM",
+    "confidence": 4
+  },
+  "requested_delivery_date": {
+    "choice": "2",
+    "confidence": 25180008480.246597
+  },
+  "goods_receipt_date": {
+    "choice": "Date_",
+    "confidence": 10
+  },
+  "received_qty": {
+    "choice": "Unnamed: 20",
+    "confidence": -12
+  },
+  "plant": {
+    "choice": "Amount",
+    "confidence": 16
+  },
+  "line_status": {
+    "choice": "2",
+    "confidence": 1980520
+  },
+  "payment_terms": {
+    "choice": "x",
+    "confidence": 511.4000000978586
+  },
+  "discount_pct": {
+    "choice": "Price",
+    "confidence": 5.135
+  },
+  "urgent_flag": {
+    "choice": "Column1",
+    "confidence": 17.30032020040641
+  },
+  "vendor_invoice_no": {
+    "choice": "Amount",
+    "confidence": 2064.7
+  },
+  "requisition_no": {
+    "choice": "Amount",
+    "confidence": Infinity
+  },
+  "remarks": {
+    "choice": "Amount",
+    "confidence": 10
+  },
+  "line_value_usd": {
+    "choice": "Amount",
+    "confidence": 5001
+  }
+}
+latency=1423891ms  input_tokens=3226  output_tokens=1810
+
+x  export_row_index  expected=Unnamed: 0     picked=Amount
+x  po_number         expected=DOC            picked=Date_
+x  line_item         expected=ITM            picked=Description
+x  vendor_id         expected=LIFNR          picked=ITM
+x  buyer_name        expected=Vendor         picked=Column1
+x  vendor_name       expected=Name           picked=Amount
+x  material_code     expected=MAT            picked=ITM
+x  material_description expected=Description    picked=WERKS
+x  order_qty         expected=ප්‍රමාණය       picked=Amount
+x  unit_of_measure   expected=UoM            picked=ITM
+x  line_total        expected=Price          picked=STAT
+x  unit_price        expected=Amount         picked=WERKS
+x  vat_amount        expected=Value (USD)    picked=Date_
+x  currency          expected=CUR            picked=Amount
+x  po_date           expected=DT             picked=ITM
+x  requested_delivery_date expected=தேதி           picked=2
+OK goods_receipt_date expected=Date_          picked=Date_
+x  received_qty      expected=Recv
+Qty       picked=Unnamed: 20
+x  plant             expected=WERKS          picked=Amount
+x  line_status       expected=STAT           picked=2
+x  payment_terms     expected=Unnamed: 20    picked=x
+x  discount_pct      expected=2              picked=Price
+x  urgent_flag       expected=x              picked=Column1
+x  vendor_invoice_no expected=REF            picked=Amount
+x  requisition_no    expected=REF.1          picked=Amount
+x  remarks           expected=Column1        picked=Amount
+x  line_value_usd    expected=none           picked=Amount
+
+right    = 1/27

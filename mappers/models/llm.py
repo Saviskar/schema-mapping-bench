@@ -2,13 +2,16 @@
 
 import json
 import os
+import time
 
 from openai import OpenAI
 
-# OpenRouter hosts many open models (DeepSeek, Qwen, Kimi, GLM, MiMo) behind one key
-OPENROUTER_URL = "https://openrouter.ai/api/v1"
-# keep reasoning low (the answer is short), and only use OpenRouter hosts that follow the JSON schema
-OPENROUTER_EXTRA = {"reasoning": {"effort": "low"}, "provider": {"require_parameters": True}}
+# Ollama runs models on this machine; its key is ignored but the client needs one
+OLLAMA_URL = "http://localhost:11434/v1"
+
+# a local model on a laptop can take much longer than the client's default 10 minute timeout on a big file,
+# and a retry would just start the same slow request again (and add its time to the latency), so wait up to an hour, once
+OLLAMA_CLIENT = {"timeout": 3600, "max_retries": 0}
 
 # one entry per model: its model name, where to send it, which .env key to use,
 # and any extra settings only that model needs
@@ -19,35 +22,31 @@ LLMS = {
         "api_key_env": "GEMINI_API_KEY",
         "extra": {"reasoning_effort": "low"},
     },
-    "deepseek-flash": {
-        "model": "deepseek/deepseek-v4.1-flash",
-        "base_url": OPENROUTER_URL,
-        "api_key_env": "OPENROUTER_API_KEY",
-        "extra": OPENROUTER_EXTRA,
+    "ollama-deepseek": {
+        "model": "deepseek-r1:8b",
+        "base_url": OLLAMA_URL,
+        "api_key_env": "OLLAMA_API_KEY",
+        "client": OLLAMA_CLIENT,
     },
-    "qwen-27b": {
-        "model": "qwen/qwen3.8-27b",
-        "base_url": OPENROUTER_URL,
-        "api_key_env": "OPENROUTER_API_KEY",
-        "extra": OPENROUTER_EXTRA,
+    "ollama-qwen": {
+        "model": "qwen3:8b",
+        "base_url": OLLAMA_URL,
+        "api_key_env": "OLLAMA_API_KEY",
+        "client": OLLAMA_CLIENT,
     },
-    "kimi-k3": {
-        "model": "moonshotai/kimi-k3",
-        "base_url": OPENROUTER_URL,
-        "api_key_env": "OPENROUTER_API_KEY",
-        "extra": OPENROUTER_EXTRA,
+    "ollama-glm": {
+        "model": "hf.co/ggml-org/GLM-4.6V-Flash-GGUF:Q4_K_M",
+        "base_url": OLLAMA_URL,
+        "api_key_env": "OLLAMA_API_KEY",
+        "client": OLLAMA_CLIENT,
     },
-    "glm-flash": {
-        "model": "z-ai/glm-5.3-flash",
-        "base_url": OPENROUTER_URL,
-        "api_key_env": "OPENROUTER_API_KEY",
-        "extra": OPENROUTER_EXTRA,
-    },
-    "mimo-flash": {
-        "model": "xiaomi/mimo-v2.6-flash",
-        "base_url": OPENROUTER_URL,
-        "api_key_env": "OPENROUTER_API_KEY",
-        "extra": OPENROUTER_EXTRA,
+    "ollama-mimo": {
+        "model": "hf.co/bartowski/MiMo-V2.6-Distill-Qwen-9B-GGUF:Q4_K_M",
+        "base_url": OLLAMA_URL,
+        "api_key_env": "OLLAMA_API_KEY",
+        "client": OLLAMA_CLIENT,
+        # its GGUF stops on <think>, which it opens every reply with, so replace the stop list
+        "extra": {"stop": ["<|im_end|>", "<|im_start|>"]},
     },
 }
 
@@ -69,7 +68,9 @@ def map_columns(ticket, options, config):
         }
     schema = {"type": "object", "properties": properties, "required": list(inputs.keys())}
 
-    client = OpenAI(api_key=os.environ[config["api_key_env"]], base_url=config["base_url"])
+    # client settings only some models need (e.g. a longer timeout), passed to the client as they are
+    client = OpenAI(api_key=os.environ[config["api_key_env"]], base_url=config["base_url"], **config.get("client", {}))
+    start = time.perf_counter()
     response = client.chat.completions.create(
         model=config["model"],
         messages=[
@@ -83,6 +84,16 @@ def map_columns(ticket, options, config):
         # extra settings only this model needs (e.g. reasoning_effort), added to the request as they are
         extra_body=config.get("extra", {}),
     )
+    latency_ms = (time.perf_counter() - start) * 1000
+
+    # some providers leave usage out; completion_tokens includes any reasoning tokens
+    if response.usage is None:
+        input_tokens = None
+        output_tokens = None
+    else:
+        input_tokens = response.usage.prompt_tokens
+        output_tokens = response.usage.completion_tokens
+    stats = {"latency_ms": latency_ms, "input_tokens": input_tokens, "output_tokens": output_tokens}
 
     # an empty or broken reply becomes {} so every input comes back "invalid" instead of crashing the run
     content = response.choices[0].message.content
@@ -104,4 +115,4 @@ def map_columns(ticket, options, config):
             "choice": choice,
             "confidence": answer.get("confidence", 0.0),
         }
-    return answers
+    return answers, stats

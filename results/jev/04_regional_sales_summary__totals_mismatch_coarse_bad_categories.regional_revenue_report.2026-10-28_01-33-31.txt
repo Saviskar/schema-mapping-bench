@@ -1,0 +1,217 @@
+model    = jev
+csv      = data/04_regional_sales_summary__totals_mismatch_coarse_bad_categories.csv
+target   = targets/regional_revenue_report.json
+expected = expected/04_regional_sales_summary__totals_mismatch_coarse_bad_categories.regional_revenue_report.json
+time     = 2026-10-28_01-33-31
+args     = 
+
+{
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 1.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "product_category": {
+    "choice": "Category",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 1.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "q1_revenue": {
+    "choice": "Q1",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 1.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "q2_revenue": {
+    "choice": "Q2",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 1.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "q3_revenue": {
+    "choice": "Q3",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 1.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "q4_revenue": {
+    "choice": "Q4",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 1.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "full_year_revenue": {
+    "choice": "FY Total",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 1.0,
+      "YoY %": 0.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "yoy_growth_pct": {
+    "choice": "YoY %",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 1.0,
+      "Notes": 0.0,
+      "none": 0.0
+    }
+  },
+  "analyst_notes": {
+    "choice": "Notes",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 1.0,
+      "none": 0.0
+    }
+  },
+  "currency": {
+    "choice": "Notes",
+    "confidence": 0.92,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.93,
+      "none": 0.07
+    }
+  },
+  "monthly_revenue": {
+    "choice": "none",
+    "confidence": 0.91,
+    "probabilities": {
+      "Region": 0.0,
+      "Category": 0.0,
+      "Q1": 0.05,
+      "Q2": 0.01,
+      "Q3": 0.0,
+      "Q4": 0.01,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.01,
+      "none": 0.92
+    }
+  },
+  "store_code": {
+    "choice": "none",
+    "confidence": 0.83,
+    "probabilities": {
+      "Region": 0.14,
+      "Category": 0.0,
+      "Q1": 0.0,
+      "Q2": 0.0,
+      "Q3": 0.0,
+      "Q4": 0.0,
+      "FY Total": 0.0,
+      "YoY %": 0.0,
+      "Notes": 0.01,
+      "none": 0.85
+    }
+  }
+}
+latency=1172ms  input_tokens=3515  output_tokens=1138
+
+OK region            expected=Region         picked=Region
+OK product_category  expected=Category       picked=Category
+OK q1_revenue        expected=Q1             picked=Q1
+OK q2_revenue        expected=Q2             picked=Q2
+OK q3_revenue        expected=Q3             picked=Q3
+OK q4_revenue        expected=Q4             picked=Q4
+OK full_year_revenue expected=FY Total       picked=FY Total
+OK yoy_growth_pct    expected=YoY %          picked=YoY %
+OK analyst_notes     expected=Notes          picked=Notes
+x  currency          expected=none           picked=Notes
+OK monthly_revenue   expected=none           picked=none
+OK store_code        expected=none           picked=none
+
+right    = 11/12

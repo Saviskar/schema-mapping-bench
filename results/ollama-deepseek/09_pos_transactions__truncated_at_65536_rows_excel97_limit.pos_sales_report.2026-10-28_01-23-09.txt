@@ -1,0 +1,83 @@
+model    = ollama-deepseek
+csv      = data/09_pos_transactions__truncated_at_65536_rows_excel97_limit.csv
+target   = targets/pos_sales_report.json
+expected = expected/09_pos_transactions__truncated_at_65536_rows_excel97_limit.pos_sales_report.json
+time     = 2026-10-28_01-23-09
+args     = 
+
+{
+  "fiscal_period": {
+    "choice": "txn_datetime",
+    "confidence": 15
+  },
+  "transaction_id": {
+    "choice": "payment_method",
+    "confidence": 1
+  },
+  "line_position": {
+    "choice": "fiscal_period",
+    "confidence": 4
+  },
+  "transaction_time": {
+    "choice": "store",
+    "confidence": -4400036430.296575
+  },
+  "store": {
+    "choice": "discount",
+    "confidence": 21.3
+  },
+  "cashier": {
+    "choice": "payment_method",
+    "confidence": 2
+  },
+  "sku": {
+    "choice": "discount",
+    "confidence": -4
+  },
+  "quantity": {
+    "choice": "customer_phone",
+    "confidence": 4
+  },
+  "unit_price": {
+    "choice": "fiscal_period",
+    "confidence": 2541918
+  },
+  "discount_amount": {
+    "choice": "none",
+    "confidence": 9
+  },
+  "line_total": {
+    "choice": "none",
+    "confidence": 8.00732
+  },
+  "payment_method": {
+    "choice": "none",
+    "confidence": 100
+  },
+  "customer_phone": {
+    "choice": "sku",
+    "confidence": 1.806
+  },
+  "customer_name": {
+    "choice": "unit_price",
+    "confidence": 400.2
+  }
+}
+latency=62140ms  input_tokens=1754  output_tokens=1169
+
+x  fiscal_period     expected=fiscal_period  picked=txn_datetime
+x  transaction_id    expected=txn_id         picked=payment_method
+x  line_position     expected=line           picked=fiscal_period
+x  transaction_time  expected=txn_datetime   picked=store
+x  store             expected=store          picked=discount
+x  cashier           expected=cashier        picked=payment_method
+x  sku               expected=sku            picked=discount
+x  quantity          expected=qty            picked=customer_phone
+x  unit_price        expected=unit_price     picked=fiscal_period
+x  discount_amount   expected=discount       picked=none
+x  line_total        expected=line_total     picked=none
+x  payment_method    expected=payment_method picked=none
+x  customer_phone    expected=customer_phone picked=sku
+x  customer_name     expected=none           picked=unit_price
+
+right    = 0/14

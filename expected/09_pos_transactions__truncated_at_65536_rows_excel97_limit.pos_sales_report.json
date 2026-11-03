@@ -1,0 +1,16 @@
+{
+  "fiscal_period": "fiscal_period",
+  "transaction_id": "txn_id",
+  "line_position": "line",
+  "transaction_time": "txn_datetime",
+  "store": "store",
+  "cashier": "cashier",
+  "sku": "sku",
+  "quantity": "qty",
+  "unit_price": "unit_price",
+  "discount_amount": "discount",
+  "line_total": "line_total",
+  "payment_method": "payment_method",
+  "customer_phone": "customer_phone",
+  "customer_name": "none"
+}
