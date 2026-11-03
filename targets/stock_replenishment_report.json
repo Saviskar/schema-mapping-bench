@@ -1,0 +1,17 @@
+{
+  "name": "Stock Replenishment Report",
+  "purpose": "Flags items that need reordering in each warehouse, day by day",
+  "inputs": {
+    "snapshot_date": "Date the stock figures are for",
+    "warehouse_code": "Code of the warehouse",
+    "sku": "Code of the item",
+    "item_name": "Name of the item",
+    "closing_stock": "Quantity in the warehouse at the end of the day",
+    "qty_received": "Quantity that came into the warehouse that day",
+    "qty_issued": "Quantity that left the warehouse that day",
+    "reorder_level": "Stock level at which a new order should be placed",
+    "last_count_time": "Date and time the item was last physically counted",
+    "counted_by": "Name of the person who did the last physical count",
+    "unit_of_measure": "Unit the quantities are counted in, e.g. pieces, kg or cartons"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Store Sales September 2024",
+  "purpose": "Reports daily net sales for every store in September 2024, plus the year-end figures",
+  "inputs": {
+    "store_code": "Code of the store",
+    "store_name": "Name of the store",
+    "region": "Region the store is in",
+    "sales_2024_09_01": "Net sales for the store on 1 September 2024",
+    "sales_2024_09_02": "Net sales for the store on 2 September 2024",
+    "sales_2024_09_03": "Net sales for the store on 3 September 2024",
+    "sales_2024_09_04": "Net sales for the store on 4 September 2024",
+    "sales_2024_09_05": "Net sales for the store on 5 September 2024",
+    "sales_2024_09_06": "Net sales for the store on 6 September 2024",
+    "sales_2024_09_07": "Net sales for the store on 7 September 2024",
+    "sales_2024_09_08": "Net sales for the store on 8 September 2024",
+    "sales_2024_09_09": "Net sales for the store on 9 September 2024",
+    "sales_2024_09_30": "Net sales for the store on 30 September 2024",
+    "sales_2024_12_31": "Net sales for the store on 31 December 2024",
+    "full_year_total": "Net sales for the store for the whole of 2024"
+  }
+}

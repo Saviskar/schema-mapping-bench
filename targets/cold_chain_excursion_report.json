@@ -1,0 +1,20 @@
+{
+  "name": "Cold Chain Excursion Report",
+  "purpose": "Finds readings where a chilled shipment went outside 2-8 °C, with where and when it happened",
+  "inputs": {
+    "reading_seq": "Sequence number the logger gives each reading",
+    "logger_id": "ID of the temperature logger",
+    "reading_time": "Date and time the reading was taken",
+    "air_temperature": "Air temperature inside the cold box",
+    "humidity": "Relative humidity inside the cold box",
+    "battery_voltage": "Battery level of the logger",
+    "signal_strength": "Strength of the logger's mobile signal",
+    "status_flags": "Status flags the logger reports, such as door open and temperature alarm",
+    "gps_position": "GPS position of the logger, as latitude and longitude",
+    "shipment_ref": "ID of the shipment the logger travelled with",
+    "firmware_version": "Firmware version running on the logger",
+    "product_core_temperature": "Temperature inside the product, from a second probe",
+    "operator_alarm_mark": "Mark an operator typed in by hand on rows where the temperature went out of range",
+    "ambient_temperature": "Temperature outside the vehicle"
+  }
+}

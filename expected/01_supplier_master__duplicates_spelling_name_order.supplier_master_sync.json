@@ -1,0 +1,16 @@
+{
+  "supplier_id": "supplier_id",
+  "supplier_name": "Supplier Name",
+  "contact_person": "Contact Person ",
+  "phone": "Phone/Mobile",
+  "email": "e-mail",
+  "city": "City/Town",
+  "country": "country",
+  "postal_code": "Postal Code",
+  "vat_number": "VAT No.",
+  "payment_terms": "Pmt Terms",
+  "supplier_category": "Category",
+  "onboarding_date": "Onboarded On",
+  "is_active": "Active?",
+  "source_system": "none"
+}

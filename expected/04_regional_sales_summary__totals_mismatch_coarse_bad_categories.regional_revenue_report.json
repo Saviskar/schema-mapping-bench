@@ -1,0 +1,14 @@
+{
+  "region": "Region",
+  "product_category": "Category",
+  "q1_revenue": "Q1",
+  "q2_revenue": "Q2",
+  "q3_revenue": "Q3",
+  "q4_revenue": "Q4",
+  "full_year_revenue": "FY Total",
+  "yoy_growth_pct": "YoY %",
+  "analyst_notes": "Notes",
+  "currency": "none",
+  "monthly_revenue": "none",
+  "store_code": "none"
+}

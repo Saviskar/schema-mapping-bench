@@ -1,0 +1,33 @@
+{
+  "name": "Purchase Order Tracker",
+  "purpose": "Tracks each purchase order line from order to goods receipt and invoice, with spend per vendor and buyer",
+  "inputs": {
+    "export_row_index": "Row number left over from an earlier export of the file, not an ID of anything",
+    "po_number": "Purchase order number",
+    "line_item": "Line number within the purchase order",
+    "vendor_id": "ID of the vendor in the ERP system",
+    "buyer_name": "Name of the purchasing officer who raised the order",
+    "vendor_name": "Company name of the vendor",
+    "material_code": "Code of the material ordered",
+    "material_description": "Description of the material ordered",
+    "order_qty": "Quantity ordered",
+    "unit_of_measure": "Unit the quantity is in, e.g. each, kg or rolls",
+    "line_total": "Total for the line after discount: quantity times unit price",
+    "unit_price": "Price for one unit of the material",
+    "vat_amount": "VAT charged on the line",
+    "currency": "Currency of the prices on the line",
+    "po_date": "Date the purchase order was created",
+    "requested_delivery_date": "Date the material was asked to be delivered by",
+    "goods_receipt_date": "Date the goods actually arrived",
+    "received_qty": "Quantity received so far",
+    "plant": "Code of the plant that receives the goods",
+    "line_status": "Status of the line: open, partly received, closed or cancelled",
+    "payment_terms": "How many days the company has to pay the vendor",
+    "discount_pct": "Discount on the line, as a percentage",
+    "urgent_flag": "Whether the order is urgent and needs to be sped up",
+    "vendor_invoice_no": "Number of the vendor's invoice for the goods received",
+    "requisition_no": "Number of the purchase request the order was raised from",
+    "remarks": "Free-text remarks on the line",
+    "line_value_usd": "Line total converted to US dollars"
+  }
+}

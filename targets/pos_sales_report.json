@@ -1,0 +1,20 @@
+{
+  "name": "POS Sales Report",
+  "purpose": "Totals sales for each store, cashier and payment method across the fiscal quarter",
+  "inputs": {
+    "fiscal_period": "Fiscal quarter the sale is reported in",
+    "transaction_id": "ID of the receipt the line belongs to",
+    "line_position": "Position of the line on the receipt, e.g. line 2 of 3",
+    "transaction_time": "Date and time of the sale",
+    "store": "Store where the sale happened",
+    "cashier": "Name of the cashier who rang up the sale",
+    "sku": "Code of the product sold",
+    "quantity": "Quantity sold",
+    "unit_price": "Price of one unit",
+    "discount_amount": "Discount given on the line",
+    "line_total": "Amount charged for the line after discount",
+    "payment_method": "How the customer paid, e.g. cash or card",
+    "customer_phone": "Mobile number of the loyalty customer",
+    "customer_name": "Name of the loyalty customer"
+  }
+}

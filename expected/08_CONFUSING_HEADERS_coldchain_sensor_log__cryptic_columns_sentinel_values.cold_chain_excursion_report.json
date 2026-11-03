@@ -1,0 +1,16 @@
+{
+  "reading_seq": "id",
+  "logger_id": "dev",
+  "reading_time": "t",
+  "air_temperature": "v1",
+  "humidity": "v2",
+  "battery_voltage": "v3",
+  "signal_strength": "s",
+  "status_flags": "f",
+  "gps_position": "loc",
+  "shipment_ref": "ref",
+  "firmware_version": "fw",
+  "product_core_temperature": "z",
+  "operator_alarm_mark": ["Unnamed: 12", "none"],
+  "ambient_temperature": "none"
+}

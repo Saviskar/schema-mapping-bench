@@ -1,0 +1,25 @@
+{
+  "name": "Driver Payroll Report",
+  "purpose": "Checks September pay for each delivery driver and flags driving licences that are about to expire",
+  "inputs": {
+    "sheet_row_number": "Row number copied from the original payroll sheet; it has gaps and is not an employee ID",
+    "driver_name": "Full name of the driver",
+    "name_with_initials": "Driver's official name written with initials, e.g. A.B. Perera",
+    "employee_code": "Employee code of the driver",
+    "driver_mobile": "Driver's own mobile number",
+    "emergency_contact": "Phone number to call in an emergency, e.g. a family member",
+    "basic_salary": "Basic monthly salary",
+    "allowance": "Fuel and meal allowance for the month",
+    "overtime_hours": "Hours of overtime worked in the month",
+    "overtime_pay": "Amount paid for overtime in the month",
+    "gross_pay": "Total pay before deductions: basic salary plus allowance plus overtime pay",
+    "date_of_birth": "Driver's date of birth",
+    "join_date": "Date the driver joined the company",
+    "licence_expiry": "Date the driver's driving licence expires",
+    "vehicle_number": "Registration number of the vehicle the driver is assigned",
+    "vehicle_type": "Type of vehicle, e.g. van, truck or motorcycle",
+    "employment_type": "Type of employment, e.g. permanent or contract",
+    "is_active": "Whether the driver is currently working for the company",
+    "net_pay": "Take-home pay after tax and other deductions"
+  }
+}

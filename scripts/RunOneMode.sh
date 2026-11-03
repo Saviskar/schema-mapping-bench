@@ -1,1 +1,1 @@
-python3 main.py data/titanic.csv --target targets/passenger_boarding_report.json --expected expected/titanic.passenger_boarding_report.json --model jev
+python3 main.py data/01_supplier_master__duplicates_spelling_name_order.csv --target targets/supplier_master_sync.json --expected expected/01_supplier_master__duplicates_spelling_name_order.supplier_master_sync.json --model jev
