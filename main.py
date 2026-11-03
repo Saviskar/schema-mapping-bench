@@ -32,8 +32,9 @@ def main():
     df = pd.read_csv(args.csv_file)
     ticket = build_ticket(df, target, args.samples)
     options = get_options(df)
-    answers = MODELS[args.model](ticket, options)
+    answers, stats = MODELS[args.model](ticket, options)
     print(json.dumps(answers, indent=2))
+    print(f"latency={stats['latency_ms']:.0f}ms  input_tokens={stats['input_tokens']}  output_tokens={stats['output_tokens']}")
 
     if args.expected:
         with open(args.expected) as f:
@@ -41,13 +42,18 @@ def main():
 
         # one line per input: the expected column and the column the model picked (x marks a wrong pick)
         print()
+        # (an expected answer can be a list when more than one column is right)
         for name, correct in expected.items():
+            if isinstance(correct, list):
+                rights = correct
+            else:
+                rights = [correct]
             choice = answers[name]["choice"]
-            if choice == correct:
+            if choice in rights:
                 mark = "OK"
             else:
                 mark = "x "
-            print(f"{mark} {name.ljust(17)} expected={correct.ljust(14)} picked={choice}")
+            print(f"{mark} {name.ljust(17)} expected={'|'.join(rights).ljust(14)} picked={choice}")
 
 if __name__ == "__main__":
     main()
