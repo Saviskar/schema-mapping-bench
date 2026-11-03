@@ -1,0 +1,149 @@
+model    = ollama-deepseek
+csv      = data/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.csv
+target   = targets/purchase_order_tracker.json
+expected = expected/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.purchase_order_tracker.json
+time     = 2026-10-27_23-27-23
+args     = 
+
+{
+  "export_row_index": {
+    "choice": "Date_",
+    "confidence": 99.55
+  },
+  "po_number": {
+    "choice": "none",
+    "confidence": 0.9675
+  },
+  "line_item": {
+    "choice": "none",
+    "confidence": 99.48450401554969
+  },
+  "vendor_id": {
+    "choice": "MAT",
+    "confidence": 77288626
+  },
+  "buyer_name": {
+    "choice": "Price",
+    "confidence": 39.9561
+  },
+  "vendor_name": {
+    "choice": "Date_",
+    "confidence": 0.0
+  },
+  "material_code": {
+    "choice": "ITM",
+    "confidence": 0.9709754479455083
+  },
+  "material_description": {
+    "choice": "ITM",
+    "confidence": 0.9980582997877367
+  },
+  "order_qty": {
+    "choice": "none",
+    "confidence": 0.00111
+  },
+  "unit_of_measure": {
+    "choice": "ITM",
+    "confidence": 0.8488619048012833
+  },
+  "line_total": {
+    "choice": "Amount",
+    "confidence": 100.0
+  },
+  "unit_price": {
+    "choice": "none",
+    "confidence": -12.0
+  },
+  "vat_amount": {
+    "choice": "none",
+    "confidence": 50000
+  },
+  "currency": {
+    "choice": "none",
+    "confidence": 0.949799999999
+  },
+  "po_date": {
+    "choice": "Column1",
+    "confidence": 0.68419786611
+  },
+  "requested_delivery_date": {
+    "choice": "Amount",
+    "confidence": 0.96474847
+  },
+  "goods_receipt_date": {
+    "choice": "none",
+    "confidence": 0.9895
+  },
+  "received_qty": {
+    "choice": "Amount",
+    "confidence": 0.0
+  },
+  "plant": {
+    "choice": "Amount",
+    "confidence": 0.95
+  },
+  "line_status": {
+    "choice": "Amount",
+    "confidence": 99.0000015
+  },
+  "payment_terms": {
+    "choice": "Amount",
+    "confidence": 0.9558581358622171
+  },
+  "discount_pct": {
+    "choice": "Amount",
+    "confidence": 88.72500000000001
+  },
+  "urgent_flag": {
+    "choice": "ITM",
+    "confidence": -1.5694749055000006
+  },
+  "vendor_invoice_no": {
+    "choice": "2",
+    "confidence": 1.113363778661225
+  },
+  "requisition_no": {
+    "choice": "Amount",
+    "confidence": 0.068075
+  },
+  "remarks": {
+    "choice": "none",
+    "confidence": 0.8417692918402156
+  },
+  "line_value_usd": {
+    "choice": "STAT",
+    "confidence": 0.9682727656621624
+  }
+}
+latency=695816ms  input_tokens=3226  output_tokens=1200
+
+x  export_row_index  expected=Unnamed: 0     picked=Date_
+x  po_number         expected=DOC            picked=none
+x  line_item         expected=ITM            picked=none
+x  vendor_id         expected=LIFNR          picked=MAT
+x  buyer_name        expected=Vendor         picked=Price
+x  vendor_name       expected=Name           picked=Date_
+x  material_code     expected=MAT            picked=ITM
+x  material_description expected=Description    picked=ITM
+x  order_qty         expected=ප්‍රමාණය       picked=none
+x  unit_of_measure   expected=UoM            picked=ITM
+x  line_total        expected=Price          picked=Amount
+x  unit_price        expected=Amount         picked=none
+x  vat_amount        expected=Value (USD)    picked=none
+x  currency          expected=CUR            picked=none
+x  po_date           expected=DT             picked=Column1
+x  requested_delivery_date expected=தேதி           picked=Amount
+x  goods_receipt_date expected=Date_          picked=none
+x  received_qty      expected=Recv
+Qty       picked=Amount
+x  plant             expected=WERKS          picked=Amount
+x  line_status       expected=STAT           picked=Amount
+x  payment_terms     expected=Unnamed: 20    picked=Amount
+x  discount_pct      expected=2              picked=Amount
+x  urgent_flag       expected=x              picked=ITM
+x  vendor_invoice_no expected=REF            picked=2
+x  requisition_no    expected=REF.1          picked=Amount
+x  remarks           expected=Column1        picked=none
+x  line_value_usd    expected=none           picked=STAT
+
+right    = 0/27

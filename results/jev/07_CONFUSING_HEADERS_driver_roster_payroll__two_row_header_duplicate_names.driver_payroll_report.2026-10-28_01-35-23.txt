@@ -1,0 +1,507 @@
+model    = jev
+csv      = data/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.csv
+target   = targets/driver_payroll_report.json
+expected = expected/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.driver_payroll_report.json
+time     = 2026-10-28_01-35-23
+args     = 
+
+{
+  "sheet_row_number": {
+    "choice": "Unnamed: 0",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 1.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "driver_name": {
+    "choice": "Driver",
+    "confidence": 0.99,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.99,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.01
+    }
+  },
+  "name_with_initials": {
+    "choice": "Unnamed: 2",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 1.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "employee_code": {
+    "choice": "Unnamed: 3",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 1.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "driver_mobile": {
+    "choice": "Contact",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 1.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "emergency_contact": {
+    "choice": "Unnamed: 5",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 1.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "basic_salary": {
+    "choice": "Pay (Sep)",
+    "confidence": 0.64,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.66,
+      "Unnamed: 7": 0.11,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.01,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.22
+    }
+  },
+  "allowance": {
+    "choice": "Unnamed: 7",
+    "confidence": 0.99,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.99,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.01
+    }
+  },
+  "overtime_hours": {
+    "choice": "Unnamed: 8",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 1.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "overtime_pay": {
+    "choice": "Unnamed: 9",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 1.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "gross_pay": {
+    "choice": "Unnamed: 10",
+    "confidence": 0.97,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.02,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.97,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.01
+    }
+  },
+  "date_of_birth": {
+    "choice": "Dates",
+    "confidence": 0.99,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.99,
+      "Unnamed: 12": 0.01,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "join_date": {
+    "choice": "Unnamed: 12",
+    "confidence": 0.98,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.01,
+      "Unnamed: 12": 0.98,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.01
+    }
+  },
+  "licence_expiry": {
+    "choice": "Unnamed: 13",
+    "confidence": 0.94,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.01,
+      "Unnamed: 13": 0.94,
+      "Vehicle": 0.02,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.03
+    }
+  },
+  "vehicle_number": {
+    "choice": "Vehicle",
+    "confidence": 1.0,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 1.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "vehicle_type": {
+    "choice": "Unnamed: 15",
+    "confidence": 0.99,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.01,
+      "Unnamed: 15": 0.99,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.0
+    }
+  },
+  "employment_type": {
+    "choice": "Status",
+    "confidence": 0.98,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.01,
+      "Status": 0.98,
+      "Unnamed: 17": 0.0,
+      "none": 0.01
+    }
+  },
+  "is_active": {
+    "choice": "Unnamed: 17",
+    "confidence": 0.95,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.0,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.0,
+      "Unnamed: 10": 0.0,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.04,
+      "Unnamed: 17": 0.95,
+      "none": 0.01
+    }
+  },
+  "net_pay": {
+    "choice": "none",
+    "confidence": 0.86,
+    "probabilities": {
+      "Unnamed: 0": 0.0,
+      "Driver": 0.0,
+      "Unnamed: 2": 0.0,
+      "Unnamed: 3": 0.0,
+      "Contact": 0.0,
+      "Unnamed: 5": 0.0,
+      "Pay (Sep)": 0.07,
+      "Unnamed: 7": 0.0,
+      "Unnamed: 8": 0.0,
+      "Unnamed: 9": 0.01,
+      "Unnamed: 10": 0.05,
+      "Dates": 0.0,
+      "Unnamed: 12": 0.0,
+      "Unnamed: 13": 0.0,
+      "Vehicle": 0.0,
+      "Unnamed: 15": 0.0,
+      "Status": 0.0,
+      "Unnamed: 17": 0.0,
+      "none": 0.87
+    }
+  }
+}
+latency=494ms  input_tokens=9770  output_tokens=3709
+
+OK sheet_row_number  expected=Unnamed: 0     picked=Unnamed: 0
+OK driver_name       expected=Driver         picked=Driver
+OK name_with_initials expected=Unnamed: 2     picked=Unnamed: 2
+OK employee_code     expected=Unnamed: 3     picked=Unnamed: 3
+OK driver_mobile     expected=Contact        picked=Contact
+OK emergency_contact expected=Unnamed: 5     picked=Unnamed: 5
+OK basic_salary      expected=Pay (Sep)      picked=Pay (Sep)
+OK allowance         expected=Unnamed: 7     picked=Unnamed: 7
+OK overtime_hours    expected=Unnamed: 8     picked=Unnamed: 8
+OK overtime_pay      expected=Unnamed: 9     picked=Unnamed: 9
+OK gross_pay         expected=Unnamed: 10    picked=Unnamed: 10
+OK date_of_birth     expected=Dates          picked=Dates
+OK join_date         expected=Unnamed: 12    picked=Unnamed: 12
+OK licence_expiry    expected=Unnamed: 13    picked=Unnamed: 13
+OK vehicle_number    expected=Vehicle        picked=Vehicle
+OK vehicle_type      expected=Unnamed: 15    picked=Unnamed: 15
+OK employment_type   expected=Status         picked=Status
+OK is_active         expected=Unnamed: 17    picked=Unnamed: 17
+OK net_pay           expected=none           picked=none
+
+right    = 19/19

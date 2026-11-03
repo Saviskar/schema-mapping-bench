@@ -1,0 +1,73 @@
+model    = ollama-mimo
+csv      = data/04_regional_sales_summary__totals_mismatch_coarse_bad_categories.csv
+target   = targets/regional_revenue_report.json
+expected = expected/04_regional_sales_summary__totals_mismatch_coarse_bad_categories.regional_revenue_report.json
+time     = 2026-10-26_12-22-30
+args     = 
+
+{
+  "region": {
+    "choice": "Region",
+    "confidence": 0.99
+  },
+  "product_category": {
+    "choice": "Category",
+    "confidence": 0.99
+  },
+  "q1_revenue": {
+    "choice": "Q1",
+    "confidence": 0.99
+  },
+  "q2_revenue": {
+    "choice": "Q2",
+    "confidence": 0.99
+  },
+  "q3_revenue": {
+    "choice": "Q3",
+    "confidence": 0.99
+  },
+  "q4_revenue": {
+    "choice": "Q4",
+    "confidence": 0.99
+  },
+  "full_year_revenue": {
+    "choice": "FY Total",
+    "confidence": 0.99
+  },
+  "yoy_growth_pct": {
+    "choice": "YoY %",
+    "confidence": 0.99
+  },
+  "analyst_notes": {
+    "choice": "Notes",
+    "confidence": 0.98
+  },
+  "currency": {
+    "choice": "none",
+    "confidence": 0.99
+  },
+  "monthly_revenue": {
+    "choice": "none",
+    "confidence": 0.99
+  },
+  "store_code": {
+    "choice": "none",
+    "confidence": 0.99
+  }
+}
+latency=25805ms  input_tokens=1040  output_tokens=490
+
+OK region            expected=Region         picked=Region
+OK product_category  expected=Category       picked=Category
+OK q1_revenue        expected=Q1             picked=Q1
+OK q2_revenue        expected=Q2             picked=Q2
+OK q3_revenue        expected=Q3             picked=Q3
+OK q4_revenue        expected=Q4             picked=Q4
+OK full_year_revenue expected=FY Total       picked=FY Total
+OK yoy_growth_pct    expected=YoY %          picked=YoY %
+OK analyst_notes     expected=Notes          picked=Notes
+OK currency          expected=none           picked=none
+OK monthly_revenue   expected=none           picked=none
+OK store_code        expected=none           picked=none
+
+right    = 12/12

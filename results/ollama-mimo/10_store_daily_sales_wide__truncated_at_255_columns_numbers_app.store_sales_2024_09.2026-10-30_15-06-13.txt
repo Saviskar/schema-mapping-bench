@@ -1,0 +1,88 @@
+model    = ollama-mimo
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_09.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_09.json
+time     = 2026-10-30_15-06-13
+args     = 
+
+{
+  "store_code": {
+    "choice": "Store Code",
+    "confidence": 1.0
+  },
+  "store_name": {
+    "choice": "Store Name",
+    "confidence": 1.0
+  },
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0
+  },
+  "sales_2024_09_01": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_02": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_03": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_04": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_05": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_06": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_07": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_08": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_09": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_09_30": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "sales_2024_12_31": {
+    "choice": "none",
+    "confidence": 1.0
+  },
+  "full_year_total": {
+    "choice": "none",
+    "confidence": 1.0
+  }
+}
+latency=204215ms  input_tokens=30787  output_tokens=385
+
+OK store_code        expected=Store Code     picked=Store Code
+OK store_name        expected=Store Name     picked=Store Name
+OK region            expected=Region         picked=Region
+x  sales_2024_09_01  expected=20240901       picked=none
+x  sales_2024_09_02  expected=20240902       picked=none
+x  sales_2024_09_03  expected=20240903       picked=none
+x  sales_2024_09_04  expected=20240904       picked=none
+x  sales_2024_09_05  expected=20240905       picked=none
+x  sales_2024_09_06  expected=20240906       picked=none
+x  sales_2024_09_07  expected=20240907       picked=none
+x  sales_2024_09_08  expected=20240908       picked=none
+OK sales_2024_09_09  expected=none           picked=none
+OK sales_2024_09_30  expected=none           picked=none
+OK sales_2024_12_31  expected=none           picked=none
+OK full_year_total   expected=none           picked=none
+
+right    = 7/15

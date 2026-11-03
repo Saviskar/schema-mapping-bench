@@ -1,0 +1,149 @@
+model    = ollama-qwen
+csv      = data/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.csv
+target   = targets/purchase_order_tracker.json
+expected = expected/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.purchase_order_tracker.json
+time     = 2026-10-26_20-17-40
+args     = 
+
+{
+  "export_row_index": {
+    "choice": "Unnamed: 0",
+    "confidence": 0.7
+  },
+  "po_number": {
+    "choice": "DOC",
+    "confidence": 0.7
+  },
+  "line_item": {
+    "choice": "ITM",
+    "confidence": 0.9
+  },
+  "vendor_id": {
+    "choice": "LIFNR",
+    "confidence": 0.9
+  },
+  "buyer_name": {
+    "choice": "none",
+    "confidence": 0.0
+  },
+  "vendor_name": {
+    "choice": "Name",
+    "confidence": 0.6
+  },
+  "material_code": {
+    "choice": "MAT",
+    "confidence": 0.8
+  },
+  "material_description": {
+    "choice": "MAT",
+    "confidence": 0.8
+  },
+  "order_qty": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "unit_of_measure": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "line_total": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "unit_price": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "vat_amount": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "currency": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "po_date": {
+    "choice": "Date_",
+    "confidence": 0.8
+  },
+  "requested_delivery_date": {
+    "choice": "Date_",
+    "confidence": 0.8
+  },
+  "goods_receipt_date": {
+    "choice": "Date_",
+    "confidence": 0.8
+  },
+  "received_qty": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "plant": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "line_status": {
+    "choice": "STAT",
+    "confidence": 0.7
+  },
+  "payment_terms": {
+    "choice": "Unnamed: 20",
+    "confidence": 0.6
+  },
+  "discount_pct": {
+    "choice": "Price",
+    "confidence": 0.7
+  },
+  "urgent_flag": {
+    "choice": "Column1",
+    "confidence": 0.5
+  },
+  "vendor_invoice_no": {
+    "choice": "REF",
+    "confidence": 0.7
+  },
+  "requisition_no": {
+    "choice": "REF",
+    "confidence": 0.7
+  },
+  "remarks": {
+    "choice": "Column1",
+    "confidence": 0.5
+  },
+  "line_value_usd": {
+    "choice": "Price",
+    "confidence": 0.7
+  }
+}
+latency=291565ms  input_tokens=3238  output_tokens=3937
+
+OK export_row_index  expected=Unnamed: 0     picked=Unnamed: 0
+OK po_number         expected=DOC            picked=DOC
+OK line_item         expected=ITM            picked=ITM
+OK vendor_id         expected=LIFNR          picked=LIFNR
+x  buyer_name        expected=Vendor         picked=none
+OK vendor_name       expected=Name           picked=Name
+OK material_code     expected=MAT            picked=MAT
+x  material_description expected=Description    picked=MAT
+x  order_qty         expected=ප්‍රමාණය       picked=Price
+x  unit_of_measure   expected=UoM            picked=Price
+OK line_total        expected=Price          picked=Price
+x  unit_price        expected=Amount         picked=Price
+x  vat_amount        expected=Value (USD)    picked=Price
+x  currency          expected=CUR            picked=Price
+x  po_date           expected=DT             picked=Date_
+x  requested_delivery_date expected=தேதி           picked=Date_
+OK goods_receipt_date expected=Date_          picked=Date_
+x  received_qty      expected=Recv
+Qty       picked=Price
+x  plant             expected=WERKS          picked=Price
+OK line_status       expected=STAT           picked=STAT
+OK payment_terms     expected=Unnamed: 20    picked=Unnamed: 20
+x  discount_pct      expected=2              picked=Price
+x  urgent_flag       expected=x              picked=Column1
+OK vendor_invoice_no expected=REF            picked=REF
+x  requisition_no    expected=REF.1          picked=REF
+OK remarks           expected=Column1        picked=Column1
+x  line_value_usd    expected=none           picked=Price
+
+right    = 12/27

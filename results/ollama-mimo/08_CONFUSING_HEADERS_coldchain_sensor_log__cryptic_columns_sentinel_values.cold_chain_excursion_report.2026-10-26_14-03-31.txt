@@ -1,0 +1,83 @@
+model    = ollama-mimo
+csv      = data/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.csv
+target   = targets/cold_chain_excursion_report.json
+expected = expected/08_CONFUSING_HEADERS_coldchain_sensor_log__cryptic_columns_sentinel_values.cold_chain_excursion_report.json
+time     = 2026-10-26_14-03-31
+args     = 
+
+{
+  "reading_seq": {
+    "choice": "id",
+    "confidence": 0.95
+  },
+  "logger_id": {
+    "choice": "dev",
+    "confidence": 0.95
+  },
+  "reading_time": {
+    "choice": "t",
+    "confidence": 0.95
+  },
+  "air_temperature": {
+    "choice": "v1",
+    "confidence": 0.75
+  },
+  "humidity": {
+    "choice": "v2",
+    "confidence": 0.7
+  },
+  "battery_voltage": {
+    "choice": "v3",
+    "confidence": 0.65
+  },
+  "signal_strength": {
+    "choice": "s",
+    "confidence": 0.9
+  },
+  "status_flags": {
+    "choice": "f",
+    "confidence": 0.85
+  },
+  "gps_position": {
+    "choice": "loc",
+    "confidence": 0.85
+  },
+  "shipment_ref": {
+    "choice": "ref",
+    "confidence": 0.85
+  },
+  "firmware_version": {
+    "choice": "fw",
+    "confidence": 0.8
+  },
+  "product_core_temperature": {
+    "choice": "z",
+    "confidence": 0.6
+  },
+  "operator_alarm_mark": {
+    "choice": "none",
+    "confidence": 0.9
+  },
+  "ambient_temperature": {
+    "choice": "none",
+    "confidence": 0.9
+  }
+}
+latency=80088ms  input_tokens=1499  output_tokens=1671
+
+OK reading_seq       expected=id             picked=id
+OK logger_id         expected=dev            picked=dev
+OK reading_time      expected=t              picked=t
+OK air_temperature   expected=v1             picked=v1
+OK humidity          expected=v2             picked=v2
+OK battery_voltage   expected=v3             picked=v3
+OK signal_strength   expected=s              picked=s
+OK status_flags      expected=f              picked=f
+OK gps_position      expected=loc            picked=loc
+OK shipment_ref      expected=ref            picked=ref
+OK firmware_version  expected=fw             picked=fw
+OK product_core_temperature expected=z              picked=z
+OK operator_alarm_mark expected=Unnamed: 12|none picked=none
+OK ambient_temperature expected=none           picked=none
+
+right    = 14/14

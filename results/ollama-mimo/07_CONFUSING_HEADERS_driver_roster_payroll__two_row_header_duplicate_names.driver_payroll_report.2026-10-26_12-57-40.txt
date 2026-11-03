@@ -1,0 +1,108 @@
+model    = ollama-mimo
+csv      = data/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.csv
+target   = targets/driver_payroll_report.json
+expected = expected/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.driver_payroll_report.json
+time     = 2026-10-26_12-57-40
+args     = 
+
+{
+  "sheet_row_number": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "driver_name": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "name_with_initials": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "employee_code": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "driver_mobile": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "emergency_contact": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "basic_salary": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "allowance": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "overtime_hours": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "overtime_pay": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "gross_pay": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "date_of_birth": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "join_date": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "licence_expiry": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vehicle_number": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vehicle_type": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "employment_type": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "is_active": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "net_pay": {
+    "choice": "invalid",
+    "confidence": 0.0
+  }
+}
+latency=114664ms  input_tokens=2459  output_tokens=1637
+
+x  sheet_row_number  expected=Unnamed: 0     picked=invalid
+x  driver_name       expected=Driver         picked=invalid
+x  name_with_initials expected=Unnamed: 2     picked=invalid
+x  employee_code     expected=Unnamed: 3     picked=invalid
+x  driver_mobile     expected=Contact        picked=invalid
+x  emergency_contact expected=Unnamed: 5     picked=invalid
+x  basic_salary      expected=Pay (Sep)      picked=invalid
+x  allowance         expected=Unnamed: 7     picked=invalid
+x  overtime_hours    expected=Unnamed: 8     picked=invalid
+x  overtime_pay      expected=Unnamed: 9     picked=invalid
+x  gross_pay         expected=Unnamed: 10    picked=invalid
+x  date_of_birth     expected=Dates          picked=invalid
+x  join_date         expected=Unnamed: 12    picked=invalid
+x  licence_expiry    expected=Unnamed: 13    picked=invalid
+x  vehicle_number    expected=Vehicle        picked=invalid
+x  vehicle_type      expected=Unnamed: 15    picked=invalid
+x  employment_type   expected=Status         picked=invalid
+x  is_active         expected=Unnamed: 17    picked=invalid
+x  net_pay           expected=none           picked=invalid
+
+right    = 0/19

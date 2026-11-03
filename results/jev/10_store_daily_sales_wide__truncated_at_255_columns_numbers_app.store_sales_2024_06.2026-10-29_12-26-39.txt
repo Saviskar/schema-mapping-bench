@@ -1,0 +1,359 @@
+model    = jev
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_06.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_06.json
+time     = 2026-10-29_12-26-39
+args     = 
+
+{
+  "store_code": {
+    "choice": "Store Code",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Code": 1.0,
+      "none": 0.0
+    }
+  },
+  "store_name": {
+    "choice": "Store Name",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Name": 1.0,
+      "none": 0.0
+    }
+  },
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 1.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_01": {
+    "choice": "Jun 1",
+    "confidence": 0.98,
+    "probabilities": {
+      "Jun 1": 0.99,
+      "7/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_02": {
+    "choice": "Jun 2",
+    "confidence": 0.99,
+    "probabilities": {
+      "04/02/2024": 0.0,
+      "Jun 2": 0.99,
+      "8/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_03": {
+    "choice": "Jun 3",
+    "confidence": 0.98,
+    "probabilities": {
+      "Jun 3": 0.99,
+      "9/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_04": {
+    "choice": "Jun 4",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/04/2024": 0.01,
+      "Jun 4": 0.98,
+      "10/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_05": {
+    "choice": "Jun 5",
+    "confidence": 1.0,
+    "probabilities": {
+      "04/05/2024": 0.0,
+      "Jun 5": 1.0,
+      "11/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_06": {
+    "choice": "Jun 6",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/06/2024": 0.01,
+      "Jun 6": 0.98,
+      "12/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_07": {
+    "choice": "Jun 7",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/07/2024": 0.01,
+      "Jun 7": 0.98,
+      "14/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_08": {
+    "choice": "Jun 8",
+    "confidence": 0.95,
+    "probabilities": {
+      "04/08/2024": 0.03,
+      "Jun 8": 0.96,
+      "08.07.": 0.0,
+      "14/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_09": {
+    "choice": "Jun 9",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/09/2024": 0.01,
+      "Jun 9": 0.98,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_10": {
+    "choice": "Jun 10",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/10/2024": 0.02,
+      "Jun 10": 0.98,
+      "10/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_11": {
+    "choice": "Jun 11",
+    "confidence": 0.96,
+    "probabilities": {
+      "04/11/2024": 0.02,
+      "Jun 11": 0.97,
+      "11/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_12": {
+    "choice": "Jun 12",
+    "confidence": 0.99,
+    "probabilities": {
+      "04/12/2024": 0.01,
+      "Jun 12": 0.99,
+      "12/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_13": {
+    "choice": "Jun 13",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/13/2024": 0.01,
+      "Jun 13": 0.98,
+      "13/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_14": {
+    "choice": "Jun 14",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/14/2024": 0.01,
+      "Jun 14": 0.98,
+      "14/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_15": {
+    "choice": "Jun 15",
+    "confidence": 0.97,
+    "probabilities": {
+      "04/15/2024": 0.01,
+      "Jun 15": 0.98,
+      "15/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_16": {
+    "choice": "Jun 16",
+    "confidence": 0.99,
+    "probabilities": {
+      "04/16/2024": 0.01,
+      "Jun 16": 0.99,
+      "16/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_17": {
+    "choice": "Jun 17",
+    "confidence": 0.99,
+    "probabilities": {
+      "Jun 17": 0.99,
+      "17.07.": 0.0,
+      "17/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_18": {
+    "choice": "Jun 18",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 18": 1.0,
+      "18/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_19": {
+    "choice": "Jun 19",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 19": 1.0,
+      "19.07.": 0.0,
+      "19/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_20": {
+    "choice": "Jun 20",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 20": 1.0,
+      "20/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_21": {
+    "choice": "Jun 21",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 21": 1.0,
+      "21/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_22": {
+    "choice": "Jun 22",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 22": 1.0,
+      "22/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_23": {
+    "choice": "Jun 23",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 23": 1.0,
+      "23.07.": 0.0,
+      "23/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_24": {
+    "choice": "Jun 24",
+    "confidence": 0.98,
+    "probabilities": {
+      "Jun 24": 0.99,
+      "24/8": 0.0,
+      "none": 0.01
+    }
+  },
+  "sales_2024_06_25": {
+    "choice": "Jun 25",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 25": 1.0,
+      "25.07.": 0.0,
+      "25/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_26": {
+    "choice": "Jun 26",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 26": 1.0,
+      "26.07.": 0.0,
+      "26/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_27": {
+    "choice": "Jun 27",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 27": 1.0,
+      "27/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_28": {
+    "choice": "Jun 28",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 28": 1.0,
+      "28/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_29": {
+    "choice": "Jun 29",
+    "confidence": 1.0,
+    "probabilities": {
+      "Jun 29": 1.0,
+      "29.07.": 0.0,
+      "29/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_06_30": {
+    "choice": "none",
+    "confidence": 0.74,
+    "probabilities": {
+      "30/8": 0.13,
+      "none": 0.87
+    }
+  }
+}
+latency=4237ms  input_tokens=270701  output_tokens=117240
+
+OK store_code        expected=Store Code     picked=Store Code
+OK store_name        expected=Store Name     picked=Store Name
+OK region            expected=Region         picked=Region
+OK sales_2024_06_01  expected=Jun 1          picked=Jun 1
+OK sales_2024_06_02  expected=Jun 2          picked=Jun 2
+OK sales_2024_06_03  expected=Jun 3          picked=Jun 3
+OK sales_2024_06_04  expected=Jun 4          picked=Jun 4
+OK sales_2024_06_05  expected=Jun 5          picked=Jun 5
+OK sales_2024_06_06  expected=Jun 6          picked=Jun 6
+OK sales_2024_06_07  expected=Jun 7          picked=Jun 7
+OK sales_2024_06_08  expected=Jun 8          picked=Jun 8
+OK sales_2024_06_09  expected=Jun 9          picked=Jun 9
+OK sales_2024_06_10  expected=Jun 10         picked=Jun 10
+OK sales_2024_06_11  expected=Jun 11         picked=Jun 11
+OK sales_2024_06_12  expected=Jun 12         picked=Jun 12
+OK sales_2024_06_13  expected=Jun 13         picked=Jun 13
+OK sales_2024_06_14  expected=Jun 14         picked=Jun 14
+OK sales_2024_06_15  expected=Jun 15         picked=Jun 15
+OK sales_2024_06_16  expected=Jun 16         picked=Jun 16
+OK sales_2024_06_17  expected=Jun 17         picked=Jun 17
+OK sales_2024_06_18  expected=Jun 18         picked=Jun 18
+OK sales_2024_06_19  expected=Jun 19         picked=Jun 19
+OK sales_2024_06_20  expected=Jun 20         picked=Jun 20
+OK sales_2024_06_21  expected=Jun 21         picked=Jun 21
+OK sales_2024_06_22  expected=Jun 22         picked=Jun 22
+OK sales_2024_06_23  expected=Jun 23         picked=Jun 23
+OK sales_2024_06_24  expected=Jun 24         picked=Jun 24
+OK sales_2024_06_25  expected=Jun 25         picked=Jun 25
+OK sales_2024_06_26  expected=Jun 26         picked=Jun 26
+OK sales_2024_06_27  expected=Jun 27         picked=Jun 27
+OK sales_2024_06_28  expected=Jun 28         picked=Jun 28
+OK sales_2024_06_29  expected=Jun 29         picked=Jun 29
+OK sales_2024_06_30  expected=none           picked=none
+
+right    = 33/33

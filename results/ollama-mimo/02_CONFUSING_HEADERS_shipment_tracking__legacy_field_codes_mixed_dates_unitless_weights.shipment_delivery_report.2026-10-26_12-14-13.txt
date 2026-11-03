@@ -1,0 +1,88 @@
+model    = ollama-mimo
+csv      = data/02_CONFUSING_HEADERS_shipment_tracking__legacy_field_codes_mixed_dates_unitless_weights.csv
+target   = targets/shipment_delivery_report.json
+expected = expected/02_CONFUSING_HEADERS_shipment_tracking__legacy_field_codes_mixed_dates_unitless_weights.shipment_delivery_report.json
+time     = 2026-10-26_12-14-13
+args     = 
+
+{
+  "shipment_id": {
+    "choice": "SHKEY",
+    "confidence": 0.95
+  },
+  "sales_order_ref": {
+    "choice": "SHREF",
+    "confidence": 0.7
+  },
+  "origin_hub": {
+    "choice": "SHLOC1",
+    "confidence": 0.6
+  },
+  "destination_city": {
+    "choice": "SHLOC2  ",
+    "confidence": 0.4
+  },
+  "carrier": {
+    "choice": "SHVND",
+    "confidence": 0.9
+  },
+  "ship_date": {
+    "choice": "SHDT1",
+    "confidence": 0.9
+  },
+  "estimated_arrival": {
+    "choice": "SHDT2",
+    "confidence": 0.85
+  },
+  "delivered_at": {
+    "choice": "SHDT3",
+    "confidence": 0.8
+  },
+  "gross_weight": {
+    "choice": "SHQTY",
+    "confidence": 0.7
+  },
+  "parcel_dimensions": {
+    "choice": "SHSIZ",
+    "confidence": 0.85
+  },
+  "lane_distance": {
+    "choice": "SHMTR",
+    "confidence": 0.7
+  },
+  "freight_cost": {
+    "choice": "none",
+    "confidence": 0.05
+  },
+  "status": {
+    "choice": "SHSTS ",
+    "confidence": 0.9
+  },
+  "goods_value": {
+    "choice": "SHVAL",
+    "confidence": 0.75
+  },
+  "item_count": {
+    "choice": "none",
+    "confidence": 0.05
+  }
+}
+latency=34413ms  input_tokens=1776  output_tokens=722
+
+OK shipment_id       expected=SHKEY          picked=SHKEY
+OK sales_order_ref   expected=SHREF          picked=SHREF
+OK origin_hub        expected=SHLOC1         picked=SHLOC1
+OK destination_city  expected=SHLOC2         picked=SHLOC2  
+OK carrier           expected=SHVND          picked=SHVND
+OK ship_date         expected=SHDT1          picked=SHDT1
+OK estimated_arrival expected=SHDT2          picked=SHDT2
+OK delivered_at      expected=SHDT3          picked=SHDT3
+OK gross_weight      expected=SHQTY          picked=SHQTY
+OK parcel_dimensions expected=SHSIZ          picked=SHSIZ
+OK lane_distance     expected=SHMTR          picked=SHMTR
+x  freight_cost      expected=SHVAL          picked=none
+OK status            expected=SHSTS          picked=SHSTS 
+x  goods_value       expected=none           picked=SHVAL
+OK item_count        expected=none           picked=none
+
+right    = 13/15

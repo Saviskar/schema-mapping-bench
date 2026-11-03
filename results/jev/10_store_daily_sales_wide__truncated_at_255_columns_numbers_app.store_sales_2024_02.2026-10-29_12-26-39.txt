@@ -1,0 +1,369 @@
+model    = jev
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_02.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_02.json
+time     = 2026-10-29_12-26-39
+args     = 
+
+{
+  "store_code": {
+    "choice": "Store Code",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Code": 1.0,
+      "none": 0.0
+    }
+  },
+  "store_name": {
+    "choice": "Store Name",
+    "confidence": 1.0,
+    "probabilities": {
+      "Store Name": 1.0,
+      "none": 0.0
+    }
+  },
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0,
+    "probabilities": {
+      "Region": 1.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_01": {
+    "choice": "1-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "1-Feb-24": 1.0,
+      "1/8": 0.0,
+      "7/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_02": {
+    "choice": "2-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "2-Feb-24": 1.0,
+      "04/02/2024": 0.0,
+      "2/8": 0.0,
+      "8/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_03": {
+    "choice": "3-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "3-Feb-24": 1.0,
+      "9/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_04": {
+    "choice": "4-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "4-Feb-24": 1.0,
+      "04/04/2024": 0.0,
+      "4/8": 0.0,
+      "10/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_05": {
+    "choice": "5-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "5-Feb-24": 1.0,
+      "04/05/2024": 0.0,
+      "02/05/2024": 0.0,
+      "05.07.": 0.0,
+      "11/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_06": {
+    "choice": "6-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "6-Feb-24": 1.0,
+      "13/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_07": {
+    "choice": "7-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "7-Feb-24": 1.0,
+      "04/07/2024": 0.0,
+      "07.07.": 0.0,
+      "14/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_08": {
+    "choice": "8-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "8-Feb-24": 1.0,
+      "04/08/2024": 0.0,
+      "08.07.": 0.0,
+      "14/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_09": {
+    "choice": "9-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "9-Feb-24": 1.0,
+      "04/09/2024": 0.0,
+      "09.07.": 0.0,
+      "19/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_10": {
+    "choice": "10-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "10-Feb-24": 1.0,
+      "04/10/2024": 0.0,
+      "10.07.": 0.0,
+      "10/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_11": {
+    "choice": "11-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "11-Feb-24": 1.0,
+      "04/11/2024": 0.0,
+      "11.07.": 0.0,
+      "11/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_12": {
+    "choice": "12-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "12-Feb-24": 1.0,
+      "04/12/2024": 0.0,
+      "12.07.": 0.0,
+      "12/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_13": {
+    "choice": "13-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "13-Feb-24": 1.0,
+      "04/13/2024": 0.0,
+      "13.07.": 0.0,
+      "13/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_14": {
+    "choice": "14-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "14-Feb-24": 1.0,
+      "04/14/2024": 0.0,
+      "14.07.": 0.0,
+      "14/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_15": {
+    "choice": "15-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "15-Feb-24": 1.0,
+      "04/15/2024": 0.0,
+      "15.07.": 0.0,
+      "15/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_16": {
+    "choice": "16-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "16-Feb-24": 1.0,
+      "04/16/2024": 0.0,
+      "16.07.": 0.0,
+      "16/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_17": {
+    "choice": "17-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "17-Feb-24": 1.0,
+      "17.07.": 0.0,
+      "17/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_18": {
+    "choice": "18-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "18-Feb-24": 1.0,
+      "18.07.": 0.0,
+      "18/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_19": {
+    "choice": "19-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "19-Feb-24": 1.0,
+      "19.07.": 0.0,
+      "19/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_20": {
+    "choice": "20-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "20-Feb-24": 1.0,
+      "20.07.": 0.0,
+      "20/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_21": {
+    "choice": "21-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "21-Feb-24": 1.0,
+      "21.07.": 0.0,
+      "21/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_22": {
+    "choice": "22-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "22-Feb-24": 1.0,
+      "22.07.": 0.0,
+      "22/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_23": {
+    "choice": "23-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "23-Feb-24": 1.0,
+      "23.07.": 0.0,
+      "23/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_24": {
+    "choice": "24-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "24-Feb-24": 1.0,
+      "24/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_25": {
+    "choice": "25-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "25-Feb-24": 1.0,
+      "25.07.": 0.0,
+      "25/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_26": {
+    "choice": "26-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "26-Feb-24": 1.0,
+      "26.07.": 0.0,
+      "26/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_27": {
+    "choice": "27-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "27-Feb-24": 1.0,
+      "27.07.": 0.0,
+      "27/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_28": {
+    "choice": "28-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "28-Feb-24": 1.0,
+      "28/8": 0.0,
+      "none": 0.0
+    }
+  },
+  "sales_2024_02_29": {
+    "choice": "29-Feb-24",
+    "confidence": 1.0,
+    "probabilities": {
+      "29-Feb-24": 1.0,
+      "29.07.": 0.0,
+      "29/8": 0.0,
+      "none": 0.0
+    }
+  }
+}
+latency=4266ms  input_tokens=266834  output_tokens=114182
+
+OK store_code        expected=Store Code     picked=Store Code
+OK store_name        expected=Store Name     picked=Store Name
+OK region            expected=Region         picked=Region
+OK sales_2024_02_01  expected=1-Feb-24       picked=1-Feb-24
+OK sales_2024_02_02  expected=2-Feb-24       picked=2-Feb-24
+OK sales_2024_02_03  expected=3-Feb-24       picked=3-Feb-24
+OK sales_2024_02_04  expected=4-Feb-24       picked=4-Feb-24
+OK sales_2024_02_05  expected=5-Feb-24       picked=5-Feb-24
+OK sales_2024_02_06  expected=6-Feb-24       picked=6-Feb-24
+OK sales_2024_02_07  expected=7-Feb-24       picked=7-Feb-24
+OK sales_2024_02_08  expected=8-Feb-24       picked=8-Feb-24
+OK sales_2024_02_09  expected=9-Feb-24       picked=9-Feb-24
+OK sales_2024_02_10  expected=10-Feb-24      picked=10-Feb-24
+OK sales_2024_02_11  expected=11-Feb-24      picked=11-Feb-24
+OK sales_2024_02_12  expected=12-Feb-24      picked=12-Feb-24
+OK sales_2024_02_13  expected=13-Feb-24      picked=13-Feb-24
+OK sales_2024_02_14  expected=14-Feb-24      picked=14-Feb-24
+OK sales_2024_02_15  expected=15-Feb-24      picked=15-Feb-24
+OK sales_2024_02_16  expected=16-Feb-24      picked=16-Feb-24
+OK sales_2024_02_17  expected=17-Feb-24      picked=17-Feb-24
+OK sales_2024_02_18  expected=18-Feb-24      picked=18-Feb-24
+OK sales_2024_02_19  expected=19-Feb-24      picked=19-Feb-24
+OK sales_2024_02_20  expected=20-Feb-24      picked=20-Feb-24
+OK sales_2024_02_21  expected=21-Feb-24      picked=21-Feb-24
+OK sales_2024_02_22  expected=22-Feb-24      picked=22-Feb-24
+OK sales_2024_02_23  expected=23-Feb-24      picked=23-Feb-24
+OK sales_2024_02_24  expected=24-Feb-24      picked=24-Feb-24
+OK sales_2024_02_25  expected=25-Feb-24      picked=25-Feb-24
+OK sales_2024_02_26  expected=26-Feb-24      picked=26-Feb-24
+OK sales_2024_02_27  expected=27-Feb-24      picked=27-Feb-24
+OK sales_2024_02_28  expected=28-Feb-24      picked=28-Feb-24
+OK sales_2024_02_29  expected=29-Feb-24      picked=29-Feb-24
+
+right    = 32/32

@@ -1,0 +1,93 @@
+model    = ollama-deepseek
+csv      = data/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.csv
+target   = targets/product_margin_report.json
+expected = expected/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.product_margin_report.json
+time     = 2026-10-27_18-49-17
+args     = 
+
+{
+  "sku": {
+    "choice": "ATTR_410",
+    "confidence": 100.55887
+  },
+  "barcode": {
+    "choice": "none",
+    "confidence": 150.700208970761
+  },
+  "product_name": {
+    "choice": "ATTR_305",
+    "confidence": 301968120924076
+  },
+  "brand": {
+    "choice": "ATTR_102@en_LK",
+    "confidence": 0
+  },
+  "category": {
+    "choice": "ATTR_101",
+    "confidence": -8077196000
+  },
+  "sub_category": {
+    "choice": "ATTR_305",
+    "confidence": 322099
+  },
+  "pack_size": {
+    "choice": "ATTR_230",
+    "confidence": 727.018888524738
+  },
+  "selling_price": {
+    "choice": "ATTR_102@en_LK",
+    "confidence": 0.5
+  },
+  "unit_cost": {
+    "choice": "none",
+    "confidence": 1.2401
+  },
+  "launch_date": {
+    "choice": "ATTR_512",
+    "confidence": 12.75508
+  },
+  "supplier_code": {
+    "choice": "none",
+    "confidence": 4.26
+  },
+  "hs_code": {
+    "choice": "ATTR_102@en_LK",
+    "confidence": 35
+  },
+  "size_variant": {
+    "choice": "ATTR_118_1",
+    "confidence": 779.9756400903985
+  },
+  "lifecycle_status": {
+    "choice": "ATTR_230",
+    "confidence": 2507780136467
+  },
+  "price_currency": {
+    "choice": "ATTR_305",
+    "confidence": 1684842211287375
+  },
+  "size_system": {
+    "choice": "ATTR_410",
+    "confidence": 12755445
+  }
+}
+latency=65118ms  input_tokens=1893  output_tokens=1232
+
+x  sku               expected=ATTR_101       picked=ATTR_410
+x  barcode           expected=ATTR_117       picked=none
+x  product_name      expected=ATTR_102@en_LK picked=ATTR_305
+x  brand             expected=ATTR_230       picked=ATTR_102@en_LK
+x  category          expected=ATTR_118       picked=ATTR_101
+x  sub_category      expected=ATTR_118_1     picked=ATTR_305
+x  pack_size         expected=ATTR_305       picked=ATTR_230
+x  selling_price     expected=ATTR_410       picked=ATTR_102@en_LK
+x  unit_cost         expected=ATTR_410_B     picked=none
+OK launch_date       expected=ATTR_512       picked=ATTR_512
+x  supplier_code     expected=ATTR_620       picked=none
+x  hs_code           expected=ATTR_621       picked=ATTR_102@en_LK
+x  size_variant      expected=ATTR_306       picked=ATTR_118_1
+x  lifecycle_status  expected=ATTR_900       picked=ATTR_230
+x  price_currency    expected=none           picked=ATTR_305
+x  size_system       expected=none           picked=ATTR_410
+
+right    = 1/16

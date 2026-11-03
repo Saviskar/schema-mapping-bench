@@ -1,0 +1,183 @@
+model    = ollama-mimo
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_08.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_08.json
+time     = 2026-10-28_13-54-15
+args     = 
+
+{
+  "store_code": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "store_name": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "region": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_01": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_02": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_03": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_04": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_05": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_06": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_07": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_08": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_09": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_10": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_11": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_12": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_13": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_14": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_15": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_16": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_17": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_18": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_19": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_20": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_21": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_22": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_23": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_24": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_25": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_26": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_27": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_28": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_29": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_30": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "sales_2024_08_31": {
+    "choice": "invalid",
+    "confidence": 0.0
+  }
+}
+latency=1369503ms  input_tokens=31380  output_tokens=9580
+
+x  store_code        expected=Store Code     picked=invalid
+x  store_name        expected=Store Name     picked=invalid
+x  region            expected=Region         picked=invalid
+x  sales_2024_08_01  expected=1/8            picked=invalid
+x  sales_2024_08_02  expected=2/8            picked=invalid
+x  sales_2024_08_03  expected=3/8            picked=invalid
+x  sales_2024_08_04  expected=4/8            picked=invalid
+x  sales_2024_08_05  expected=5/8            picked=invalid
+x  sales_2024_08_06  expected=6/8            picked=invalid
+x  sales_2024_08_07  expected=7/8            picked=invalid
+x  sales_2024_08_08  expected=8/8            picked=invalid
+x  sales_2024_08_09  expected=9/8            picked=invalid
+x  sales_2024_08_10  expected=10/8           picked=invalid
+x  sales_2024_08_11  expected=11/8           picked=invalid
+x  sales_2024_08_12  expected=12/8           picked=invalid
+x  sales_2024_08_13  expected=13/8           picked=invalid
+x  sales_2024_08_14  expected=14/8           picked=invalid
+x  sales_2024_08_15  expected=15/8           picked=invalid
+x  sales_2024_08_16  expected=16/8           picked=invalid
+x  sales_2024_08_17  expected=17/8           picked=invalid
+x  sales_2024_08_18  expected=18/8           picked=invalid
+x  sales_2024_08_19  expected=19/8           picked=invalid
+x  sales_2024_08_20  expected=20/8           picked=invalid
+x  sales_2024_08_21  expected=21/8           picked=invalid
+x  sales_2024_08_22  expected=22/8           picked=invalid
+x  sales_2024_08_23  expected=23/8           picked=invalid
+x  sales_2024_08_24  expected=24/8           picked=invalid
+x  sales_2024_08_25  expected=25/8           picked=invalid
+x  sales_2024_08_26  expected=26/8           picked=invalid
+x  sales_2024_08_27  expected=27/8           picked=invalid
+x  sales_2024_08_28  expected=28/8           picked=invalid
+x  sales_2024_08_29  expected=29/8           picked=invalid
+x  sales_2024_08_30  expected=30/8           picked=invalid
+x  sales_2024_08_31  expected=31/8           picked=invalid
+
+right    = 0/34

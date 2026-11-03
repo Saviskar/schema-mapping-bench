@@ -1,0 +1,149 @@
+model    = ollama-mimo
+csv      = data/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.csv
+target   = targets/purchase_order_tracker.json
+expected = expected/06_CONFUSING_HEADERS_erp_po_lines__cryptic_misleading_columns.purchase_order_tracker.json
+time     = 2026-10-26_12-49-37
+args     = 
+
+{
+  "export_row_index": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "po_number": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "line_item": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vendor_id": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "buyer_name": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vendor_name": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "material_code": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "material_description": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "order_qty": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "unit_of_measure": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "line_total": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "unit_price": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vat_amount": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "currency": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "po_date": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "requested_delivery_date": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "goods_receipt_date": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "received_qty": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "plant": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "line_status": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "payment_terms": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "discount_pct": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "urgent_flag": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "vendor_invoice_no": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "requisition_no": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "remarks": {
+    "choice": "invalid",
+    "confidence": 0.0
+  },
+  "line_value_usd": {
+    "choice": "invalid",
+    "confidence": 0.0
+  }
+}
+latency=72847ms  input_tokens=3231  output_tokens=865
+
+x  export_row_index  expected=Unnamed: 0     picked=invalid
+x  po_number         expected=DOC            picked=invalid
+x  line_item         expected=ITM            picked=invalid
+x  vendor_id         expected=LIFNR          picked=invalid
+x  buyer_name        expected=Vendor         picked=invalid
+x  vendor_name       expected=Name           picked=invalid
+x  material_code     expected=MAT            picked=invalid
+x  material_description expected=Description    picked=invalid
+x  order_qty         expected=ප්‍රමාණය       picked=invalid
+x  unit_of_measure   expected=UoM            picked=invalid
+x  line_total        expected=Price          picked=invalid
+x  unit_price        expected=Amount         picked=invalid
+x  vat_amount        expected=Value (USD)    picked=invalid
+x  currency          expected=CUR            picked=invalid
+x  po_date           expected=DT             picked=invalid
+x  requested_delivery_date expected=தேதி           picked=invalid
+x  goods_receipt_date expected=Date_          picked=invalid
+x  received_qty      expected=Recv
+Qty       picked=invalid
+x  plant             expected=WERKS          picked=invalid
+x  line_status       expected=STAT           picked=invalid
+x  payment_terms     expected=Unnamed: 20    picked=invalid
+x  discount_pct      expected=2              picked=invalid
+x  urgent_flag       expected=x              picked=invalid
+x  vendor_invoice_no expected=REF            picked=invalid
+x  requisition_no    expected=REF.1          picked=invalid
+x  remarks           expected=Column1        picked=invalid
+x  line_value_usd    expected=none           picked=invalid
+
+right    = 0/27

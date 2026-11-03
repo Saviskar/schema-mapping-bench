@@ -1,0 +1,83 @@
+model    = ollama-qwen
+csv      = data/09_pos_transactions__truncated_at_65536_rows_excel97_limit.csv
+target   = targets/pos_sales_report.json
+expected = expected/09_pos_transactions__truncated_at_65536_rows_excel97_limit.pos_sales_report.json
+time     = 2026-10-27_16-04-31
+args     = 
+
+{
+  "fiscal_period": {
+    "choice": "fiscal_period",
+    "confidence": 1.0
+  },
+  "transaction_id": {
+    "choice": "txn_id",
+    "confidence": 1.0
+  },
+  "line_position": {
+    "choice": "line",
+    "confidence": 0.8
+  },
+  "transaction_time": {
+    "choice": "txn_datetime",
+    "confidence": 1.0
+  },
+  "store": {
+    "choice": "store",
+    "confidence": 1.0
+  },
+  "cashier": {
+    "choice": "cashier",
+    "confidence": 1.0
+  },
+  "sku": {
+    "choice": "sku",
+    "confidence": 1.0
+  },
+  "quantity": {
+    "choice": "qty",
+    "confidence": 1.0
+  },
+  "unit_price": {
+    "choice": "unit_price",
+    "confidence": 1.0
+  },
+  "discount_amount": {
+    "choice": "discount",
+    "confidence": 0.7
+  },
+  "line_total": {
+    "choice": "line_total",
+    "confidence": 1.0
+  },
+  "payment_method": {
+    "choice": "payment_method",
+    "confidence": 1.0
+  },
+  "customer_phone": {
+    "choice": "customer_phone",
+    "confidence": 0.6
+  },
+  "customer_name": {
+    "choice": "none",
+    "confidence": 1.0
+  }
+}
+latency=72819ms  input_tokens=1766  output_tokens=1466
+
+OK fiscal_period     expected=fiscal_period  picked=fiscal_period
+OK transaction_id    expected=txn_id         picked=txn_id
+OK line_position     expected=line           picked=line
+OK transaction_time  expected=txn_datetime   picked=txn_datetime
+OK store             expected=store          picked=store
+OK cashier           expected=cashier        picked=cashier
+OK sku               expected=sku            picked=sku
+OK quantity          expected=qty            picked=qty
+OK unit_price        expected=unit_price     picked=unit_price
+OK discount_amount   expected=discount       picked=discount
+OK line_total        expected=line_total     picked=line_total
+OK payment_method    expected=payment_method picked=payment_method
+OK customer_phone    expected=customer_phone picked=customer_phone
+OK customer_name     expected=none           picked=none
+
+right    = 14/14

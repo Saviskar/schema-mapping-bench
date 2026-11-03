@@ -1,0 +1,68 @@
+model    = ollama-mimo
+csv      = data/03_warehouse_stock_daily__zeros_for_missing_gaps_suspicious_values.csv
+target   = targets/stock_replenishment_report.json
+expected = expected/03_warehouse_stock_daily__zeros_for_missing_gaps_suspicious_values.stock_replenishment_report.json
+time     = 2026-10-26_12-16-41
+args     = 
+
+{
+  "snapshot_date": {
+    "choice": "snapshot_date",
+    "confidence": 1.0
+  },
+  "warehouse_code": {
+    "choice": "WH",
+    "confidence": 1.0
+  },
+  "sku": {
+    "choice": "SKU",
+    "confidence": 1.0
+  },
+  "item_name": {
+    "choice": "Item Description",
+    "confidence": 1.0
+  },
+  "closing_stock": {
+    "choice": "On Hand",
+    "confidence": 1.0
+  },
+  "qty_received": {
+    "choice": "Inbound",
+    "confidence": 1.0
+  },
+  "qty_issued": {
+    "choice": "Outbound",
+    "confidence": 1.0
+  },
+  "reorder_level": {
+    "choice": "Reorder Lvl",
+    "confidence": 1.0
+  },
+  "last_count_time": {
+    "choice": "last_counted",
+    "confidence": 1.0
+  },
+  "counted_by": {
+    "choice": "Counted By",
+    "confidence": 1.0
+  },
+  "unit_of_measure": {
+    "choice": "none",
+    "confidence": 1.0
+  }
+}
+latency=28501ms  input_tokens=1374  output_tokens=463
+
+OK snapshot_date     expected=snapshot_date  picked=snapshot_date
+OK warehouse_code    expected=WH             picked=WH
+OK sku               expected=SKU            picked=SKU
+OK item_name         expected=Item Description picked=Item Description
+OK closing_stock     expected=On Hand        picked=On Hand
+OK qty_received      expected=Inbound        picked=Inbound
+OK qty_issued        expected=Outbound       picked=Outbound
+OK reorder_level     expected=Reorder Lvl    picked=Reorder Lvl
+OK last_count_time   expected=last_counted   picked=last_counted
+OK counted_by        expected=Counted By     picked=Counted By
+OK unit_of_measure   expected=none           picked=none
+
+right    = 11/11

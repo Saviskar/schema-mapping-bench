@@ -1,0 +1,365 @@
+model    = jev
+csv      = data/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.csv
+target   = targets/product_margin_report.json
+expected = expected/05_CONFUSING_HEADERS_product_catalog__opaque_attribute_ids_excel_mangled_codes.product_margin_report.json
+time     = 2026-10-28_01-34-18
+args     = 
+
+{
+  "sku": {
+    "choice": "ATTR_101",
+    "confidence": 0.86,
+    "probabilities": {
+      "ATTR_101": 0.87,
+      "ATTR_117": 0.01,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.01,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.11
+    }
+  },
+  "barcode": {
+    "choice": "ATTR_117",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 1.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "product_name": {
+    "choice": "ATTR_102@en_LK",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 1.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "brand": {
+    "choice": "ATTR_230",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 1.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "category": {
+    "choice": "ATTR_118",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 1.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "sub_category": {
+    "choice": "ATTR_118_1",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 1.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "pack_size": {
+    "choice": "ATTR_305",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 1.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "selling_price": {
+    "choice": "ATTR_410",
+    "confidence": 0.95,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.95,
+      "ATTR_410_B": 0.02,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.02,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.01
+    }
+  },
+  "unit_cost": {
+    "choice": "ATTR_410_B",
+    "confidence": 0.82,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.03,
+      "ATTR_410_B": 0.83,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.07,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.07
+    }
+  },
+  "launch_date": {
+    "choice": "ATTR_512",
+    "confidence": 0.99,
+    "probabilities": {
+      "ATTR_101": 0.01,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.99,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "supplier_code": {
+    "choice": "ATTR_620",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 1.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "hs_code": {
+    "choice": "none",
+    "confidence": 0.91,
+    "probabilities": {
+      "ATTR_101": 0.02,
+      "ATTR_117": 0.02,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.02,
+      "ATTR_621": 0.02,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.92
+    }
+  },
+  "size_variant": {
+    "choice": "ATTR_306",
+    "confidence": 0.99,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.01,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.99,
+      "ATTR_900": 0.0,
+      "none": 0.0
+    }
+  },
+  "lifecycle_status": {
+    "choice": "ATTR_900",
+    "confidence": 1.0,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.0,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 1.0,
+      "none": 0.0
+    }
+  },
+  "price_currency": {
+    "choice": "ATTR_410",
+    "confidence": 0.71,
+    "probabilities": {
+      "ATTR_101": 0.0,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.0,
+      "ATTR_410": 0.73,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.0,
+      "ATTR_306": 0.0,
+      "ATTR_900": 0.0,
+      "none": 0.27
+    }
+  },
+  "size_system": {
+    "choice": "none",
+    "confidence": 0.57,
+    "probabilities": {
+      "ATTR_101": 0.04,
+      "ATTR_117": 0.0,
+      "ATTR_102@en_LK": 0.0,
+      "ATTR_230": 0.0,
+      "ATTR_118": 0.0,
+      "ATTR_118_1": 0.0,
+      "ATTR_305": 0.01,
+      "ATTR_410": 0.01,
+      "ATTR_410_B": 0.0,
+      "ATTR_512": 0.0,
+      "ATTR_620": 0.0,
+      "ATTR_621": 0.02,
+      "ATTR_306": 0.32,
+      "ATTR_900": 0.0,
+      "none": 0.6
+    }
+  }
+}
+latency=482ms  input_tokens=7874  output_tokens=3008
+
+OK sku               expected=ATTR_101       picked=ATTR_101
+OK barcode           expected=ATTR_117       picked=ATTR_117
+OK product_name      expected=ATTR_102@en_LK picked=ATTR_102@en_LK
+OK brand             expected=ATTR_230       picked=ATTR_230
+OK category          expected=ATTR_118       picked=ATTR_118
+OK sub_category      expected=ATTR_118_1     picked=ATTR_118_1
+OK pack_size         expected=ATTR_305       picked=ATTR_305
+OK selling_price     expected=ATTR_410       picked=ATTR_410
+OK unit_cost         expected=ATTR_410_B     picked=ATTR_410_B
+OK launch_date       expected=ATTR_512       picked=ATTR_512
+OK supplier_code     expected=ATTR_620       picked=ATTR_620
+x  hs_code           expected=ATTR_621       picked=none
+OK size_variant      expected=ATTR_306       picked=ATTR_306
+OK lifecycle_status  expected=ATTR_900       picked=ATTR_900
+x  price_currency    expected=none           picked=ATTR_410
+OK size_system       expected=none           picked=none
+
+right    = 14/16

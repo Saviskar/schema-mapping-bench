@@ -1,0 +1,108 @@
+model    = ollama-deepseek
+csv      = data/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.csv
+target   = targets/driver_payroll_report.json
+expected = expected/07_CONFUSING_HEADERS_driver_roster_payroll__two_row_header_duplicate_names.driver_payroll_report.json
+time     = 2026-10-28_00-48-41
+args     = 
+
+{
+  "sheet_row_number": {
+    "choice": "none",
+    "confidence": 1502560024.8
+  },
+  "driver_name": {
+    "choice": "Contact",
+    "confidence": 355
+  },
+  "name_with_initials": {
+    "choice": "Status",
+    "confidence": 39165
+  },
+  "employee_code": {
+    "choice": "Dates",
+    "confidence": 1.6
+  },
+  "driver_mobile": {
+    "choice": "Status",
+    "confidence": -180
+  },
+  "emergency_contact": {
+    "choice": "none",
+    "confidence": -348558.5
+  },
+  "basic_salary": {
+    "choice": "Status",
+    "confidence": -1.565692465
+  },
+  "allowance": {
+    "choice": "Status",
+    "confidence": 10
+  },
+  "overtime_hours": {
+    "choice": "Contact",
+    "confidence": 128
+  },
+  "overtime_pay": {
+    "choice": "Status",
+    "confidence": 154
+  },
+  "gross_pay": {
+    "choice": "Contact",
+    "confidence": -1.00003207232485
+  },
+  "date_of_birth": {
+    "choice": "Unnamed: 10",
+    "confidence": 19.5004955
+  },
+  "join_date": {
+    "choice": "Driver",
+    "confidence": 800.11198
+  },
+  "licence_expiry": {
+    "choice": "Contact",
+    "confidence": 0
+  },
+  "vehicle_number": {
+    "choice": "Contact",
+    "confidence": -12099
+  },
+  "vehicle_type": {
+    "choice": "Pay (Sep)",
+    "confidence": -1.58
+  },
+  "employment_type": {
+    "choice": "Driver",
+    "confidence": 1.15
+  },
+  "is_active": {
+    "choice": "none",
+    "confidence": 5600
+  },
+  "net_pay": {
+    "choice": "Status",
+    "confidence": -4
+  }
+}
+latency=73999ms  input_tokens=2457  output_tokens=1370
+
+x  sheet_row_number  expected=Unnamed: 0     picked=none
+x  driver_name       expected=Driver         picked=Contact
+x  name_with_initials expected=Unnamed: 2     picked=Status
+x  employee_code     expected=Unnamed: 3     picked=Dates
+x  driver_mobile     expected=Contact        picked=Status
+x  emergency_contact expected=Unnamed: 5     picked=none
+x  basic_salary      expected=Pay (Sep)      picked=Status
+x  allowance         expected=Unnamed: 7     picked=Status
+x  overtime_hours    expected=Unnamed: 8     picked=Contact
+x  overtime_pay      expected=Unnamed: 9     picked=Status
+x  gross_pay         expected=Unnamed: 10    picked=Contact
+x  date_of_birth     expected=Dates          picked=Unnamed: 10
+x  join_date         expected=Unnamed: 12    picked=Driver
+x  licence_expiry    expected=Unnamed: 13    picked=Contact
+x  vehicle_number    expected=Vehicle        picked=Contact
+x  vehicle_type      expected=Unnamed: 15    picked=Pay (Sep)
+x  employment_type   expected=Status         picked=Driver
+x  is_active         expected=Unnamed: 17    picked=none
+x  net_pay           expected=none           picked=Status
+
+right    = 0/19
