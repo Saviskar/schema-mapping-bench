@@ -1,0 +1,88 @@
+model    = ollama-deepseek
+csv      = data/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.csv
+target   = targets/store_sales_2024_09.json
+expected = expected/10_store_daily_sales_wide__truncated_at_255_columns_numbers_app.store_sales_2024_09.json
+time     = 2026-11-04_15-13-01
+args     = 
+
+{
+  "store_code": {
+    "choice": "Store Code",
+    "confidence": 1.0
+  },
+  "store_name": {
+    "choice": "Store Name",
+    "confidence": 1.0
+  },
+  "region": {
+    "choice": "Region",
+    "confidence": 1.0
+  },
+  "sales_2024_09_01": {
+    "choice": "20240901",
+    "confidence": 0.9
+  },
+  "sales_2024_09_02": {
+    "choice": "20240902",
+    "confidence": 0.9
+  },
+  "sales_2024_09_03": {
+    "choice": "20240903",
+    "confidence": 0.9
+  },
+  "sales_2024_09_04": {
+    "choice": "20240904",
+    "confidence": 0.9
+  },
+  "sales_2024_09_05": {
+    "choice": "20240905",
+    "confidence": 0.9
+  },
+  "sales_2024_09_06": {
+    "choice": "20240906",
+    "confidence": 0.9
+  },
+  "sales_2024_09_07": {
+    "choice": "20240907",
+    "confidence": 0.9
+  },
+  "sales_2024_09_08": {
+    "choice": "20240908",
+    "confidence": 0.9
+  },
+  "sales_2024_09_09": {
+    "choice": "20240908",
+    "confidence": 0.8
+  },
+  "sales_2024_09_30": {
+    "choice": "20240908",
+    "confidence": 0.8
+  },
+  "sales_2024_12_31": {
+    "choice": "45359",
+    "confidence": 0.9
+  },
+  "full_year_total": {
+    "choice": "45352",
+    "confidence": 1.0
+  }
+}
+latency=846720ms  input_tokens=30783  output_tokens=1290
+
+OK store_code        expected=Store Code     picked=Store Code
+OK store_name        expected=Store Name     picked=Store Name
+OK region            expected=Region         picked=Region
+OK sales_2024_09_01  expected=20240901       picked=20240901
+OK sales_2024_09_02  expected=20240902       picked=20240902
+OK sales_2024_09_03  expected=20240903       picked=20240903
+OK sales_2024_09_04  expected=20240904       picked=20240904
+OK sales_2024_09_05  expected=20240905       picked=20240905
+OK sales_2024_09_06  expected=20240906       picked=20240906
+OK sales_2024_09_07  expected=20240907       picked=20240907
+OK sales_2024_09_08  expected=20240908       picked=20240908
+x  sales_2024_09_09  expected=none           picked=20240908
+x  sales_2024_09_30  expected=none           picked=20240908
+x  sales_2024_12_31  expected=none           picked=45359
+x  full_year_total   expected=none           picked=45352
+
+right    = 11/15
