@@ -2,7 +2,7 @@ model    = jev
 csv      = data/01_supplier_master__duplicates_spelling_name_order.csv
 target   = targets/supplier_master_sync.json
 expected = expected/01_supplier_master__duplicates_spelling_name_order.supplier_master_sync.json
-time     = 2026-10-26_11-13-05
+time     = 2026-11-05_08-23-56
 args     = 
 
 {
@@ -287,7 +287,7 @@ args     =
     }
   }
 }
-latency=606ms  input_tokens=5593  output_tokens=1869
+latency=713ms  input_tokens=5593  output_tokens=1869
 
 OK supplier_id       expected=supplier_id    picked=supplier_id
 OK supplier_name     expected=Supplier Name  picked=Supplier Name
