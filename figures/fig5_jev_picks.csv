@@ -1,0 +1,2136 @@
+case,input,expected,choice,confidence,right
+01 Suppliers,supplier_id,supplier_id,supplier_id,1.0,True
+01 Suppliers,supplier_name,Supplier Name,Supplier Name,1.0,True
+01 Suppliers,contact_person,Contact Person ,Contact Person ,1.0,True
+01 Suppliers,phone,Phone/Mobile,Phone/Mobile,1.0,True
+01 Suppliers,email,e-mail,e-mail,1.0,True
+01 Suppliers,city,City/Town,City/Town,1.0,True
+01 Suppliers,country,country,country,1.0,True
+01 Suppliers,postal_code,Postal Code,Postal Code,1.0,True
+01 Suppliers,vat_number,VAT No.,VAT No.,1.0,True
+01 Suppliers,payment_terms,Pmt Terms,Pmt Terms,1.0,True
+01 Suppliers,supplier_category,Category,Category,1.0,True
+01 Suppliers,onboarding_date,Onboarded On,Onboarded On,1.0,True
+01 Suppliers,is_active,Active?,Active?,1.0,True
+01 Suppliers,source_system,none,none,1.0,True
+01 Suppliers,supplier_id,supplier_id,supplier_id,1.0,True
+01 Suppliers,supplier_name,Supplier Name,Supplier Name,1.0,True
+01 Suppliers,contact_person,Contact Person ,Contact Person ,1.0,True
+01 Suppliers,phone,Phone/Mobile,Phone/Mobile,1.0,True
+01 Suppliers,email,e-mail,e-mail,1.0,True
+01 Suppliers,city,City/Town,City/Town,1.0,True
+01 Suppliers,country,country,country,1.0,True
+01 Suppliers,postal_code,Postal Code,Postal Code,1.0,True
+01 Suppliers,vat_number,VAT No.,VAT No.,1.0,True
+01 Suppliers,payment_terms,Pmt Terms,Pmt Terms,1.0,True
+01 Suppliers,supplier_category,Category,Category,1.0,True
+01 Suppliers,onboarding_date,Onboarded On,Onboarded On,1.0,True
+01 Suppliers,is_active,Active?,Active?,1.0,True
+01 Suppliers,source_system,none,none,1.0,True
+01 Suppliers,supplier_id,supplier_id,supplier_id,1.0,True
+01 Suppliers,supplier_name,Supplier Name,Supplier Name,1.0,True
+01 Suppliers,contact_person,Contact Person ,Contact Person ,1.0,True
+01 Suppliers,phone,Phone/Mobile,Phone/Mobile,1.0,True
+01 Suppliers,email,e-mail,e-mail,1.0,True
+01 Suppliers,city,City/Town,City/Town,1.0,True
+01 Suppliers,country,country,country,1.0,True
+01 Suppliers,postal_code,Postal Code,Postal Code,1.0,True
+01 Suppliers,vat_number,VAT No.,VAT No.,1.0,True
+01 Suppliers,payment_terms,Pmt Terms,Pmt Terms,1.0,True
+01 Suppliers,supplier_category,Category,Category,1.0,True
+01 Suppliers,onboarding_date,Onboarded On,Onboarded On,1.0,True
+01 Suppliers,is_active,Active?,Active?,1.0,True
+01 Suppliers,source_system,none,none,1.0,True
+01 Suppliers,supplier_id,supplier_id,supplier_id,1.0,True
+01 Suppliers,supplier_name,Supplier Name,Supplier Name,1.0,True
+01 Suppliers,contact_person,Contact Person ,Contact Person ,1.0,True
+01 Suppliers,phone,Phone/Mobile,Phone/Mobile,1.0,True
+01 Suppliers,email,e-mail,e-mail,1.0,True
+01 Suppliers,city,City/Town,City/Town,1.0,True
+01 Suppliers,country,country,country,1.0,True
+01 Suppliers,postal_code,Postal Code,Postal Code,1.0,True
+01 Suppliers,vat_number,VAT No.,VAT No.,1.0,True
+01 Suppliers,payment_terms,Pmt Terms,Pmt Terms,1.0,True
+01 Suppliers,supplier_category,Category,Category,1.0,True
+01 Suppliers,onboarding_date,Onboarded On,Onboarded On,1.0,True
+01 Suppliers,is_active,Active?,Active?,1.0,True
+01 Suppliers,source_system,none,none,1.0,True
+01 Suppliers,supplier_id,supplier_id,supplier_id,1.0,True
+01 Suppliers,supplier_name,Supplier Name,Supplier Name,1.0,True
+01 Suppliers,contact_person,Contact Person ,Contact Person ,1.0,True
+01 Suppliers,phone,Phone/Mobile,Phone/Mobile,1.0,True
+01 Suppliers,email,e-mail,e-mail,1.0,True
+01 Suppliers,city,City/Town,City/Town,1.0,True
+01 Suppliers,country,country,country,1.0,True
+01 Suppliers,postal_code,Postal Code,Postal Code,1.0,True
+01 Suppliers,vat_number,VAT No.,VAT No.,1.0,True
+01 Suppliers,payment_terms,Pmt Terms,Pmt Terms,1.0,True
+01 Suppliers,supplier_category,Category,Category,1.0,True
+01 Suppliers,onboarding_date,Onboarded On,Onboarded On,1.0,True
+01 Suppliers,is_active,Active?,Active?,1.0,True
+01 Suppliers,source_system,none,none,1.0,True
+02 Shipments,shipment_id,SHKEY,SHKEY,1.0,True
+02 Shipments,sales_order_ref,SHREF,SHREF,1.0,True
+02 Shipments,origin_hub,SHLOC1,SHLOC1,1.0,True
+02 Shipments,destination_city,SHLOC2  ,SHLOC2  ,1.0,True
+02 Shipments,carrier,SHVND,SHVND,1.0,True
+02 Shipments,ship_date,SHDT1,SHDT1,1.0,True
+02 Shipments,estimated_arrival,SHDT2,SHDT2,0.98,True
+02 Shipments,delivered_at,SHDT3,SHDT3,1.0,True
+02 Shipments,gross_weight,SHQTY,SHQTY,1.0,True
+02 Shipments,parcel_dimensions,SHSIZ,SHSIZ,1.0,True
+02 Shipments,lane_distance,SHMTR,SHMTR,1.0,True
+02 Shipments,freight_cost,SHVAL,none,0.71,False
+02 Shipments,status,SHSTS ,SHSTS ,1.0,True
+02 Shipments,goods_value,none,SHVAL,1.0,False
+02 Shipments,item_count,none,none,0.61,True
+02 Shipments,shipment_id,SHKEY,SHKEY,1.0,True
+02 Shipments,sales_order_ref,SHREF,SHREF,1.0,True
+02 Shipments,origin_hub,SHLOC1,SHLOC1,1.0,True
+02 Shipments,destination_city,SHLOC2  ,SHLOC2  ,1.0,True
+02 Shipments,carrier,SHVND,SHVND,1.0,True
+02 Shipments,ship_date,SHDT1,SHDT1,1.0,True
+02 Shipments,estimated_arrival,SHDT2,SHDT2,0.92,True
+02 Shipments,delivered_at,SHDT3,SHDT3,0.99,True
+02 Shipments,gross_weight,SHQTY,SHQTY,1.0,True
+02 Shipments,parcel_dimensions,SHSIZ,SHSIZ,1.0,True
+02 Shipments,lane_distance,SHMTR,SHMTR,1.0,True
+02 Shipments,freight_cost,SHVAL,none,0.57,False
+02 Shipments,status,SHSTS ,SHSTS ,1.0,True
+02 Shipments,goods_value,none,SHVAL,1.0,False
+02 Shipments,item_count,none,none,0.61,True
+02 Shipments,shipment_id,SHKEY,SHKEY,1.0,True
+02 Shipments,sales_order_ref,SHREF,SHREF,1.0,True
+02 Shipments,origin_hub,SHLOC1,SHLOC1,1.0,True
+02 Shipments,destination_city,SHLOC2  ,SHLOC2  ,1.0,True
+02 Shipments,carrier,SHVND,SHVND,1.0,True
+02 Shipments,ship_date,SHDT1,SHDT1,1.0,True
+02 Shipments,estimated_arrival,SHDT2,SHDT2,0.98,True
+02 Shipments,delivered_at,SHDT3,SHDT3,1.0,True
+02 Shipments,gross_weight,SHQTY,SHQTY,1.0,True
+02 Shipments,parcel_dimensions,SHSIZ,SHSIZ,1.0,True
+02 Shipments,lane_distance,SHMTR,SHMTR,1.0,True
+02 Shipments,freight_cost,SHVAL,none,0.72,False
+02 Shipments,status,SHSTS ,SHSTS ,1.0,True
+02 Shipments,goods_value,none,SHVAL,1.0,False
+02 Shipments,item_count,none,none,0.66,True
+02 Shipments,shipment_id,SHKEY,SHKEY,1.0,True
+02 Shipments,sales_order_ref,SHREF,SHREF,1.0,True
+02 Shipments,origin_hub,SHLOC1,SHLOC1,1.0,True
+02 Shipments,destination_city,SHLOC2  ,SHLOC2  ,1.0,True
+02 Shipments,carrier,SHVND,SHVND,1.0,True
+02 Shipments,ship_date,SHDT1,SHDT1,1.0,True
+02 Shipments,estimated_arrival,SHDT2,SHDT2,0.98,True
+02 Shipments,delivered_at,SHDT3,SHDT3,1.0,True
+02 Shipments,gross_weight,SHQTY,SHQTY,1.0,True
+02 Shipments,parcel_dimensions,SHSIZ,SHSIZ,1.0,True
+02 Shipments,lane_distance,SHMTR,SHMTR,1.0,True
+02 Shipments,freight_cost,SHVAL,none,0.73,False
+02 Shipments,status,SHSTS ,SHSTS ,1.0,True
+02 Shipments,goods_value,none,SHVAL,1.0,False
+02 Shipments,item_count,none,none,0.55,True
+02 Shipments,shipment_id,SHKEY,SHKEY,1.0,True
+02 Shipments,sales_order_ref,SHREF,SHREF,1.0,True
+02 Shipments,origin_hub,SHLOC1,SHLOC1,1.0,True
+02 Shipments,destination_city,SHLOC2  ,SHLOC2  ,1.0,True
+02 Shipments,carrier,SHVND,SHVND,1.0,True
+02 Shipments,ship_date,SHDT1,SHDT1,1.0,True
+02 Shipments,estimated_arrival,SHDT2,SHDT2,0.96,True
+02 Shipments,delivered_at,SHDT3,SHDT3,0.99,True
+02 Shipments,gross_weight,SHQTY,SHQTY,1.0,True
+02 Shipments,parcel_dimensions,SHSIZ,SHSIZ,1.0,True
+02 Shipments,lane_distance,SHMTR,SHMTR,1.0,True
+02 Shipments,freight_cost,SHVAL,none,0.72,False
+02 Shipments,status,SHSTS ,SHSTS ,1.0,True
+02 Shipments,goods_value,none,SHVAL,1.0,False
+02 Shipments,item_count,none,none,0.56,True
+03 Stock,snapshot_date,snapshot_date,snapshot_date,1.0,True
+03 Stock,warehouse_code,WH,WH,1.0,True
+03 Stock,sku,SKU,SKU,1.0,True
+03 Stock,item_name,Item Description,Item Description,1.0,True
+03 Stock,closing_stock,On Hand,On Hand,1.0,True
+03 Stock,qty_received,Inbound,Inbound,1.0,True
+03 Stock,qty_issued,Outbound,Outbound,1.0,True
+03 Stock,reorder_level,Reorder Lvl,Reorder Lvl,1.0,True
+03 Stock,last_count_time,last_counted,last_counted,1.0,True
+03 Stock,counted_by,Counted By,Counted By,1.0,True
+03 Stock,unit_of_measure,none,none,0.7,True
+03 Stock,snapshot_date,snapshot_date,snapshot_date,1.0,True
+03 Stock,warehouse_code,WH,WH,1.0,True
+03 Stock,sku,SKU,SKU,1.0,True
+03 Stock,item_name,Item Description,Item Description,1.0,True
+03 Stock,closing_stock,On Hand,On Hand,1.0,True
+03 Stock,qty_received,Inbound,Inbound,1.0,True
+03 Stock,qty_issued,Outbound,Outbound,1.0,True
+03 Stock,reorder_level,Reorder Lvl,Reorder Lvl,1.0,True
+03 Stock,last_count_time,last_counted,last_counted,1.0,True
+03 Stock,counted_by,Counted By,Counted By,1.0,True
+03 Stock,unit_of_measure,none,none,0.67,True
+03 Stock,snapshot_date,snapshot_date,snapshot_date,1.0,True
+03 Stock,warehouse_code,WH,WH,1.0,True
+03 Stock,sku,SKU,SKU,1.0,True
+03 Stock,item_name,Item Description,Item Description,1.0,True
+03 Stock,closing_stock,On Hand,On Hand,1.0,True
+03 Stock,qty_received,Inbound,Inbound,1.0,True
+03 Stock,qty_issued,Outbound,Outbound,1.0,True
+03 Stock,reorder_level,Reorder Lvl,Reorder Lvl,1.0,True
+03 Stock,last_count_time,last_counted,last_counted,1.0,True
+03 Stock,counted_by,Counted By,Counted By,1.0,True
+03 Stock,unit_of_measure,none,none,0.68,True
+03 Stock,snapshot_date,snapshot_date,snapshot_date,1.0,True
+03 Stock,warehouse_code,WH,WH,1.0,True
+03 Stock,sku,SKU,SKU,1.0,True
+03 Stock,item_name,Item Description,Item Description,1.0,True
+03 Stock,closing_stock,On Hand,On Hand,1.0,True
+03 Stock,qty_received,Inbound,Inbound,1.0,True
+03 Stock,qty_issued,Outbound,Outbound,1.0,True
+03 Stock,reorder_level,Reorder Lvl,Reorder Lvl,1.0,True
+03 Stock,last_count_time,last_counted,last_counted,1.0,True
+03 Stock,counted_by,Counted By,Counted By,1.0,True
+03 Stock,unit_of_measure,none,none,0.64,True
+03 Stock,snapshot_date,snapshot_date,snapshot_date,1.0,True
+03 Stock,warehouse_code,WH,WH,1.0,True
+03 Stock,sku,SKU,SKU,1.0,True
+03 Stock,item_name,Item Description,Item Description,1.0,True
+03 Stock,closing_stock,On Hand,On Hand,1.0,True
+03 Stock,qty_received,Inbound,Inbound,1.0,True
+03 Stock,qty_issued,Outbound,Outbound,1.0,True
+03 Stock,reorder_level,Reorder Lvl,Reorder Lvl,1.0,True
+03 Stock,last_count_time,last_counted,last_counted,1.0,True
+03 Stock,counted_by,Counted By,Counted By,1.0,True
+03 Stock,unit_of_measure,none,none,0.65,True
+04 Regional sales,region,Region,Region,1.0,True
+04 Regional sales,product_category,Category,Category,1.0,True
+04 Regional sales,q1_revenue,Q1,Q1,1.0,True
+04 Regional sales,q2_revenue,Q2,Q2,1.0,True
+04 Regional sales,q3_revenue,Q3,Q3,1.0,True
+04 Regional sales,q4_revenue,Q4,Q4,1.0,True
+04 Regional sales,full_year_revenue,FY Total,FY Total,1.0,True
+04 Regional sales,yoy_growth_pct,YoY %,YoY %,1.0,True
+04 Regional sales,analyst_notes,Notes,Notes,1.0,True
+04 Regional sales,currency,none,Notes,0.94,False
+04 Regional sales,monthly_revenue,none,none,0.92,True
+04 Regional sales,store_code,none,none,0.86,True
+04 Regional sales,region,Region,Region,1.0,True
+04 Regional sales,product_category,Category,Category,1.0,True
+04 Regional sales,q1_revenue,Q1,Q1,1.0,True
+04 Regional sales,q2_revenue,Q2,Q2,1.0,True
+04 Regional sales,q3_revenue,Q3,Q3,1.0,True
+04 Regional sales,q4_revenue,Q4,Q4,1.0,True
+04 Regional sales,full_year_revenue,FY Total,FY Total,1.0,True
+04 Regional sales,yoy_growth_pct,YoY %,YoY %,1.0,True
+04 Regional sales,analyst_notes,Notes,Notes,1.0,True
+04 Regional sales,currency,none,Notes,0.96,False
+04 Regional sales,monthly_revenue,none,none,0.9,True
+04 Regional sales,store_code,none,none,0.88,True
+04 Regional sales,region,Region,Region,1.0,True
+04 Regional sales,product_category,Category,Category,1.0,True
+04 Regional sales,q1_revenue,Q1,Q1,1.0,True
+04 Regional sales,q2_revenue,Q2,Q2,1.0,True
+04 Regional sales,q3_revenue,Q3,Q3,1.0,True
+04 Regional sales,q4_revenue,Q4,Q4,1.0,True
+04 Regional sales,full_year_revenue,FY Total,FY Total,1.0,True
+04 Regional sales,yoy_growth_pct,YoY %,YoY %,1.0,True
+04 Regional sales,analyst_notes,Notes,Notes,1.0,True
+04 Regional sales,currency,none,Notes,0.92,False
+04 Regional sales,monthly_revenue,none,none,0.91,True
+04 Regional sales,store_code,none,none,0.83,True
+04 Regional sales,region,Region,Region,1.0,True
+04 Regional sales,product_category,Category,Category,1.0,True
+04 Regional sales,q1_revenue,Q1,Q1,1.0,True
+04 Regional sales,q2_revenue,Q2,Q2,1.0,True
+04 Regional sales,q3_revenue,Q3,Q3,1.0,True
+04 Regional sales,q4_revenue,Q4,Q4,1.0,True
+04 Regional sales,full_year_revenue,FY Total,FY Total,1.0,True
+04 Regional sales,yoy_growth_pct,YoY %,YoY %,1.0,True
+04 Regional sales,analyst_notes,Notes,Notes,1.0,True
+04 Regional sales,currency,none,Notes,0.94,False
+04 Regional sales,monthly_revenue,none,none,0.92,True
+04 Regional sales,store_code,none,none,0.83,True
+04 Regional sales,region,Region,Region,1.0,True
+04 Regional sales,product_category,Category,Category,1.0,True
+04 Regional sales,q1_revenue,Q1,Q1,1.0,True
+04 Regional sales,q2_revenue,Q2,Q2,1.0,True
+04 Regional sales,q3_revenue,Q3,Q3,1.0,True
+04 Regional sales,q4_revenue,Q4,Q4,1.0,True
+04 Regional sales,full_year_revenue,FY Total,FY Total,1.0,True
+04 Regional sales,yoy_growth_pct,YoY %,YoY %,1.0,True
+04 Regional sales,analyst_notes,Notes,Notes,1.0,True
+04 Regional sales,currency,none,Notes,0.94,False
+04 Regional sales,monthly_revenue,none,none,0.9,True
+04 Regional sales,store_code,none,none,0.82,True
+05 Products,sku,ATTR_101,ATTR_101,0.86,True
+05 Products,barcode,ATTR_117,ATTR_117,1.0,True
+05 Products,product_name,ATTR_102@en_LK,ATTR_102@en_LK,1.0,True
+05 Products,brand,ATTR_230,ATTR_230,1.0,True
+05 Products,category,ATTR_118,ATTR_118,1.0,True
+05 Products,sub_category,ATTR_118_1,ATTR_118_1,1.0,True
+05 Products,pack_size,ATTR_305,ATTR_305,1.0,True
+05 Products,selling_price,ATTR_410,ATTR_410,0.93,True
+05 Products,unit_cost,ATTR_410_B,ATTR_410_B,0.78,True
+05 Products,launch_date,ATTR_512,ATTR_512,0.99,True
+05 Products,supplier_code,ATTR_620,ATTR_620,1.0,True
+05 Products,hs_code,ATTR_621,none,0.93,False
+05 Products,size_variant,ATTR_306,ATTR_306,0.98,True
+05 Products,lifecycle_status,ATTR_900,ATTR_900,1.0,True
+05 Products,price_currency,none,ATTR_410,0.62,False
+05 Products,size_system,none,none,0.69,True
+05 Products,sku,ATTR_101,ATTR_101,0.85,True
+05 Products,barcode,ATTR_117,ATTR_117,1.0,True
+05 Products,product_name,ATTR_102@en_LK,ATTR_102@en_LK,1.0,True
+05 Products,brand,ATTR_230,ATTR_230,1.0,True
+05 Products,category,ATTR_118,ATTR_118,1.0,True
+05 Products,sub_category,ATTR_118_1,ATTR_118_1,1.0,True
+05 Products,pack_size,ATTR_305,ATTR_305,0.99,True
+05 Products,selling_price,ATTR_410,ATTR_410,0.95,True
+05 Products,unit_cost,ATTR_410_B,ATTR_410_B,0.87,True
+05 Products,launch_date,ATTR_512,ATTR_512,0.98,True
+05 Products,supplier_code,ATTR_620,ATTR_620,1.0,True
+05 Products,hs_code,ATTR_621,none,0.91,False
+05 Products,size_variant,ATTR_306,ATTR_306,0.98,True
+05 Products,lifecycle_status,ATTR_900,ATTR_900,1.0,True
+05 Products,price_currency,none,ATTR_410,0.68,False
+05 Products,size_system,none,none,0.65,True
+05 Products,sku,ATTR_101,ATTR_101,0.93,True
+05 Products,barcode,ATTR_117,ATTR_117,1.0,True
+05 Products,product_name,ATTR_102@en_LK,ATTR_102@en_LK,1.0,True
+05 Products,brand,ATTR_230,ATTR_230,1.0,True
+05 Products,category,ATTR_118,ATTR_118,1.0,True
+05 Products,sub_category,ATTR_118_1,ATTR_118_1,1.0,True
+05 Products,pack_size,ATTR_305,ATTR_305,0.99,True
+05 Products,selling_price,ATTR_410,ATTR_410,0.95,True
+05 Products,unit_cost,ATTR_410_B,ATTR_410_B,0.87,True
+05 Products,launch_date,ATTR_512,ATTR_512,1.0,True
+05 Products,supplier_code,ATTR_620,ATTR_620,1.0,True
+05 Products,hs_code,ATTR_621,none,0.93,False
+05 Products,size_variant,ATTR_306,ATTR_306,0.99,True
+05 Products,lifecycle_status,ATTR_900,ATTR_900,1.0,True
+05 Products,price_currency,none,ATTR_410,0.62,False
+05 Products,size_system,none,none,0.61,True
+05 Products,sku,ATTR_101,ATTR_101,0.89,True
+05 Products,barcode,ATTR_117,ATTR_117,1.0,True
+05 Products,product_name,ATTR_102@en_LK,ATTR_102@en_LK,1.0,True
+05 Products,brand,ATTR_230,ATTR_230,1.0,True
+05 Products,category,ATTR_118,ATTR_118,1.0,True
+05 Products,sub_category,ATTR_118_1,ATTR_118_1,1.0,True
+05 Products,pack_size,ATTR_305,ATTR_305,1.0,True
+05 Products,selling_price,ATTR_410,ATTR_410,0.97,True
+05 Products,unit_cost,ATTR_410_B,ATTR_410_B,0.88,True
+05 Products,launch_date,ATTR_512,ATTR_512,0.99,True
+05 Products,supplier_code,ATTR_620,ATTR_620,1.0,True
+05 Products,hs_code,ATTR_621,none,0.93,False
+05 Products,size_variant,ATTR_306,ATTR_306,0.99,True
+05 Products,lifecycle_status,ATTR_900,ATTR_900,1.0,True
+05 Products,price_currency,none,ATTR_410,0.66,False
+05 Products,size_system,none,none,0.66,True
+05 Products,sku,ATTR_101,ATTR_101,0.86,True
+05 Products,barcode,ATTR_117,ATTR_117,1.0,True
+05 Products,product_name,ATTR_102@en_LK,ATTR_102@en_LK,1.0,True
+05 Products,brand,ATTR_230,ATTR_230,1.0,True
+05 Products,category,ATTR_118,ATTR_118,1.0,True
+05 Products,sub_category,ATTR_118_1,ATTR_118_1,1.0,True
+05 Products,pack_size,ATTR_305,ATTR_305,1.0,True
+05 Products,selling_price,ATTR_410,ATTR_410,0.95,True
+05 Products,unit_cost,ATTR_410_B,ATTR_410_B,0.82,True
+05 Products,launch_date,ATTR_512,ATTR_512,0.99,True
+05 Products,supplier_code,ATTR_620,ATTR_620,1.0,True
+05 Products,hs_code,ATTR_621,none,0.91,False
+05 Products,size_variant,ATTR_306,ATTR_306,0.99,True
+05 Products,lifecycle_status,ATTR_900,ATTR_900,1.0,True
+05 Products,price_currency,none,ATTR_410,0.71,False
+05 Products,size_system,none,none,0.57,True
+06 PO lines,export_row_index,Unnamed: 0,Unnamed: 0,0.99,True
+06 PO lines,po_number,DOC,DOC,0.94,True
+06 PO lines,line_item,ITM,ITM,0.97,True
+06 PO lines,vendor_id,LIFNR,LIFNR,0.99,True
+06 PO lines,buyer_name,Vendor,Vendor,0.84,True
+06 PO lines,vendor_name,Name,Name,0.99,True
+06 PO lines,material_code,MAT,MAT,1.0,True
+06 PO lines,material_description,Description,Description,1.0,True
+06 PO lines,order_qty,ප්‍රමාණය,ප්‍රමාණය,1.0,True
+06 PO lines,unit_of_measure,UoM,UoM,1.0,True
+06 PO lines,line_total,Price,Amount,0.74,False
+06 PO lines,unit_price,Amount,Price,1.0,False
+06 PO lines,vat_amount,Value (USD),Amount,0.88,False
+06 PO lines,currency,CUR,CUR,1.0,True
+06 PO lines,po_date,DT,DT,0.7,True
+06 PO lines,requested_delivery_date,தேதி,தேதி,0.45,True
+06 PO lines,goods_receipt_date,Date_,none,0.3,False
+06 PO lines,received_qty,"Recv
+Qty","Recv
+Qty",1.0,True
+06 PO lines,plant,WERKS,WERKS,1.0,True
+06 PO lines,line_status,STAT,STAT,1.0,True
+06 PO lines,payment_terms,Unnamed: 20,Unnamed: 20,1.0,True
+06 PO lines,discount_pct,2,2,1.0,True
+06 PO lines,urgent_flag,x,x,0.68,True
+06 PO lines,vendor_invoice_no,REF,REF,1.0,True
+06 PO lines,requisition_no,REF.1,none,0.73,False
+06 PO lines,remarks,Column1,Column1,0.99,True
+06 PO lines,line_value_usd,none,Value (USD),1.0,False
+06 PO lines,export_row_index,Unnamed: 0,Unnamed: 0,1.0,True
+06 PO lines,po_number,DOC,DOC,0.93,True
+06 PO lines,line_item,ITM,ITM,0.98,True
+06 PO lines,vendor_id,LIFNR,LIFNR,1.0,True
+06 PO lines,buyer_name,Vendor,Vendor,0.81,True
+06 PO lines,vendor_name,Name,Name,0.99,True
+06 PO lines,material_code,MAT,MAT,1.0,True
+06 PO lines,material_description,Description,Description,1.0,True
+06 PO lines,order_qty,ප්‍රමාණය,ප්‍රමාණය,1.0,True
+06 PO lines,unit_of_measure,UoM,UoM,1.0,True
+06 PO lines,line_total,Price,Amount,0.64,False
+06 PO lines,unit_price,Amount,Price,1.0,False
+06 PO lines,vat_amount,Value (USD),Amount,0.91,False
+06 PO lines,currency,CUR,CUR,1.0,True
+06 PO lines,po_date,DT,DT,0.71,True
+06 PO lines,requested_delivery_date,தேதி,தேதி,0.49,True
+06 PO lines,goods_receipt_date,Date_,none,0.29,False
+06 PO lines,received_qty,"Recv
+Qty","Recv
+Qty",1.0,True
+06 PO lines,plant,WERKS,WERKS,1.0,True
+06 PO lines,line_status,STAT,STAT,1.0,True
+06 PO lines,payment_terms,Unnamed: 20,Unnamed: 20,1.0,True
+06 PO lines,discount_pct,2,2,1.0,True
+06 PO lines,urgent_flag,x,x,0.56,True
+06 PO lines,vendor_invoice_no,REF,REF,1.0,True
+06 PO lines,requisition_no,REF.1,none,0.76,False
+06 PO lines,remarks,Column1,Column1,0.99,True
+06 PO lines,line_value_usd,none,Value (USD),1.0,False
+06 PO lines,export_row_index,Unnamed: 0,Unnamed: 0,1.0,True
+06 PO lines,po_number,DOC,DOC,0.92,True
+06 PO lines,line_item,ITM,ITM,0.98,True
+06 PO lines,vendor_id,LIFNR,LIFNR,0.99,True
+06 PO lines,buyer_name,Vendor,Vendor,0.86,True
+06 PO lines,vendor_name,Name,Name,0.99,True
+06 PO lines,material_code,MAT,MAT,1.0,True
+06 PO lines,material_description,Description,Description,1.0,True
+06 PO lines,order_qty,ප්‍රමාණය,ප්‍රමාණය,1.0,True
+06 PO lines,unit_of_measure,UoM,UoM,1.0,True
+06 PO lines,line_total,Price,Amount,0.77,False
+06 PO lines,unit_price,Amount,Price,1.0,False
+06 PO lines,vat_amount,Value (USD),Amount,0.82,False
+06 PO lines,currency,CUR,CUR,1.0,True
+06 PO lines,po_date,DT,DT,0.73,True
+06 PO lines,requested_delivery_date,தேதி,தேதி,0.5,True
+06 PO lines,goods_receipt_date,Date_,none,0.31,False
+06 PO lines,received_qty,"Recv
+Qty","Recv
+Qty",1.0,True
+06 PO lines,plant,WERKS,WERKS,1.0,True
+06 PO lines,line_status,STAT,STAT,1.0,True
+06 PO lines,payment_terms,Unnamed: 20,Unnamed: 20,1.0,True
+06 PO lines,discount_pct,2,2,1.0,True
+06 PO lines,urgent_flag,x,x,0.57,True
+06 PO lines,vendor_invoice_no,REF,REF,1.0,True
+06 PO lines,requisition_no,REF.1,none,0.74,False
+06 PO lines,remarks,Column1,Column1,0.99,True
+06 PO lines,line_value_usd,none,Value (USD),1.0,False
+06 PO lines,export_row_index,Unnamed: 0,Unnamed: 0,0.99,True
+06 PO lines,po_number,DOC,DOC,0.93,True
+06 PO lines,line_item,ITM,ITM,0.98,True
+06 PO lines,vendor_id,LIFNR,LIFNR,1.0,True
+06 PO lines,buyer_name,Vendor,Vendor,0.79,True
+06 PO lines,vendor_name,Name,Name,0.99,True
+06 PO lines,material_code,MAT,MAT,1.0,True
+06 PO lines,material_description,Description,Description,1.0,True
+06 PO lines,order_qty,ප්‍රමාණය,ප්‍රමාණය,1.0,True
+06 PO lines,unit_of_measure,UoM,UoM,1.0,True
+06 PO lines,line_total,Price,Amount,0.76,False
+06 PO lines,unit_price,Amount,Price,0.99,False
+06 PO lines,vat_amount,Value (USD),Amount,0.84,False
+06 PO lines,currency,CUR,CUR,1.0,True
+06 PO lines,po_date,DT,DT,0.58,True
+06 PO lines,requested_delivery_date,தேதி,தேதி,0.5,True
+06 PO lines,goods_receipt_date,Date_,none,0.34,False
+06 PO lines,received_qty,"Recv
+Qty","Recv
+Qty",1.0,True
+06 PO lines,plant,WERKS,WERKS,1.0,True
+06 PO lines,line_status,STAT,STAT,1.0,True
+06 PO lines,payment_terms,Unnamed: 20,Unnamed: 20,1.0,True
+06 PO lines,discount_pct,2,2,1.0,True
+06 PO lines,urgent_flag,x,x,0.62,True
+06 PO lines,vendor_invoice_no,REF,REF,1.0,True
+06 PO lines,requisition_no,REF.1,none,0.79,False
+06 PO lines,remarks,Column1,Column1,0.99,True
+06 PO lines,line_value_usd,none,Value (USD),1.0,False
+06 PO lines,export_row_index,Unnamed: 0,Unnamed: 0,0.99,True
+06 PO lines,po_number,DOC,DOC,0.93,True
+06 PO lines,line_item,ITM,ITM,0.97,True
+06 PO lines,vendor_id,LIFNR,LIFNR,1.0,True
+06 PO lines,buyer_name,Vendor,Vendor,0.82,True
+06 PO lines,vendor_name,Name,Name,0.99,True
+06 PO lines,material_code,MAT,MAT,1.0,True
+06 PO lines,material_description,Description,Description,1.0,True
+06 PO lines,order_qty,ප්‍රමාණය,ප්‍රමාණය,1.0,True
+06 PO lines,unit_of_measure,UoM,UoM,1.0,True
+06 PO lines,line_total,Price,Amount,0.89,False
+06 PO lines,unit_price,Amount,Price,1.0,False
+06 PO lines,vat_amount,Value (USD),Amount,0.82,False
+06 PO lines,currency,CUR,CUR,1.0,True
+06 PO lines,po_date,DT,DT,0.61,True
+06 PO lines,requested_delivery_date,தேதி,தேதி,0.51,True
+06 PO lines,goods_receipt_date,Date_,none,0.3,False
+06 PO lines,received_qty,"Recv
+Qty","Recv
+Qty",1.0,True
+06 PO lines,plant,WERKS,WERKS,1.0,True
+06 PO lines,line_status,STAT,STAT,1.0,True
+06 PO lines,payment_terms,Unnamed: 20,Unnamed: 20,1.0,True
+06 PO lines,discount_pct,2,2,1.0,True
+06 PO lines,urgent_flag,x,x,0.58,True
+06 PO lines,vendor_invoice_no,REF,REF,1.0,True
+06 PO lines,requisition_no,REF.1,none,0.74,False
+06 PO lines,remarks,Column1,Column1,0.99,True
+06 PO lines,line_value_usd,none,Value (USD),1.0,False
+07 Payroll,sheet_row_number,Unnamed: 0,Unnamed: 0,1.0,True
+07 Payroll,driver_name,Driver,Driver,0.99,True
+07 Payroll,name_with_initials,Unnamed: 2,Unnamed: 2,1.0,True
+07 Payroll,employee_code,Unnamed: 3,Unnamed: 3,0.99,True
+07 Payroll,driver_mobile,Contact,Contact,1.0,True
+07 Payroll,emergency_contact,Unnamed: 5,Unnamed: 5,1.0,True
+07 Payroll,basic_salary,Pay (Sep),Pay (Sep),0.74,True
+07 Payroll,allowance,Unnamed: 7,Unnamed: 7,0.99,True
+07 Payroll,overtime_hours,Unnamed: 8,Unnamed: 8,1.0,True
+07 Payroll,overtime_pay,Unnamed: 9,Unnamed: 9,1.0,True
+07 Payroll,gross_pay,Unnamed: 10,Unnamed: 10,0.98,True
+07 Payroll,date_of_birth,Dates,Dates,0.99,True
+07 Payroll,join_date,Unnamed: 12,Unnamed: 12,0.99,True
+07 Payroll,licence_expiry,Unnamed: 13,Unnamed: 13,0.96,True
+07 Payroll,vehicle_number,Vehicle,Vehicle,1.0,True
+07 Payroll,vehicle_type,Unnamed: 15,Unnamed: 15,0.99,True
+07 Payroll,employment_type,Status,Status,0.97,True
+07 Payroll,is_active,Unnamed: 17,Unnamed: 17,0.93,True
+07 Payroll,net_pay,none,none,0.88,True
+07 Payroll,sheet_row_number,Unnamed: 0,Unnamed: 0,1.0,True
+07 Payroll,driver_name,Driver,Driver,0.99,True
+07 Payroll,name_with_initials,Unnamed: 2,Unnamed: 2,1.0,True
+07 Payroll,employee_code,Unnamed: 3,Unnamed: 3,1.0,True
+07 Payroll,driver_mobile,Contact,Contact,1.0,True
+07 Payroll,emergency_contact,Unnamed: 5,Unnamed: 5,1.0,True
+07 Payroll,basic_salary,Pay (Sep),Pay (Sep),0.71,True
+07 Payroll,allowance,Unnamed: 7,Unnamed: 7,0.99,True
+07 Payroll,overtime_hours,Unnamed: 8,Unnamed: 8,1.0,True
+07 Payroll,overtime_pay,Unnamed: 9,Unnamed: 9,1.0,True
+07 Payroll,gross_pay,Unnamed: 10,Unnamed: 10,0.96,True
+07 Payroll,date_of_birth,Dates,Dates,1.0,True
+07 Payroll,join_date,Unnamed: 12,Unnamed: 12,0.99,True
+07 Payroll,licence_expiry,Unnamed: 13,Unnamed: 13,0.96,True
+07 Payroll,vehicle_number,Vehicle,Vehicle,1.0,True
+07 Payroll,vehicle_type,Unnamed: 15,Unnamed: 15,0.99,True
+07 Payroll,employment_type,Status,Status,0.96,True
+07 Payroll,is_active,Unnamed: 17,Unnamed: 17,0.96,True
+07 Payroll,net_pay,none,none,0.93,True
+07 Payroll,sheet_row_number,Unnamed: 0,Unnamed: 0,1.0,True
+07 Payroll,driver_name,Driver,Driver,0.99,True
+07 Payroll,name_with_initials,Unnamed: 2,Unnamed: 2,1.0,True
+07 Payroll,employee_code,Unnamed: 3,Unnamed: 3,1.0,True
+07 Payroll,driver_mobile,Contact,Contact,1.0,True
+07 Payroll,emergency_contact,Unnamed: 5,Unnamed: 5,1.0,True
+07 Payroll,basic_salary,Pay (Sep),Pay (Sep),0.59,True
+07 Payroll,allowance,Unnamed: 7,Unnamed: 7,1.0,True
+07 Payroll,overtime_hours,Unnamed: 8,Unnamed: 8,1.0,True
+07 Payroll,overtime_pay,Unnamed: 9,Unnamed: 9,1.0,True
+07 Payroll,gross_pay,Unnamed: 10,Unnamed: 10,0.96,True
+07 Payroll,date_of_birth,Dates,Dates,1.0,True
+07 Payroll,join_date,Unnamed: 12,Unnamed: 12,0.99,True
+07 Payroll,licence_expiry,Unnamed: 13,Unnamed: 13,0.98,True
+07 Payroll,vehicle_number,Vehicle,Vehicle,0.99,True
+07 Payroll,vehicle_type,Unnamed: 15,Unnamed: 15,0.97,True
+07 Payroll,employment_type,Status,Status,0.98,True
+07 Payroll,is_active,Unnamed: 17,Unnamed: 17,0.96,True
+07 Payroll,net_pay,none,none,0.9,True
+07 Payroll,sheet_row_number,Unnamed: 0,Unnamed: 0,1.0,True
+07 Payroll,driver_name,Driver,Driver,0.99,True
+07 Payroll,name_with_initials,Unnamed: 2,Unnamed: 2,1.0,True
+07 Payroll,employee_code,Unnamed: 3,Unnamed: 3,1.0,True
+07 Payroll,driver_mobile,Contact,Contact,1.0,True
+07 Payroll,emergency_contact,Unnamed: 5,Unnamed: 5,1.0,True
+07 Payroll,basic_salary,Pay (Sep),Pay (Sep),0.64,True
+07 Payroll,allowance,Unnamed: 7,Unnamed: 7,0.99,True
+07 Payroll,overtime_hours,Unnamed: 8,Unnamed: 8,1.0,True
+07 Payroll,overtime_pay,Unnamed: 9,Unnamed: 9,1.0,True
+07 Payroll,gross_pay,Unnamed: 10,Unnamed: 10,0.97,True
+07 Payroll,date_of_birth,Dates,Dates,0.99,True
+07 Payroll,join_date,Unnamed: 12,Unnamed: 12,0.98,True
+07 Payroll,licence_expiry,Unnamed: 13,Unnamed: 13,0.94,True
+07 Payroll,vehicle_number,Vehicle,Vehicle,1.0,True
+07 Payroll,vehicle_type,Unnamed: 15,Unnamed: 15,0.99,True
+07 Payroll,employment_type,Status,Status,0.98,True
+07 Payroll,is_active,Unnamed: 17,Unnamed: 17,0.95,True
+07 Payroll,net_pay,none,none,0.86,True
+07 Payroll,sheet_row_number,Unnamed: 0,Unnamed: 0,1.0,True
+07 Payroll,driver_name,Driver,Driver,0.99,True
+07 Payroll,name_with_initials,Unnamed: 2,Unnamed: 2,1.0,True
+07 Payroll,employee_code,Unnamed: 3,Unnamed: 3,1.0,True
+07 Payroll,driver_mobile,Contact,Contact,1.0,True
+07 Payroll,emergency_contact,Unnamed: 5,Unnamed: 5,1.0,True
+07 Payroll,basic_salary,Pay (Sep),Pay (Sep),0.76,True
+07 Payroll,allowance,Unnamed: 7,Unnamed: 7,1.0,True
+07 Payroll,overtime_hours,Unnamed: 8,Unnamed: 8,1.0,True
+07 Payroll,overtime_pay,Unnamed: 9,Unnamed: 9,1.0,True
+07 Payroll,gross_pay,Unnamed: 10,Unnamed: 10,0.96,True
+07 Payroll,date_of_birth,Dates,Dates,1.0,True
+07 Payroll,join_date,Unnamed: 12,Unnamed: 12,0.99,True
+07 Payroll,licence_expiry,Unnamed: 13,Unnamed: 13,0.96,True
+07 Payroll,vehicle_number,Vehicle,Vehicle,1.0,True
+07 Payroll,vehicle_type,Unnamed: 15,Unnamed: 15,0.99,True
+07 Payroll,employment_type,Status,Status,0.98,True
+07 Payroll,is_active,Unnamed: 17,Unnamed: 17,0.98,True
+07 Payroll,net_pay,none,none,0.88,True
+08 Cold chain,reading_seq,id,id,0.98,True
+08 Cold chain,logger_id,dev,dev,0.99,True
+08 Cold chain,reading_time,t,t,1.0,True
+08 Cold chain,air_temperature,v1,v1,0.9,True
+08 Cold chain,humidity,v2,v2,0.98,True
+08 Cold chain,battery_voltage,v3,none,0.41,False
+08 Cold chain,signal_strength,s,s,0.99,True
+08 Cold chain,status_flags,f,f,1.0,True
+08 Cold chain,gps_position,loc,loc,1.0,True
+08 Cold chain,shipment_ref,ref,ref,1.0,True
+08 Cold chain,firmware_version,fw,fw,1.0,True
+08 Cold chain,product_core_temperature,z,z,0.63,True
+08 Cold chain,operator_alarm_mark,Unnamed: 12|none,none,0.69,True
+08 Cold chain,ambient_temperature,none,none,0.69,True
+08 Cold chain,reading_seq,id,id,0.99,True
+08 Cold chain,logger_id,dev,dev,1.0,True
+08 Cold chain,reading_time,t,t,1.0,True
+08 Cold chain,air_temperature,v1,v1,0.88,True
+08 Cold chain,humidity,v2,v2,0.98,True
+08 Cold chain,battery_voltage,v3,none,0.35,False
+08 Cold chain,signal_strength,s,s,0.99,True
+08 Cold chain,status_flags,f,f,1.0,True
+08 Cold chain,gps_position,loc,loc,1.0,True
+08 Cold chain,shipment_ref,ref,ref,1.0,True
+08 Cold chain,firmware_version,fw,fw,1.0,True
+08 Cold chain,product_core_temperature,z,z,0.73,True
+08 Cold chain,operator_alarm_mark,Unnamed: 12|none,none,0.71,True
+08 Cold chain,ambient_temperature,none,none,0.67,True
+08 Cold chain,reading_seq,id,id,0.98,True
+08 Cold chain,logger_id,dev,dev,0.99,True
+08 Cold chain,reading_time,t,t,1.0,True
+08 Cold chain,air_temperature,v1,v1,0.88,True
+08 Cold chain,humidity,v2,v2,0.99,True
+08 Cold chain,battery_voltage,v3,v3,0.36,True
+08 Cold chain,signal_strength,s,s,0.98,True
+08 Cold chain,status_flags,f,f,1.0,True
+08 Cold chain,gps_position,loc,loc,1.0,True
+08 Cold chain,shipment_ref,ref,ref,1.0,True
+08 Cold chain,firmware_version,fw,fw,1.0,True
+08 Cold chain,product_core_temperature,z,z,0.78,True
+08 Cold chain,operator_alarm_mark,Unnamed: 12|none,none,0.74,True
+08 Cold chain,ambient_temperature,none,none,0.7,True
+08 Cold chain,reading_seq,id,id,0.99,True
+08 Cold chain,logger_id,dev,dev,1.0,True
+08 Cold chain,reading_time,t,t,1.0,True
+08 Cold chain,air_temperature,v1,v1,0.92,True
+08 Cold chain,humidity,v2,v2,0.99,True
+08 Cold chain,battery_voltage,v3,none,0.42,False
+08 Cold chain,signal_strength,s,s,0.98,True
+08 Cold chain,status_flags,f,f,1.0,True
+08 Cold chain,gps_position,loc,loc,1.0,True
+08 Cold chain,shipment_ref,ref,ref,1.0,True
+08 Cold chain,firmware_version,fw,fw,1.0,True
+08 Cold chain,product_core_temperature,z,z,0.76,True
+08 Cold chain,operator_alarm_mark,Unnamed: 12|none,none,0.66,True
+08 Cold chain,ambient_temperature,none,none,0.7,True
+08 Cold chain,reading_seq,id,id,0.99,True
+08 Cold chain,logger_id,dev,dev,0.99,True
+08 Cold chain,reading_time,t,t,1.0,True
+08 Cold chain,air_temperature,v1,v1,0.9,True
+08 Cold chain,humidity,v2,v2,0.99,True
+08 Cold chain,battery_voltage,v3,none,0.4,False
+08 Cold chain,signal_strength,s,s,0.99,True
+08 Cold chain,status_flags,f,f,1.0,True
+08 Cold chain,gps_position,loc,loc,1.0,True
+08 Cold chain,shipment_ref,ref,ref,1.0,True
+08 Cold chain,firmware_version,fw,fw,1.0,True
+08 Cold chain,product_core_temperature,z,z,0.73,True
+08 Cold chain,operator_alarm_mark,Unnamed: 12|none,none,0.69,True
+08 Cold chain,ambient_temperature,none,none,0.68,True
+09 POS,fiscal_period,fiscal_period,fiscal_period,1.0,True
+09 POS,transaction_id,txn_id,txn_id,1.0,True
+09 POS,line_position,line,line,0.92,True
+09 POS,transaction_time,txn_datetime,txn_datetime,1.0,True
+09 POS,store,store,store,1.0,True
+09 POS,cashier,cashier,cashier,1.0,True
+09 POS,sku,sku,sku,1.0,True
+09 POS,quantity,qty,qty,1.0,True
+09 POS,unit_price,unit_price,unit_price,1.0,True
+09 POS,discount_amount,discount,discount,0.99,True
+09 POS,line_total,line_total,line_total,1.0,True
+09 POS,payment_method,payment_method,payment_method,1.0,True
+09 POS,customer_phone,customer_phone,customer_phone,0.99,True
+09 POS,customer_name,none,none,0.99,True
+09 POS,fiscal_period,fiscal_period,fiscal_period,1.0,True
+09 POS,transaction_id,txn_id,txn_id,1.0,True
+09 POS,line_position,line,line,0.91,True
+09 POS,transaction_time,txn_datetime,txn_datetime,1.0,True
+09 POS,store,store,store,1.0,True
+09 POS,cashier,cashier,cashier,1.0,True
+09 POS,sku,sku,sku,1.0,True
+09 POS,quantity,qty,qty,1.0,True
+09 POS,unit_price,unit_price,unit_price,1.0,True
+09 POS,discount_amount,discount,discount,0.99,True
+09 POS,line_total,line_total,line_total,1.0,True
+09 POS,payment_method,payment_method,payment_method,1.0,True
+09 POS,customer_phone,customer_phone,customer_phone,0.99,True
+09 POS,customer_name,none,none,0.99,True
+09 POS,fiscal_period,fiscal_period,fiscal_period,1.0,True
+09 POS,transaction_id,txn_id,txn_id,1.0,True
+09 POS,line_position,line,line,0.88,True
+09 POS,transaction_time,txn_datetime,txn_datetime,1.0,True
+09 POS,store,store,store,0.99,True
+09 POS,cashier,cashier,cashier,1.0,True
+09 POS,sku,sku,sku,1.0,True
+09 POS,quantity,qty,qty,1.0,True
+09 POS,unit_price,unit_price,unit_price,1.0,True
+09 POS,discount_amount,discount,discount,0.99,True
+09 POS,line_total,line_total,line_total,1.0,True
+09 POS,payment_method,payment_method,payment_method,1.0,True
+09 POS,customer_phone,customer_phone,customer_phone,0.99,True
+09 POS,customer_name,none,none,0.99,True
+09 POS,fiscal_period,fiscal_period,fiscal_period,1.0,True
+09 POS,transaction_id,txn_id,txn_id,1.0,True
+09 POS,line_position,line,line,0.91,True
+09 POS,transaction_time,txn_datetime,txn_datetime,1.0,True
+09 POS,store,store,store,1.0,True
+09 POS,cashier,cashier,cashier,1.0,True
+09 POS,sku,sku,sku,1.0,True
+09 POS,quantity,qty,qty,1.0,True
+09 POS,unit_price,unit_price,unit_price,1.0,True
+09 POS,discount_amount,discount,discount,0.99,True
+09 POS,line_total,line_total,line_total,1.0,True
+09 POS,payment_method,payment_method,payment_method,1.0,True
+09 POS,customer_phone,customer_phone,customer_phone,1.0,True
+09 POS,customer_name,none,none,0.99,True
+09 POS,fiscal_period,fiscal_period,fiscal_period,1.0,True
+09 POS,transaction_id,txn_id,txn_id,1.0,True
+09 POS,line_position,line,line,0.92,True
+09 POS,transaction_time,txn_datetime,txn_datetime,1.0,True
+09 POS,store,store,store,1.0,True
+09 POS,cashier,cashier,cashier,1.0,True
+09 POS,sku,sku,sku,1.0,True
+09 POS,quantity,qty,qty,1.0,True
+09 POS,unit_price,unit_price,unit_price,1.0,True
+09 POS,discount_amount,discount,discount,0.99,True
+09 POS,line_total,line_total,line_total,1.0,True
+09 POS,payment_method,payment_method,payment_method,1.0,True
+09 POS,customer_phone,customer_phone,customer_phone,0.99,True
+09 POS,customer_name,none,none,0.99,True
+10 Jan,store_code,Store Code,Store Code,1.0,True
+10 Jan,store_name,Store Name,Store Name,1.0,True
+10 Jan,region,Region,Region,1.0,True
+10 Jan,sales_2024_01_01,2024-01-01,2024-01-01,1.0,True
+10 Jan,sales_2024_01_02,2024-01-02,2024-01-02,1.0,True
+10 Jan,sales_2024_01_03,2024-01-03,2024-01-03,1.0,True
+10 Jan,sales_2024_01_04,2024-01-04,2024-01-04,1.0,True
+10 Jan,sales_2024_01_05,2024-01-05,2024-01-05,0.99,True
+10 Jan,sales_2024_01_06,2024-01-06,2024-01-06,1.0,True
+10 Jan,sales_2024_01_07,2024-01-07,2024-01-07,1.0,True
+10 Jan,sales_2024_01_08,2024-01-08,2024-01-08,1.0,True
+10 Jan,sales_2024_01_09,2024-01-09,2024-01-09,1.0,True
+10 Jan,sales_2024_01_10,2024-01-10,2024-01-10,1.0,True
+10 Jan,sales_2024_01_11,2024-01-11,2024-01-11,1.0,True
+10 Jan,sales_2024_01_12,2024-01-12,2024-01-12,1.0,True
+10 Jan,sales_2024_01_13,2024-01-13,2024-01-13,1.0,True
+10 Jan,sales_2024_01_14,2024-01-14,2024-01-14,1.0,True
+10 Jan,sales_2024_01_15,2024-01-15,2024-01-15,1.0,True
+10 Jan,sales_2024_01_16,2024-01-16,2024-01-16,1.0,True
+10 Jan,sales_2024_01_17,2024-01-17,2024-01-17,0.99,True
+10 Jan,sales_2024_01_18,2024-01-18,2024-01-18,0.99,True
+10 Jan,sales_2024_01_19,2024-01-19,2024-01-19,1.0,True
+10 Jan,sales_2024_01_20,2024-01-20,2024-01-20,0.99,True
+10 Jan,sales_2024_01_21,2024-01-21,2024-01-21,0.99,True
+10 Jan,sales_2024_01_22,2024-01-22,2024-01-22,1.0,True
+10 Jan,sales_2024_01_23,2024-01-23,2024-01-23,0.99,True
+10 Jan,sales_2024_01_24,2024-01-24,2024-01-24,1.0,True
+10 Jan,sales_2024_01_25,2024-01-25,2024-01-25,1.0,True
+10 Jan,sales_2024_01_26,2024-01-26,2024-01-26,1.0,True
+10 Jan,sales_2024_01_27,2024-01-27,2024-01-27,0.93,True
+10 Jan,sales_2024_01_28,2024-01-28,2024-01-28,0.99,True
+10 Jan,sales_2024_01_29,2024-01-29,2024-01-29,0.97,True
+10 Jan,sales_2024_01_30,2024-01-30,2024-01-30,1.0,True
+10 Jan,sales_2024_01_31,2024-01-31,2024-01-31,1.0,True
+10 Jan,store_code,Store Code,Store Code,1.0,True
+10 Jan,store_name,Store Name,Store Name,1.0,True
+10 Jan,region,Region,Region,1.0,True
+10 Jan,sales_2024_01_01,2024-01-01,2024-01-01,1.0,True
+10 Jan,sales_2024_01_02,2024-01-02,2024-01-02,1.0,True
+10 Jan,sales_2024_01_03,2024-01-03,2024-01-03,1.0,True
+10 Jan,sales_2024_01_04,2024-01-04,2024-01-04,1.0,True
+10 Jan,sales_2024_01_05,2024-01-05,2024-01-05,1.0,True
+10 Jan,sales_2024_01_06,2024-01-06,2024-01-06,1.0,True
+10 Jan,sales_2024_01_07,2024-01-07,2024-01-07,1.0,True
+10 Jan,sales_2024_01_08,2024-01-08,2024-01-08,1.0,True
+10 Jan,sales_2024_01_09,2024-01-09,2024-01-09,1.0,True
+10 Jan,sales_2024_01_10,2024-01-10,2024-01-10,1.0,True
+10 Jan,sales_2024_01_11,2024-01-11,2024-01-11,1.0,True
+10 Jan,sales_2024_01_12,2024-01-12,2024-01-12,1.0,True
+10 Jan,sales_2024_01_13,2024-01-13,2024-01-13,1.0,True
+10 Jan,sales_2024_01_14,2024-01-14,2024-01-14,1.0,True
+10 Jan,sales_2024_01_15,2024-01-15,2024-01-15,1.0,True
+10 Jan,sales_2024_01_16,2024-01-16,2024-01-16,1.0,True
+10 Jan,sales_2024_01_17,2024-01-17,2024-01-17,0.99,True
+10 Jan,sales_2024_01_18,2024-01-18,2024-01-18,1.0,True
+10 Jan,sales_2024_01_19,2024-01-19,2024-01-19,0.99,True
+10 Jan,sales_2024_01_20,2024-01-20,2024-01-20,0.99,True
+10 Jan,sales_2024_01_21,2024-01-21,2024-01-21,0.99,True
+10 Jan,sales_2024_01_22,2024-01-22,2024-01-22,0.99,True
+10 Jan,sales_2024_01_23,2024-01-23,2024-01-23,1.0,True
+10 Jan,sales_2024_01_24,2024-01-24,2024-01-24,1.0,True
+10 Jan,sales_2024_01_25,2024-01-25,2024-01-25,1.0,True
+10 Jan,sales_2024_01_26,2024-01-26,2024-01-26,1.0,True
+10 Jan,sales_2024_01_27,2024-01-27,2024-01-27,0.97,True
+10 Jan,sales_2024_01_28,2024-01-28,2024-01-28,0.99,True
+10 Jan,sales_2024_01_29,2024-01-29,2024-01-29,0.99,True
+10 Jan,sales_2024_01_30,2024-01-30,2024-01-30,1.0,True
+10 Jan,sales_2024_01_31,2024-01-31,2024-01-31,0.97,True
+10 Jan,store_code,Store Code,Store Code,1.0,True
+10 Jan,store_name,Store Name,Store Name,1.0,True
+10 Jan,region,Region,Region,1.0,True
+10 Jan,sales_2024_01_01,2024-01-01,2024-01-01,1.0,True
+10 Jan,sales_2024_01_02,2024-01-02,2024-01-02,1.0,True
+10 Jan,sales_2024_01_03,2024-01-03,2024-01-03,1.0,True
+10 Jan,sales_2024_01_04,2024-01-04,2024-01-04,1.0,True
+10 Jan,sales_2024_01_05,2024-01-05,2024-01-05,1.0,True
+10 Jan,sales_2024_01_06,2024-01-06,2024-01-06,1.0,True
+10 Jan,sales_2024_01_07,2024-01-07,2024-01-07,1.0,True
+10 Jan,sales_2024_01_08,2024-01-08,2024-01-08,1.0,True
+10 Jan,sales_2024_01_09,2024-01-09,2024-01-09,1.0,True
+10 Jan,sales_2024_01_10,2024-01-10,2024-01-10,1.0,True
+10 Jan,sales_2024_01_11,2024-01-11,2024-01-11,1.0,True
+10 Jan,sales_2024_01_12,2024-01-12,2024-01-12,1.0,True
+10 Jan,sales_2024_01_13,2024-01-13,2024-01-13,1.0,True
+10 Jan,sales_2024_01_14,2024-01-14,2024-01-14,1.0,True
+10 Jan,sales_2024_01_15,2024-01-15,2024-01-15,1.0,True
+10 Jan,sales_2024_01_16,2024-01-16,2024-01-16,1.0,True
+10 Jan,sales_2024_01_17,2024-01-17,2024-01-17,1.0,True
+10 Jan,sales_2024_01_18,2024-01-18,2024-01-18,1.0,True
+10 Jan,sales_2024_01_19,2024-01-19,2024-01-19,0.99,True
+10 Jan,sales_2024_01_20,2024-01-20,2024-01-20,1.0,True
+10 Jan,sales_2024_01_21,2024-01-21,2024-01-21,1.0,True
+10 Jan,sales_2024_01_22,2024-01-22,2024-01-22,1.0,True
+10 Jan,sales_2024_01_23,2024-01-23,2024-01-23,1.0,True
+10 Jan,sales_2024_01_24,2024-01-24,2024-01-24,1.0,True
+10 Jan,sales_2024_01_25,2024-01-25,2024-01-25,1.0,True
+10 Jan,sales_2024_01_26,2024-01-26,2024-01-26,1.0,True
+10 Jan,sales_2024_01_27,2024-01-27,2024-01-27,0.97,True
+10 Jan,sales_2024_01_28,2024-01-28,2024-01-28,1.0,True
+10 Jan,sales_2024_01_29,2024-01-29,2024-01-29,1.0,True
+10 Jan,sales_2024_01_30,2024-01-30,2024-01-30,1.0,True
+10 Jan,sales_2024_01_31,2024-01-31,2024-01-31,0.99,True
+10 Jan,store_code,Store Code,Store Code,1.0,True
+10 Jan,store_name,Store Name,Store Name,1.0,True
+10 Jan,region,Region,Region,1.0,True
+10 Jan,sales_2024_01_01,2024-01-01,2024-01-01,1.0,True
+10 Jan,sales_2024_01_02,2024-01-02,2024-01-02,1.0,True
+10 Jan,sales_2024_01_03,2024-01-03,2024-01-03,1.0,True
+10 Jan,sales_2024_01_04,2024-01-04,2024-01-04,1.0,True
+10 Jan,sales_2024_01_05,2024-01-05,2024-01-05,1.0,True
+10 Jan,sales_2024_01_06,2024-01-06,2024-01-06,1.0,True
+10 Jan,sales_2024_01_07,2024-01-07,2024-01-07,1.0,True
+10 Jan,sales_2024_01_08,2024-01-08,2024-01-08,1.0,True
+10 Jan,sales_2024_01_09,2024-01-09,2024-01-09,1.0,True
+10 Jan,sales_2024_01_10,2024-01-10,2024-01-10,1.0,True
+10 Jan,sales_2024_01_11,2024-01-11,2024-01-11,1.0,True
+10 Jan,sales_2024_01_12,2024-01-12,2024-01-12,1.0,True
+10 Jan,sales_2024_01_13,2024-01-13,2024-01-13,1.0,True
+10 Jan,sales_2024_01_14,2024-01-14,2024-01-14,1.0,True
+10 Jan,sales_2024_01_15,2024-01-15,2024-01-15,1.0,True
+10 Jan,sales_2024_01_16,2024-01-16,2024-01-16,1.0,True
+10 Jan,sales_2024_01_17,2024-01-17,2024-01-17,1.0,True
+10 Jan,sales_2024_01_18,2024-01-18,2024-01-18,0.99,True
+10 Jan,sales_2024_01_19,2024-01-19,2024-01-19,0.99,True
+10 Jan,sales_2024_01_20,2024-01-20,2024-01-20,0.99,True
+10 Jan,sales_2024_01_21,2024-01-21,2024-01-21,1.0,True
+10 Jan,sales_2024_01_22,2024-01-22,2024-01-22,1.0,True
+10 Jan,sales_2024_01_23,2024-01-23,2024-01-23,0.99,True
+10 Jan,sales_2024_01_24,2024-01-24,2024-01-24,1.0,True
+10 Jan,sales_2024_01_25,2024-01-25,2024-01-25,1.0,True
+10 Jan,sales_2024_01_26,2024-01-26,2024-01-26,1.0,True
+10 Jan,sales_2024_01_27,2024-01-27,2024-01-27,0.95,True
+10 Jan,sales_2024_01_28,2024-01-28,2024-01-28,0.97,True
+10 Jan,sales_2024_01_29,2024-01-29,2024-01-29,0.99,True
+10 Jan,sales_2024_01_30,2024-01-30,2024-01-30,1.0,True
+10 Jan,sales_2024_01_31,2024-01-31,2024-01-31,0.97,True
+10 Jan,store_code,Store Code,Store Code,1.0,True
+10 Jan,store_name,Store Name,Store Name,1.0,True
+10 Jan,region,Region,Region,1.0,True
+10 Jan,sales_2024_01_01,2024-01-01,2024-01-01,1.0,True
+10 Jan,sales_2024_01_02,2024-01-02,2024-01-02,1.0,True
+10 Jan,sales_2024_01_03,2024-01-03,2024-01-03,1.0,True
+10 Jan,sales_2024_01_04,2024-01-04,2024-01-04,1.0,True
+10 Jan,sales_2024_01_05,2024-01-05,2024-01-05,1.0,True
+10 Jan,sales_2024_01_06,2024-01-06,2024-01-06,1.0,True
+10 Jan,sales_2024_01_07,2024-01-07,2024-01-07,1.0,True
+10 Jan,sales_2024_01_08,2024-01-08,2024-01-08,1.0,True
+10 Jan,sales_2024_01_09,2024-01-09,2024-01-09,1.0,True
+10 Jan,sales_2024_01_10,2024-01-10,2024-01-10,1.0,True
+10 Jan,sales_2024_01_11,2024-01-11,2024-01-11,1.0,True
+10 Jan,sales_2024_01_12,2024-01-12,2024-01-12,1.0,True
+10 Jan,sales_2024_01_13,2024-01-13,2024-01-13,1.0,True
+10 Jan,sales_2024_01_14,2024-01-14,2024-01-14,1.0,True
+10 Jan,sales_2024_01_15,2024-01-15,2024-01-15,1.0,True
+10 Jan,sales_2024_01_16,2024-01-16,2024-01-16,1.0,True
+10 Jan,sales_2024_01_17,2024-01-17,2024-01-17,1.0,True
+10 Jan,sales_2024_01_18,2024-01-18,2024-01-18,0.99,True
+10 Jan,sales_2024_01_19,2024-01-19,2024-01-19,0.97,True
+10 Jan,sales_2024_01_20,2024-01-20,2024-01-20,0.99,True
+10 Jan,sales_2024_01_21,2024-01-21,2024-01-21,1.0,True
+10 Jan,sales_2024_01_22,2024-01-22,2024-01-22,0.99,True
+10 Jan,sales_2024_01_23,2024-01-23,2024-01-23,1.0,True
+10 Jan,sales_2024_01_24,2024-01-24,2024-01-24,1.0,True
+10 Jan,sales_2024_01_25,2024-01-25,2024-01-25,1.0,True
+10 Jan,sales_2024_01_26,2024-01-26,2024-01-26,1.0,True
+10 Jan,sales_2024_01_27,2024-01-27,2024-01-27,0.92,True
+10 Jan,sales_2024_01_28,2024-01-28,2024-01-28,0.97,True
+10 Jan,sales_2024_01_29,2024-01-29,2024-01-29,0.99,True
+10 Jan,sales_2024_01_30,2024-01-30,2024-01-30,0.99,True
+10 Jan,sales_2024_01_31,2024-01-31,2024-01-31,1.0,True
+10 Feb,store_code,Store Code,Store Code,1.0,True
+10 Feb,store_name,Store Name,Store Name,1.0,True
+10 Feb,region,Region,Region,1.0,True
+10 Feb,sales_2024_02_01,1-Feb-24,1-Feb-24,0.98,True
+10 Feb,sales_2024_02_02,2-Feb-24,2-Feb-24,0.99,True
+10 Feb,sales_2024_02_03,3-Feb-24,3-Feb-24,1.0,True
+10 Feb,sales_2024_02_04,4-Feb-24,4-Feb-24,1.0,True
+10 Feb,sales_2024_02_05,5-Feb-24,5-Feb-24,1.0,True
+10 Feb,sales_2024_02_06,6-Feb-24,6-Feb-24,1.0,True
+10 Feb,sales_2024_02_07,7-Feb-24,7-Feb-24,1.0,True
+10 Feb,sales_2024_02_08,8-Feb-24,8-Feb-24,1.0,True
+10 Feb,sales_2024_02_09,9-Feb-24,9-Feb-24,1.0,True
+10 Feb,sales_2024_02_10,10-Feb-24,10-Feb-24,1.0,True
+10 Feb,sales_2024_02_11,11-Feb-24,11-Feb-24,1.0,True
+10 Feb,sales_2024_02_12,12-Feb-24,12-Feb-24,1.0,True
+10 Feb,sales_2024_02_13,13-Feb-24,13-Feb-24,1.0,True
+10 Feb,sales_2024_02_14,14-Feb-24,14-Feb-24,1.0,True
+10 Feb,sales_2024_02_15,15-Feb-24,15-Feb-24,1.0,True
+10 Feb,sales_2024_02_16,16-Feb-24,16-Feb-24,1.0,True
+10 Feb,sales_2024_02_17,17-Feb-24,17-Feb-24,1.0,True
+10 Feb,sales_2024_02_18,18-Feb-24,18-Feb-24,1.0,True
+10 Feb,sales_2024_02_19,19-Feb-24,19-Feb-24,1.0,True
+10 Feb,sales_2024_02_20,20-Feb-24,20-Feb-24,1.0,True
+10 Feb,sales_2024_02_21,21-Feb-24,21-Feb-24,1.0,True
+10 Feb,sales_2024_02_22,22-Feb-24,22-Feb-24,1.0,True
+10 Feb,sales_2024_02_23,23-Feb-24,23-Feb-24,1.0,True
+10 Feb,sales_2024_02_24,24-Feb-24,24-Feb-24,1.0,True
+10 Feb,sales_2024_02_25,25-Feb-24,25-Feb-24,1.0,True
+10 Feb,sales_2024_02_26,26-Feb-24,26-Feb-24,1.0,True
+10 Feb,sales_2024_02_27,27-Feb-24,27-Feb-24,1.0,True
+10 Feb,sales_2024_02_28,28-Feb-24,28-Feb-24,1.0,True
+10 Feb,sales_2024_02_29,29-Feb-24,29-Feb-24,0.98,True
+10 Feb,store_code,Store Code,Store Code,1.0,True
+10 Feb,store_name,Store Name,Store Name,1.0,True
+10 Feb,region,Region,Region,1.0,True
+10 Feb,sales_2024_02_01,1-Feb-24,1-Feb-24,1.0,True
+10 Feb,sales_2024_02_02,2-Feb-24,2-Feb-24,1.0,True
+10 Feb,sales_2024_02_03,3-Feb-24,3-Feb-24,1.0,True
+10 Feb,sales_2024_02_04,4-Feb-24,4-Feb-24,1.0,True
+10 Feb,sales_2024_02_05,5-Feb-24,5-Feb-24,1.0,True
+10 Feb,sales_2024_02_06,6-Feb-24,6-Feb-24,1.0,True
+10 Feb,sales_2024_02_07,7-Feb-24,7-Feb-24,1.0,True
+10 Feb,sales_2024_02_08,8-Feb-24,8-Feb-24,1.0,True
+10 Feb,sales_2024_02_09,9-Feb-24,9-Feb-24,1.0,True
+10 Feb,sales_2024_02_10,10-Feb-24,10-Feb-24,1.0,True
+10 Feb,sales_2024_02_11,11-Feb-24,11-Feb-24,1.0,True
+10 Feb,sales_2024_02_12,12-Feb-24,12-Feb-24,1.0,True
+10 Feb,sales_2024_02_13,13-Feb-24,13-Feb-24,1.0,True
+10 Feb,sales_2024_02_14,14-Feb-24,14-Feb-24,1.0,True
+10 Feb,sales_2024_02_15,15-Feb-24,15-Feb-24,1.0,True
+10 Feb,sales_2024_02_16,16-Feb-24,16-Feb-24,1.0,True
+10 Feb,sales_2024_02_17,17-Feb-24,17-Feb-24,1.0,True
+10 Feb,sales_2024_02_18,18-Feb-24,18-Feb-24,1.0,True
+10 Feb,sales_2024_02_19,19-Feb-24,19-Feb-24,1.0,True
+10 Feb,sales_2024_02_20,20-Feb-24,20-Feb-24,1.0,True
+10 Feb,sales_2024_02_21,21-Feb-24,21-Feb-24,1.0,True
+10 Feb,sales_2024_02_22,22-Feb-24,22-Feb-24,1.0,True
+10 Feb,sales_2024_02_23,23-Feb-24,23-Feb-24,1.0,True
+10 Feb,sales_2024_02_24,24-Feb-24,24-Feb-24,1.0,True
+10 Feb,sales_2024_02_25,25-Feb-24,25-Feb-24,1.0,True
+10 Feb,sales_2024_02_26,26-Feb-24,26-Feb-24,1.0,True
+10 Feb,sales_2024_02_27,27-Feb-24,27-Feb-24,1.0,True
+10 Feb,sales_2024_02_28,28-Feb-24,28-Feb-24,1.0,True
+10 Feb,sales_2024_02_29,29-Feb-24,29-Feb-24,1.0,True
+10 Feb,store_code,Store Code,Store Code,1.0,True
+10 Feb,store_name,Store Name,Store Name,1.0,True
+10 Feb,region,Region,Region,1.0,True
+10 Feb,sales_2024_02_01,1-Feb-24,1-Feb-24,1.0,True
+10 Feb,sales_2024_02_02,2-Feb-24,2-Feb-24,1.0,True
+10 Feb,sales_2024_02_03,3-Feb-24,3-Feb-24,1.0,True
+10 Feb,sales_2024_02_04,4-Feb-24,4-Feb-24,1.0,True
+10 Feb,sales_2024_02_05,5-Feb-24,5-Feb-24,1.0,True
+10 Feb,sales_2024_02_06,6-Feb-24,6-Feb-24,1.0,True
+10 Feb,sales_2024_02_07,7-Feb-24,7-Feb-24,1.0,True
+10 Feb,sales_2024_02_08,8-Feb-24,8-Feb-24,1.0,True
+10 Feb,sales_2024_02_09,9-Feb-24,9-Feb-24,1.0,True
+10 Feb,sales_2024_02_10,10-Feb-24,10-Feb-24,1.0,True
+10 Feb,sales_2024_02_11,11-Feb-24,11-Feb-24,1.0,True
+10 Feb,sales_2024_02_12,12-Feb-24,12-Feb-24,1.0,True
+10 Feb,sales_2024_02_13,13-Feb-24,13-Feb-24,1.0,True
+10 Feb,sales_2024_02_14,14-Feb-24,14-Feb-24,1.0,True
+10 Feb,sales_2024_02_15,15-Feb-24,15-Feb-24,1.0,True
+10 Feb,sales_2024_02_16,16-Feb-24,16-Feb-24,1.0,True
+10 Feb,sales_2024_02_17,17-Feb-24,17-Feb-24,1.0,True
+10 Feb,sales_2024_02_18,18-Feb-24,18-Feb-24,1.0,True
+10 Feb,sales_2024_02_19,19-Feb-24,19-Feb-24,1.0,True
+10 Feb,sales_2024_02_20,20-Feb-24,20-Feb-24,1.0,True
+10 Feb,sales_2024_02_21,21-Feb-24,21-Feb-24,1.0,True
+10 Feb,sales_2024_02_22,22-Feb-24,22-Feb-24,1.0,True
+10 Feb,sales_2024_02_23,23-Feb-24,23-Feb-24,1.0,True
+10 Feb,sales_2024_02_24,24-Feb-24,24-Feb-24,1.0,True
+10 Feb,sales_2024_02_25,25-Feb-24,25-Feb-24,1.0,True
+10 Feb,sales_2024_02_26,26-Feb-24,26-Feb-24,1.0,True
+10 Feb,sales_2024_02_27,27-Feb-24,27-Feb-24,1.0,True
+10 Feb,sales_2024_02_28,28-Feb-24,28-Feb-24,1.0,True
+10 Feb,sales_2024_02_29,29-Feb-24,29-Feb-24,0.98,True
+10 Feb,store_code,Store Code,Store Code,1.0,True
+10 Feb,store_name,Store Name,Store Name,1.0,True
+10 Feb,region,Region,Region,1.0,True
+10 Feb,sales_2024_02_01,1-Feb-24,1-Feb-24,1.0,True
+10 Feb,sales_2024_02_02,2-Feb-24,2-Feb-24,1.0,True
+10 Feb,sales_2024_02_03,3-Feb-24,3-Feb-24,1.0,True
+10 Feb,sales_2024_02_04,4-Feb-24,4-Feb-24,1.0,True
+10 Feb,sales_2024_02_05,5-Feb-24,5-Feb-24,1.0,True
+10 Feb,sales_2024_02_06,6-Feb-24,6-Feb-24,1.0,True
+10 Feb,sales_2024_02_07,7-Feb-24,7-Feb-24,1.0,True
+10 Feb,sales_2024_02_08,8-Feb-24,8-Feb-24,1.0,True
+10 Feb,sales_2024_02_09,9-Feb-24,9-Feb-24,1.0,True
+10 Feb,sales_2024_02_10,10-Feb-24,10-Feb-24,1.0,True
+10 Feb,sales_2024_02_11,11-Feb-24,11-Feb-24,1.0,True
+10 Feb,sales_2024_02_12,12-Feb-24,12-Feb-24,1.0,True
+10 Feb,sales_2024_02_13,13-Feb-24,13-Feb-24,1.0,True
+10 Feb,sales_2024_02_14,14-Feb-24,14-Feb-24,1.0,True
+10 Feb,sales_2024_02_15,15-Feb-24,15-Feb-24,1.0,True
+10 Feb,sales_2024_02_16,16-Feb-24,16-Feb-24,1.0,True
+10 Feb,sales_2024_02_17,17-Feb-24,17-Feb-24,1.0,True
+10 Feb,sales_2024_02_18,18-Feb-24,18-Feb-24,1.0,True
+10 Feb,sales_2024_02_19,19-Feb-24,19-Feb-24,1.0,True
+10 Feb,sales_2024_02_20,20-Feb-24,20-Feb-24,1.0,True
+10 Feb,sales_2024_02_21,21-Feb-24,21-Feb-24,1.0,True
+10 Feb,sales_2024_02_22,22-Feb-24,22-Feb-24,1.0,True
+10 Feb,sales_2024_02_23,23-Feb-24,23-Feb-24,1.0,True
+10 Feb,sales_2024_02_24,24-Feb-24,24-Feb-24,1.0,True
+10 Feb,sales_2024_02_25,25-Feb-24,25-Feb-24,1.0,True
+10 Feb,sales_2024_02_26,26-Feb-24,26-Feb-24,1.0,True
+10 Feb,sales_2024_02_27,27-Feb-24,27-Feb-24,1.0,True
+10 Feb,sales_2024_02_28,28-Feb-24,28-Feb-24,1.0,True
+10 Feb,sales_2024_02_29,29-Feb-24,29-Feb-24,1.0,True
+10 Feb,store_code,Store Code,Store Code,1.0,True
+10 Feb,store_name,Store Name,Store Name,1.0,True
+10 Feb,region,Region,Region,1.0,True
+10 Feb,sales_2024_02_01,1-Feb-24,1-Feb-24,0.98,True
+10 Feb,sales_2024_02_02,2-Feb-24,2-Feb-24,0.99,True
+10 Feb,sales_2024_02_03,3-Feb-24,3-Feb-24,1.0,True
+10 Feb,sales_2024_02_04,4-Feb-24,4-Feb-24,0.99,True
+10 Feb,sales_2024_02_05,5-Feb-24,5-Feb-24,1.0,True
+10 Feb,sales_2024_02_06,6-Feb-24,6-Feb-24,1.0,True
+10 Feb,sales_2024_02_07,7-Feb-24,7-Feb-24,1.0,True
+10 Feb,sales_2024_02_08,8-Feb-24,8-Feb-24,1.0,True
+10 Feb,sales_2024_02_09,9-Feb-24,9-Feb-24,1.0,True
+10 Feb,sales_2024_02_10,10-Feb-24,10-Feb-24,1.0,True
+10 Feb,sales_2024_02_11,11-Feb-24,11-Feb-24,1.0,True
+10 Feb,sales_2024_02_12,12-Feb-24,12-Feb-24,1.0,True
+10 Feb,sales_2024_02_13,13-Feb-24,13-Feb-24,1.0,True
+10 Feb,sales_2024_02_14,14-Feb-24,14-Feb-24,1.0,True
+10 Feb,sales_2024_02_15,15-Feb-24,15-Feb-24,1.0,True
+10 Feb,sales_2024_02_16,16-Feb-24,16-Feb-24,1.0,True
+10 Feb,sales_2024_02_17,17-Feb-24,17-Feb-24,1.0,True
+10 Feb,sales_2024_02_18,18-Feb-24,18-Feb-24,1.0,True
+10 Feb,sales_2024_02_19,19-Feb-24,19-Feb-24,1.0,True
+10 Feb,sales_2024_02_20,20-Feb-24,20-Feb-24,1.0,True
+10 Feb,sales_2024_02_21,21-Feb-24,21-Feb-24,1.0,True
+10 Feb,sales_2024_02_22,22-Feb-24,22-Feb-24,1.0,True
+10 Feb,sales_2024_02_23,23-Feb-24,23-Feb-24,1.0,True
+10 Feb,sales_2024_02_24,24-Feb-24,24-Feb-24,1.0,True
+10 Feb,sales_2024_02_25,25-Feb-24,25-Feb-24,1.0,True
+10 Feb,sales_2024_02_26,26-Feb-24,26-Feb-24,1.0,True
+10 Feb,sales_2024_02_27,27-Feb-24,27-Feb-24,1.0,True
+10 Feb,sales_2024_02_28,28-Feb-24,28-Feb-24,1.0,True
+10 Feb,sales_2024_02_29,29-Feb-24,29-Feb-24,1.0,True
+10 Mar,store_code,Store Code,Store Code,1.0,True
+10 Mar,store_name,Store Name,Store Name,1.0,True
+10 Mar,region,Region,Region,1.0,True
+10 Mar,sales_2024_03_01,45352,none,0.73,False
+10 Mar,sales_2024_03_02,45353,none,0.67,False
+10 Mar,sales_2024_03_03,45354,3/8,0.45,False
+10 Mar,sales_2024_03_04,45355,none,0.41,False
+10 Mar,sales_2024_03_05,45356,03/05/2024,0.72,False
+10 Mar,sales_2024_03_06,45357,none,0.63,False
+10 Mar,sales_2024_03_07,45358,none,0.43,False
+10 Mar,sales_2024_03_08,45359,none,0.66,False
+10 Mar,sales_2024_03_09,45360,9/8,0.25,False
+10 Mar,sales_2024_03_10,45361|45361.1,none,0.25,False
+10 Mar,sales_2024_03_11,45362,none,0.25,False
+10 Mar,sales_2024_03_12,45363,12/8,0.2,False
+10 Mar,sales_2024_03_13,45364,none,0.29,False
+10 Mar,sales_2024_03_14,45365,none,0.27,False
+10 Mar,sales_2024_03_15,45366,none,0.18,False
+10 Mar,sales_2024_03_16,45367,none,0.29,False
+10 Mar,sales_2024_03_17,45368,17/8,0.14,False
+10 Mar,sales_2024_03_18,45369,18/8,0.11,False
+10 Mar,sales_2024_03_19,45370,19/8,0.28,False
+10 Mar,sales_2024_03_20,45371,20/8,0.28,False
+10 Mar,sales_2024_03_21,45372,21/8,0.48,False
+10 Mar,sales_2024_03_22,45373,22/8,0.38,False
+10 Mar,sales_2024_03_23,45374,23/8,0.27,False
+10 Mar,sales_2024_03_24,45375,24/8,0.3,False
+10 Mar,sales_2024_03_25,45376,25/8,0.22,False
+10 Mar,sales_2024_03_26,45377,26/8,0.25,False
+10 Mar,sales_2024_03_27,45378,27/8,0.25,False
+10 Mar,sales_2024_03_28,45379,28/8,0.49,False
+10 Mar,sales_2024_03_29,45380,29/8,0.14,False
+10 Mar,sales_2024_03_30,45381,30/8,0.2,False
+10 Mar,sales_2024_03_31,45382,none,0.14,False
+10 Mar,store_code,Store Code,Store Code,1.0,True
+10 Mar,store_name,Store Name,Store Name,1.0,True
+10 Mar,region,Region,Region,1.0,True
+10 Mar,sales_2024_03_01,45352,none,0.59,False
+10 Mar,sales_2024_03_02,45353,none,0.56,False
+10 Mar,sales_2024_03_03,45354,none,0.15,False
+10 Mar,sales_2024_03_04,45355,04/04/2024,0.37,False
+10 Mar,sales_2024_03_05,45356,03/05/2024,0.51,False
+10 Mar,sales_2024_03_06,45357,none,0.34,False
+10 Mar,sales_2024_03_07,45358,none,0.25,False
+10 Mar,sales_2024_03_08,45359,none,0.45,False
+10 Mar,sales_2024_03_09,45360,9/8,0.31,False
+10 Mar,sales_2024_03_10,45361|45361.1,none,0.23,False
+10 Mar,sales_2024_03_11,45362,none,0.21,False
+10 Mar,sales_2024_03_12,45363,none,0.13,False
+10 Mar,sales_2024_03_13,45364,13/8,0.07,False
+10 Mar,sales_2024_03_14,45365,none,0.31,False
+10 Mar,sales_2024_03_15,45366,15/8,0.13,False
+10 Mar,sales_2024_03_16,45367,none,0.24,False
+10 Mar,sales_2024_03_17,45368,17/8,0.09,False
+10 Mar,sales_2024_03_18,45369,18/8,0.1,False
+10 Mar,sales_2024_03_19,45370,19/8,0.16,False
+10 Mar,sales_2024_03_20,45371,20/8,0.04,False
+10 Mar,sales_2024_03_21,45372,21/8,0.27,False
+10 Mar,sales_2024_03_22,45373,22/8,0.27,False
+10 Mar,sales_2024_03_23,45374,23/8,0.19,False
+10 Mar,sales_2024_03_24,45375,24/8,0.07,False
+10 Mar,sales_2024_03_25,45376,25/8,0.27,False
+10 Mar,sales_2024_03_26,45377,26/8,0.18,False
+10 Mar,sales_2024_03_27,45378,27/8,0.28,False
+10 Mar,sales_2024_03_28,45379,28/8,0.33,False
+10 Mar,sales_2024_03_29,45380,29/8,0.14,False
+10 Mar,sales_2024_03_30,45381,30/8,0.13,False
+10 Mar,sales_2024_03_31,45382,31/8,0.2,False
+10 Mar,store_code,Store Code,Store Code,1.0,True
+10 Mar,store_name,Store Name,Store Name,1.0,True
+10 Mar,region,Region,Region,1.0,True
+10 Mar,sales_2024_03_01,45352,none,0.82,False
+10 Mar,sales_2024_03_02,45353,none,0.44,False
+10 Mar,sales_2024_03_03,45354,3/8,0.41,False
+10 Mar,sales_2024_03_04,45355,none,0.53,False
+10 Mar,sales_2024_03_05,45356,03/05/2024,0.42,False
+10 Mar,sales_2024_03_06,45357,none,0.67,False
+10 Mar,sales_2024_03_07,45358,none,0.58,False
+10 Mar,sales_2024_03_08,45359,none,0.53,False
+10 Mar,sales_2024_03_09,45360,9/8,0.27,False
+10 Mar,sales_2024_03_10,45361|45361.1,none,0.28,False
+10 Mar,sales_2024_03_11,45362,11/8,0.34,False
+10 Mar,sales_2024_03_12,45363,12/8,0.33,False
+10 Mar,sales_2024_03_13,45364,13/8,0.3,False
+10 Mar,sales_2024_03_14,45365,none,0.51,False
+10 Mar,sales_2024_03_15,45366,15/8,0.37,False
+10 Mar,sales_2024_03_16,45367,none,0.29,False
+10 Mar,sales_2024_03_17,45368,17/8,0.22,False
+10 Mar,sales_2024_03_18,45369,18/8,0.19,False
+10 Mar,sales_2024_03_19,45370,19/8,0.33,False
+10 Mar,sales_2024_03_20,45371,20/8,0.09,False
+10 Mar,sales_2024_03_21,45372,21/8,0.38,False
+10 Mar,sales_2024_03_22,45373,22/8,0.31,False
+10 Mar,sales_2024_03_23,45374,23/8,0.16,False
+10 Mar,sales_2024_03_24,45375,24/8,0.18,False
+10 Mar,sales_2024_03_25,45376,25/8,0.19,False
+10 Mar,sales_2024_03_26,45377,26/8,0.1,False
+10 Mar,sales_2024_03_27,45378,27/8,0.19,False
+10 Mar,sales_2024_03_28,45379,28/8,0.19,False
+10 Mar,sales_2024_03_29,45380,29/8,0.16,False
+10 Mar,sales_2024_03_30,45381,30/8,0.06,False
+10 Mar,sales_2024_03_31,45382,31/8,0.09,False
+10 Mar,store_code,Store Code,Store Code,1.0,True
+10 Mar,store_name,Store Name,Store Name,1.0,True
+10 Mar,region,Region,Region,1.0,True
+10 Mar,sales_2024_03_01,45352,none,0.45,False
+10 Mar,sales_2024_03_02,45353,none,0.74,False
+10 Mar,sales_2024_03_03,45354,3/8,0.37,False
+10 Mar,sales_2024_03_04,45355,04/04/2024,0.31,False
+10 Mar,sales_2024_03_05,45356,03/05/2024,0.5,False
+10 Mar,sales_2024_03_06,45357,none,0.37,False
+10 Mar,sales_2024_03_07,45358,none,0.35,False
+10 Mar,sales_2024_03_08,45359,none,0.48,False
+10 Mar,sales_2024_03_09,45360,none,0.2,False
+10 Mar,sales_2024_03_10,45361|45361.1,10/8,0.37,False
+10 Mar,sales_2024_03_11,45362,11/8,0.24,False
+10 Mar,sales_2024_03_12,45363,12/8,0.27,False
+10 Mar,sales_2024_03_13,45364,13/8,0.15,False
+10 Mar,sales_2024_03_14,45365,none,0.25,False
+10 Mar,sales_2024_03_15,45366,none,0.21,False
+10 Mar,sales_2024_03_16,45367,none,0.2,False
+10 Mar,sales_2024_03_17,45368,17/8,0.16,False
+10 Mar,sales_2024_03_18,45369,18/8,0.1,False
+10 Mar,sales_2024_03_19,45370,19/8,0.27,False
+10 Mar,sales_2024_03_20,45371,20/8,0.18,False
+10 Mar,sales_2024_03_21,45372,21/8,0.4,False
+10 Mar,sales_2024_03_22,45373,22/8,0.35,False
+10 Mar,sales_2024_03_23,45374,23/8,0.27,False
+10 Mar,sales_2024_03_24,45375,24/8,0.13,False
+10 Mar,sales_2024_03_25,45376,25/8,0.31,False
+10 Mar,sales_2024_03_26,45377,26/8,0.2,False
+10 Mar,sales_2024_03_27,45378,27/8,0.34,False
+10 Mar,sales_2024_03_28,45379,28/8,0.38,False
+10 Mar,sales_2024_03_29,45380,29/8,0.33,False
+10 Mar,sales_2024_03_30,45381,30/8,0.34,False
+10 Mar,sales_2024_03_31,45382,31/8,0.25,False
+10 Mar,store_code,Store Code,Store Code,1.0,True
+10 Mar,store_name,Store Name,Store Name,1.0,True
+10 Mar,region,Region,Region,1.0,True
+10 Mar,sales_2024_03_01,45352,none,0.73,False
+10 Mar,sales_2024_03_02,45353,none,0.48,False
+10 Mar,sales_2024_03_03,45354,none,0.62,False
+10 Mar,sales_2024_03_04,45355,none,0.29,False
+10 Mar,sales_2024_03_05,45356,03/05/2024,0.66,False
+10 Mar,sales_2024_03_06,45357,none,0.46,False
+10 Mar,sales_2024_03_07,45358,none,0.34,False
+10 Mar,sales_2024_03_08,45359,none,0.3,False
+10 Mar,sales_2024_03_09,45360,none,0.2,False
+10 Mar,sales_2024_03_10,45361|45361.1,none,0.47,False
+10 Mar,sales_2024_03_11,45362,none,0.53,False
+10 Mar,sales_2024_03_12,45363,12.07.,0.19,False
+10 Mar,sales_2024_03_13,45364,none,0.16,False
+10 Mar,sales_2024_03_14,45365,none,0.51,False
+10 Mar,sales_2024_03_15,45366,none,0.19,False
+10 Mar,sales_2024_03_16,45367,none,0.53,False
+10 Mar,sales_2024_03_17,45368,none,0.2,False
+10 Mar,sales_2024_03_18,45369,18.07.,0.27,False
+10 Mar,sales_2024_03_19,45370,19.07.,0.22,False
+10 Mar,sales_2024_03_20,45371,none,0.19,False
+10 Mar,sales_2024_03_21,45372,none,0.11,False
+10 Mar,sales_2024_03_22,45373,22.07.,0.37,False
+10 Mar,sales_2024_03_23,45374,23.07.,0.37,False
+10 Mar,sales_2024_03_24,45375,24.07.,0.25,False
+10 Mar,sales_2024_03_25,45376,25.07.,0.38,False
+10 Mar,sales_2024_03_26,45377,26.07.,0.3,False
+10 Mar,sales_2024_03_27,45378,27.07.,0.2,False
+10 Mar,sales_2024_03_28,45379,28.07.,0.33,False
+10 Mar,sales_2024_03_29,45380,29.07.,0.28,False
+10 Mar,sales_2024_03_30,45381,none,0.14,False
+10 Mar,sales_2024_03_31,45382,none,0.27,False
+10 Apr,store_code,Store Code,Store Code,1.0,True
+10 Apr,store_name,Store Name,Store Name,1.0,True
+10 Apr,region,Region,Region,1.0,True
+10 Apr,sales_2024_04_01,04/01/2024,04/01/2024,1.0,True
+10 Apr,sales_2024_04_02,04/02/2024,04/02/2024,0.99,True
+10 Apr,sales_2024_04_03,04/03/2024,04/03/2024,1.0,True
+10 Apr,sales_2024_04_04,04/04/2024,04/04/2024,1.0,True
+10 Apr,sales_2024_04_05,04/05/2024,04/05/2024,0.82,True
+10 Apr,sales_2024_04_06,04/06/2024,04/06/2024,0.99,True
+10 Apr,sales_2024_04_07,04/07/2024,04/07/2024,0.97,True
+10 Apr,sales_2024_04_08,04/08/2024,04/08/2024,0.99,True
+10 Apr,sales_2024_04_09,04/09/2024,04/09/2024,1.0,True
+10 Apr,sales_2024_04_10,04/10/2024,04/10/2024,1.0,True
+10 Apr,sales_2024_04_11,04/11/2024,04/11/2024,1.0,True
+10 Apr,sales_2024_04_12,04/12/2024,04/12/2024,1.0,True
+10 Apr,sales_2024_04_13,04/13/2024,04/13/2024,1.0,True
+10 Apr,sales_2024_04_14,04/14/2024,04/14/2024,1.0,True
+10 Apr,sales_2024_04_15,04/15/2024,04/15/2024,1.0,True
+10 Apr,sales_2024_04_16,04/16/2024,04/16/2024,1.0,True
+10 Apr,sales_2024_04_17,04/17/2024,04/17/2024,1.0,True
+10 Apr,sales_2024_04_18,04/18/2024,04/18/2024,0.99,True
+10 Apr,sales_2024_04_19,04/19/2024,04/19/2024,0.99,True
+10 Apr,sales_2024_04_20,04/20/2024,04/20/2024,1.0,True
+10 Apr,sales_2024_04_21,04/21/2024,04/21/2024,1.0,True
+10 Apr,sales_2024_04_22,04/22/2024,04/22/2024,1.0,True
+10 Apr,sales_2024_04_23,04/23/2024,04/23/2024,0.99,True
+10 Apr,sales_2024_04_24,04/24/2024,04/24/2024,1.0,True
+10 Apr,sales_2024_04_25,04/25/2024,04/25/2024,0.99,True
+10 Apr,sales_2024_04_26,04/26/2024,04/26/2024,1.0,True
+10 Apr,sales_2024_04_27,04/27/2024,04/27/2024,0.99,True
+10 Apr,sales_2024_04_28,04/28/2024,04/28/2024,1.0,True
+10 Apr,sales_2024_04_29,04/29/2024,04/29/2024,1.0,True
+10 Apr,sales_2024_04_30,04/30/2024,04/30/2024,1.0,True
+10 Apr,store_code,Store Code,Store Code,1.0,True
+10 Apr,store_name,Store Name,Store Name,1.0,True
+10 Apr,region,Region,Region,1.0,True
+10 Apr,sales_2024_04_01,04/01/2024,04/01/2024,1.0,True
+10 Apr,sales_2024_04_02,04/02/2024,04/02/2024,0.99,True
+10 Apr,sales_2024_04_03,04/03/2024,04/03/2024,0.98,True
+10 Apr,sales_2024_04_04,04/04/2024,04/04/2024,1.0,True
+10 Apr,sales_2024_04_05,04/05/2024,04/05/2024,0.82,True
+10 Apr,sales_2024_04_06,04/06/2024,04/06/2024,1.0,True
+10 Apr,sales_2024_04_07,04/07/2024,04/07/2024,0.97,True
+10 Apr,sales_2024_04_08,04/08/2024,04/08/2024,0.99,True
+10 Apr,sales_2024_04_09,04/09/2024,04/09/2024,1.0,True
+10 Apr,sales_2024_04_10,04/10/2024,04/10/2024,1.0,True
+10 Apr,sales_2024_04_11,04/11/2024,04/11/2024,0.99,True
+10 Apr,sales_2024_04_12,04/12/2024,04/12/2024,1.0,True
+10 Apr,sales_2024_04_13,04/13/2024,04/13/2024,1.0,True
+10 Apr,sales_2024_04_14,04/14/2024,04/14/2024,0.99,True
+10 Apr,sales_2024_04_15,04/15/2024,04/15/2024,1.0,True
+10 Apr,sales_2024_04_16,04/16/2024,04/16/2024,1.0,True
+10 Apr,sales_2024_04_17,04/17/2024,04/17/2024,0.99,True
+10 Apr,sales_2024_04_18,04/18/2024,04/18/2024,0.99,True
+10 Apr,sales_2024_04_19,04/19/2024,04/19/2024,1.0,True
+10 Apr,sales_2024_04_20,04/20/2024,04/20/2024,0.99,True
+10 Apr,sales_2024_04_21,04/21/2024,04/21/2024,0.99,True
+10 Apr,sales_2024_04_22,04/22/2024,04/22/2024,0.99,True
+10 Apr,sales_2024_04_23,04/23/2024,04/23/2024,0.99,True
+10 Apr,sales_2024_04_24,04/24/2024,04/24/2024,1.0,True
+10 Apr,sales_2024_04_25,04/25/2024,04/25/2024,1.0,True
+10 Apr,sales_2024_04_26,04/26/2024,04/26/2024,1.0,True
+10 Apr,sales_2024_04_27,04/27/2024,04/27/2024,1.0,True
+10 Apr,sales_2024_04_28,04/28/2024,04/28/2024,0.97,True
+10 Apr,sales_2024_04_29,04/29/2024,04/29/2024,0.99,True
+10 Apr,sales_2024_04_30,04/30/2024,04/30/2024,0.98,True
+10 Apr,store_code,Store Code,Store Code,1.0,True
+10 Apr,store_name,Store Name,Store Name,1.0,True
+10 Apr,region,Region,Region,1.0,True
+10 Apr,sales_2024_04_01,04/01/2024,04/01/2024,1.0,True
+10 Apr,sales_2024_04_02,04/02/2024,04/02/2024,1.0,True
+10 Apr,sales_2024_04_03,04/03/2024,04/03/2024,1.0,True
+10 Apr,sales_2024_04_04,04/04/2024,04/04/2024,0.99,True
+10 Apr,sales_2024_04_05,04/05/2024,04/05/2024,0.9,True
+10 Apr,sales_2024_04_06,04/06/2024,04/06/2024,1.0,True
+10 Apr,sales_2024_04_07,04/07/2024,04/07/2024,0.99,True
+10 Apr,sales_2024_04_08,04/08/2024,04/08/2024,0.99,True
+10 Apr,sales_2024_04_09,04/09/2024,04/09/2024,1.0,True
+10 Apr,sales_2024_04_10,04/10/2024,04/10/2024,1.0,True
+10 Apr,sales_2024_04_11,04/11/2024,04/11/2024,1.0,True
+10 Apr,sales_2024_04_12,04/12/2024,04/12/2024,1.0,True
+10 Apr,sales_2024_04_13,04/13/2024,04/13/2024,1.0,True
+10 Apr,sales_2024_04_14,04/14/2024,04/14/2024,1.0,True
+10 Apr,sales_2024_04_15,04/15/2024,04/15/2024,1.0,True
+10 Apr,sales_2024_04_16,04/16/2024,04/16/2024,1.0,True
+10 Apr,sales_2024_04_17,04/17/2024,04/17/2024,1.0,True
+10 Apr,sales_2024_04_18,04/18/2024,04/18/2024,0.99,True
+10 Apr,sales_2024_04_19,04/19/2024,04/19/2024,0.99,True
+10 Apr,sales_2024_04_20,04/20/2024,04/20/2024,1.0,True
+10 Apr,sales_2024_04_21,04/21/2024,04/21/2024,1.0,True
+10 Apr,sales_2024_04_22,04/22/2024,04/22/2024,1.0,True
+10 Apr,sales_2024_04_23,04/23/2024,04/23/2024,1.0,True
+10 Apr,sales_2024_04_24,04/24/2024,04/24/2024,1.0,True
+10 Apr,sales_2024_04_25,04/25/2024,04/25/2024,1.0,True
+10 Apr,sales_2024_04_26,04/26/2024,04/26/2024,1.0,True
+10 Apr,sales_2024_04_27,04/27/2024,04/27/2024,1.0,True
+10 Apr,sales_2024_04_28,04/28/2024,04/28/2024,1.0,True
+10 Apr,sales_2024_04_29,04/29/2024,04/29/2024,1.0,True
+10 Apr,sales_2024_04_30,04/30/2024,04/30/2024,1.0,True
+10 Apr,store_code,Store Code,Store Code,1.0,True
+10 Apr,store_name,Store Name,Store Name,1.0,True
+10 Apr,region,Region,Region,1.0,True
+10 Apr,sales_2024_04_01,04/01/2024,04/01/2024,1.0,True
+10 Apr,sales_2024_04_02,04/02/2024,04/02/2024,0.99,True
+10 Apr,sales_2024_04_03,04/03/2024,04/03/2024,0.98,True
+10 Apr,sales_2024_04_04,04/04/2024,04/04/2024,0.99,True
+10 Apr,sales_2024_04_05,04/05/2024,04/05/2024,0.7,True
+10 Apr,sales_2024_04_06,04/06/2024,04/06/2024,1.0,True
+10 Apr,sales_2024_04_07,04/07/2024,04/07/2024,0.97,True
+10 Apr,sales_2024_04_08,04/08/2024,04/08/2024,0.99,True
+10 Apr,sales_2024_04_09,04/09/2024,04/09/2024,1.0,True
+10 Apr,sales_2024_04_10,04/10/2024,04/10/2024,1.0,True
+10 Apr,sales_2024_04_11,04/11/2024,04/11/2024,1.0,True
+10 Apr,sales_2024_04_12,04/12/2024,04/12/2024,1.0,True
+10 Apr,sales_2024_04_13,04/13/2024,04/13/2024,1.0,True
+10 Apr,sales_2024_04_14,04/14/2024,04/14/2024,1.0,True
+10 Apr,sales_2024_04_15,04/15/2024,04/15/2024,1.0,True
+10 Apr,sales_2024_04_16,04/16/2024,04/16/2024,1.0,True
+10 Apr,sales_2024_04_17,04/17/2024,04/17/2024,0.99,True
+10 Apr,sales_2024_04_18,04/18/2024,04/18/2024,1.0,True
+10 Apr,sales_2024_04_19,04/19/2024,04/19/2024,1.0,True
+10 Apr,sales_2024_04_20,04/20/2024,04/20/2024,1.0,True
+10 Apr,sales_2024_04_21,04/21/2024,04/21/2024,1.0,True
+10 Apr,sales_2024_04_22,04/22/2024,04/22/2024,1.0,True
+10 Apr,sales_2024_04_23,04/23/2024,04/23/2024,0.99,True
+10 Apr,sales_2024_04_24,04/24/2024,04/24/2024,1.0,True
+10 Apr,sales_2024_04_25,04/25/2024,04/25/2024,1.0,True
+10 Apr,sales_2024_04_26,04/26/2024,04/26/2024,1.0,True
+10 Apr,sales_2024_04_27,04/27/2024,04/27/2024,1.0,True
+10 Apr,sales_2024_04_28,04/28/2024,04/28/2024,0.99,True
+10 Apr,sales_2024_04_29,04/29/2024,04/29/2024,1.0,True
+10 Apr,sales_2024_04_30,04/30/2024,04/30/2024,1.0,True
+10 Apr,store_code,Store Code,Store Code,1.0,True
+10 Apr,store_name,Store Name,Store Name,1.0,True
+10 Apr,region,Region,Region,1.0,True
+10 Apr,sales_2024_04_01,04/01/2024,04/01/2024,1.0,True
+10 Apr,sales_2024_04_02,04/02/2024,04/02/2024,0.99,True
+10 Apr,sales_2024_04_03,04/03/2024,04/03/2024,0.98,True
+10 Apr,sales_2024_04_04,04/04/2024,04/04/2024,1.0,True
+10 Apr,sales_2024_04_05,04/05/2024,04/05/2024,0.87,True
+10 Apr,sales_2024_04_06,04/06/2024,04/06/2024,0.99,True
+10 Apr,sales_2024_04_07,04/07/2024,04/07/2024,0.99,True
+10 Apr,sales_2024_04_08,04/08/2024,04/08/2024,0.99,True
+10 Apr,sales_2024_04_09,04/09/2024,04/09/2024,0.99,True
+10 Apr,sales_2024_04_10,04/10/2024,04/10/2024,1.0,True
+10 Apr,sales_2024_04_11,04/11/2024,04/11/2024,0.99,True
+10 Apr,sales_2024_04_12,04/12/2024,04/12/2024,1.0,True
+10 Apr,sales_2024_04_13,04/13/2024,04/13/2024,1.0,True
+10 Apr,sales_2024_04_14,04/14/2024,04/14/2024,0.99,True
+10 Apr,sales_2024_04_15,04/15/2024,04/15/2024,0.99,True
+10 Apr,sales_2024_04_16,04/16/2024,04/16/2024,1.0,True
+10 Apr,sales_2024_04_17,04/17/2024,04/17/2024,0.99,True
+10 Apr,sales_2024_04_18,04/18/2024,04/18/2024,0.99,True
+10 Apr,sales_2024_04_19,04/19/2024,04/19/2024,0.99,True
+10 Apr,sales_2024_04_20,04/20/2024,04/20/2024,0.99,True
+10 Apr,sales_2024_04_21,04/21/2024,04/21/2024,0.99,True
+10 Apr,sales_2024_04_22,04/22/2024,04/22/2024,0.99,True
+10 Apr,sales_2024_04_23,04/23/2024,04/23/2024,0.99,True
+10 Apr,sales_2024_04_24,04/24/2024,04/24/2024,1.0,True
+10 Apr,sales_2024_04_25,04/25/2024,04/25/2024,0.99,True
+10 Apr,sales_2024_04_26,04/26/2024,04/26/2024,0.99,True
+10 Apr,sales_2024_04_27,04/27/2024,04/27/2024,0.99,True
+10 Apr,sales_2024_04_28,04/28/2024,04/28/2024,0.97,True
+10 Apr,sales_2024_04_29,04/29/2024,04/29/2024,0.99,True
+10 Apr,sales_2024_04_30,04/30/2024,04/30/2024,0.98,True
+10 May,store_code,Store Code,Store Code,1.0,True
+10 May,store_name,Store Name,Store Name,1.0,True
+10 May,region,Region,Region,1.0,True
+10 May,sales_2024_05_01,01/05/2024,01/05/2024,0.98,True
+10 May,sales_2024_05_02,02/05/2024,02/05/2024,0.98,True
+10 May,sales_2024_05_03,03/05/2024,03/05/2024,0.98,True
+10 May,sales_2024_05_04,04/05/2024.1,none,0.7,False
+10 May,sales_2024_05_05,05/05/2024,05/05/2024,0.96,True
+10 May,sales_2024_05_06,06/05/2024,06/05/2024,0.99,True
+10 May,sales_2024_05_07,07/05/2024,07/05/2024,1.0,True
+10 May,sales_2024_05_08,08/05/2024,08/05/2024,1.0,True
+10 May,sales_2024_05_09,09/05/2024,09/05/2024,1.0,True
+10 May,sales_2024_05_10,10/05/2024,10/05/2024,1.0,True
+10 May,sales_2024_05_11,11/05/2024,11/05/2024,0.96,True
+10 May,sales_2024_05_12,12/05/2024,12/05/2024,0.99,True
+10 May,sales_2024_05_13,13/05/2024,13/05/2024,0.99,True
+10 May,sales_2024_05_14,14/05/2024,14/05/2024,0.99,True
+10 May,sales_2024_05_15,15/05/2024,15/05/2024,0.97,True
+10 May,sales_2024_05_16,16/05/2024,16/05/2024,1.0,True
+10 May,sales_2024_05_17,17/05/2024,17/05/2024,1.0,True
+10 May,sales_2024_05_18,18/05/2024,18/05/2024,1.0,True
+10 May,sales_2024_05_19,19/05/2024,19/05/2024,1.0,True
+10 May,sales_2024_05_20,20/05/2024,20/05/2024,1.0,True
+10 May,sales_2024_05_21,21/05/2024,21/05/2024,0.76,True
+10 May,sales_2024_05_22,22/05/2024,22/05/2024,1.0,True
+10 May,sales_2024_05_23,23/05/2024,23/05/2024,1.0,True
+10 May,sales_2024_05_24,24/05/2024,24/05/2024,1.0,True
+10 May,sales_2024_05_25,25/05/2024,25/05/2024,1.0,True
+10 May,sales_2024_05_26,26/05/2024,26/05/2024,1.0,True
+10 May,sales_2024_05_27,27/05/2024,27/05/2024,1.0,True
+10 May,sales_2024_05_28,28/05/2024,28/05/2024,1.0,True
+10 May,sales_2024_05_29,29/05/2024,29/05/2024,1.0,True
+10 May,sales_2024_05_30,30/05/2024,30/05/2024,1.0,True
+10 May,sales_2024_05_31,31/05/2024,31/05/2024,1.0,True
+10 May,store_code,Store Code,Store Code,1.0,True
+10 May,store_name,Store Name,Store Name,1.0,True
+10 May,region,Region,Region,1.0,True
+10 May,sales_2024_05_01,01/05/2024,01/05/2024,0.98,True
+10 May,sales_2024_05_02,02/05/2024,02/05/2024,0.98,True
+10 May,sales_2024_05_03,03/05/2024,03/05/2024,0.98,True
+10 May,sales_2024_05_04,04/05/2024.1,none,0.62,False
+10 May,sales_2024_05_05,05/05/2024,05/05/2024,0.95,True
+10 May,sales_2024_05_06,06/05/2024,06/05/2024,0.97,True
+10 May,sales_2024_05_07,07/05/2024,07/05/2024,0.99,True
+10 May,sales_2024_05_08,08/05/2024,08/05/2024,1.0,True
+10 May,sales_2024_05_09,09/05/2024,09/05/2024,1.0,True
+10 May,sales_2024_05_10,10/05/2024,10/05/2024,1.0,True
+10 May,sales_2024_05_11,11/05/2024,11/05/2024,0.93,True
+10 May,sales_2024_05_12,12/05/2024,12/05/2024,1.0,True
+10 May,sales_2024_05_13,13/05/2024,13/05/2024,0.99,True
+10 May,sales_2024_05_14,14/05/2024,14/05/2024,0.99,True
+10 May,sales_2024_05_15,15/05/2024,15/05/2024,0.99,True
+10 May,sales_2024_05_16,16/05/2024,16/05/2024,1.0,True
+10 May,sales_2024_05_17,17/05/2024,17/05/2024,1.0,True
+10 May,sales_2024_05_18,18/05/2024,18/05/2024,1.0,True
+10 May,sales_2024_05_19,19/05/2024,19/05/2024,1.0,True
+10 May,sales_2024_05_20,20/05/2024,20/05/2024,1.0,True
+10 May,sales_2024_05_21,21/05/2024,21/05/2024,0.94,True
+10 May,sales_2024_05_22,22/05/2024,22/05/2024,1.0,True
+10 May,sales_2024_05_23,23/05/2024,23/05/2024,1.0,True
+10 May,sales_2024_05_24,24/05/2024,24/05/2024,1.0,True
+10 May,sales_2024_05_25,25/05/2024,25/05/2024,1.0,True
+10 May,sales_2024_05_26,26/05/2024,26/05/2024,1.0,True
+10 May,sales_2024_05_27,27/05/2024,27/05/2024,1.0,True
+10 May,sales_2024_05_28,28/05/2024,28/05/2024,1.0,True
+10 May,sales_2024_05_29,29/05/2024,29/05/2024,1.0,True
+10 May,sales_2024_05_30,30/05/2024,30/05/2024,1.0,True
+10 May,sales_2024_05_31,31/05/2024,31/05/2024,1.0,True
+10 May,store_code,Store Code,Store Code,1.0,True
+10 May,store_name,Store Name,Store Name,1.0,True
+10 May,region,Region,Region,1.0,True
+10 May,sales_2024_05_01,01/05/2024,01/05/2024,0.98,True
+10 May,sales_2024_05_02,02/05/2024,02/05/2024,0.98,True
+10 May,sales_2024_05_03,03/05/2024,03/05/2024,0.98,True
+10 May,sales_2024_05_04,04/05/2024.1,04/05/2024.1,0.6,True
+10 May,sales_2024_05_05,05/05/2024,05/05/2024,0.9,True
+10 May,sales_2024_05_06,06/05/2024,06/05/2024,0.99,True
+10 May,sales_2024_05_07,07/05/2024,07/05/2024,0.99,True
+10 May,sales_2024_05_08,08/05/2024,08/05/2024,0.97,True
+10 May,sales_2024_05_09,09/05/2024,09/05/2024,0.99,True
+10 May,sales_2024_05_10,10/05/2024,10/05/2024,0.97,True
+10 May,sales_2024_05_11,11/05/2024,11/05/2024,0.96,True
+10 May,sales_2024_05_12,12/05/2024,12/05/2024,1.0,True
+10 May,sales_2024_05_13,13/05/2024,13/05/2024,1.0,True
+10 May,sales_2024_05_14,14/05/2024,14/05/2024,1.0,True
+10 May,sales_2024_05_15,15/05/2024,15/05/2024,1.0,True
+10 May,sales_2024_05_16,16/05/2024,16/05/2024,1.0,True
+10 May,sales_2024_05_17,17/05/2024,17/05/2024,1.0,True
+10 May,sales_2024_05_18,18/05/2024,18/05/2024,1.0,True
+10 May,sales_2024_05_19,19/05/2024,19/05/2024,1.0,True
+10 May,sales_2024_05_20,20/05/2024,20/05/2024,1.0,True
+10 May,sales_2024_05_21,21/05/2024,21/05/2024,0.8,True
+10 May,sales_2024_05_22,22/05/2024,22/05/2024,1.0,True
+10 May,sales_2024_05_23,23/05/2024,23/05/2024,1.0,True
+10 May,sales_2024_05_24,24/05/2024,24/05/2024,1.0,True
+10 May,sales_2024_05_25,25/05/2024,25/05/2024,1.0,True
+10 May,sales_2024_05_26,26/05/2024,26/05/2024,1.0,True
+10 May,sales_2024_05_27,27/05/2024,27/05/2024,1.0,True
+10 May,sales_2024_05_28,28/05/2024,28/05/2024,1.0,True
+10 May,sales_2024_05_29,29/05/2024,29/05/2024,1.0,True
+10 May,sales_2024_05_30,30/05/2024,30/05/2024,1.0,True
+10 May,sales_2024_05_31,31/05/2024,31/05/2024,1.0,True
+10 May,store_code,Store Code,Store Code,1.0,True
+10 May,store_name,Store Name,Store Name,1.0,True
+10 May,region,Region,Region,1.0,True
+10 May,sales_2024_05_01,01/05/2024,01/05/2024,0.98,True
+10 May,sales_2024_05_02,02/05/2024,02/05/2024,0.99,True
+10 May,sales_2024_05_03,03/05/2024,03/05/2024,0.97,True
+10 May,sales_2024_05_04,04/05/2024.1,none,0.52,False
+10 May,sales_2024_05_05,05/05/2024,05/05/2024,0.93,True
+10 May,sales_2024_05_06,06/05/2024,06/05/2024,0.97,True
+10 May,sales_2024_05_07,07/05/2024,07/05/2024,0.99,True
+10 May,sales_2024_05_08,08/05/2024,08/05/2024,0.97,True
+10 May,sales_2024_05_09,09/05/2024,09/05/2024,0.99,True
+10 May,sales_2024_05_10,10/05/2024,10/05/2024,1.0,True
+10 May,sales_2024_05_11,11/05/2024,11/05/2024,0.99,True
+10 May,sales_2024_05_12,12/05/2024,12/05/2024,1.0,True
+10 May,sales_2024_05_13,13/05/2024,13/05/2024,0.99,True
+10 May,sales_2024_05_14,14/05/2024,14/05/2024,0.99,True
+10 May,sales_2024_05_15,15/05/2024,15/05/2024,0.99,True
+10 May,sales_2024_05_16,16/05/2024,16/05/2024,1.0,True
+10 May,sales_2024_05_17,17/05/2024,17/05/2024,1.0,True
+10 May,sales_2024_05_18,18/05/2024,18/05/2024,1.0,True
+10 May,sales_2024_05_19,19/05/2024,19/05/2024,1.0,True
+10 May,sales_2024_05_20,20/05/2024,20/05/2024,1.0,True
+10 May,sales_2024_05_21,21/05/2024,21/05/2024,0.58,True
+10 May,sales_2024_05_22,22/05/2024,22/05/2024,1.0,True
+10 May,sales_2024_05_23,23/05/2024,23/05/2024,1.0,True
+10 May,sales_2024_05_24,24/05/2024,24/05/2024,1.0,True
+10 May,sales_2024_05_25,25/05/2024,25/05/2024,1.0,True
+10 May,sales_2024_05_26,26/05/2024,26/05/2024,1.0,True
+10 May,sales_2024_05_27,27/05/2024,27/05/2024,1.0,True
+10 May,sales_2024_05_28,28/05/2024,28/05/2024,1.0,True
+10 May,sales_2024_05_29,29/05/2024,29/05/2024,1.0,True
+10 May,sales_2024_05_30,30/05/2024,30/05/2024,1.0,True
+10 May,sales_2024_05_31,31/05/2024,31/05/2024,1.0,True
+10 May,store_code,Store Code,Store Code,1.0,True
+10 May,store_name,Store Name,Store Name,1.0,True
+10 May,region,Region,Region,1.0,True
+10 May,sales_2024_05_01,01/05/2024,01/05/2024,0.98,True
+10 May,sales_2024_05_02,02/05/2024,02/05/2024,0.99,True
+10 May,sales_2024_05_03,03/05/2024,03/05/2024,0.96,True
+10 May,sales_2024_05_04,04/05/2024.1,none,0.64,False
+10 May,sales_2024_05_05,05/05/2024,05/05/2024,0.89,True
+10 May,sales_2024_05_06,06/05/2024,06/05/2024,0.97,True
+10 May,sales_2024_05_07,07/05/2024,07/05/2024,0.99,True
+10 May,sales_2024_05_08,08/05/2024,08/05/2024,0.99,True
+10 May,sales_2024_05_09,09/05/2024,09/05/2024,1.0,True
+10 May,sales_2024_05_10,10/05/2024,10/05/2024,1.0,True
+10 May,sales_2024_05_11,11/05/2024,11/05/2024,0.99,True
+10 May,sales_2024_05_12,12/05/2024,12/05/2024,1.0,True
+10 May,sales_2024_05_13,13/05/2024,13/05/2024,1.0,True
+10 May,sales_2024_05_14,14/05/2024,14/05/2024,0.99,True
+10 May,sales_2024_05_15,15/05/2024,15/05/2024,0.97,True
+10 May,sales_2024_05_16,16/05/2024,16/05/2024,1.0,True
+10 May,sales_2024_05_17,17/05/2024,17/05/2024,1.0,True
+10 May,sales_2024_05_18,18/05/2024,18/05/2024,1.0,True
+10 May,sales_2024_05_19,19/05/2024,19/05/2024,1.0,True
+10 May,sales_2024_05_20,20/05/2024,20/05/2024,1.0,True
+10 May,sales_2024_05_21,21/05/2024,21/05/2024,0.73,True
+10 May,sales_2024_05_22,22/05/2024,22/05/2024,1.0,True
+10 May,sales_2024_05_23,23/05/2024,23/05/2024,1.0,True
+10 May,sales_2024_05_24,24/05/2024,24/05/2024,1.0,True
+10 May,sales_2024_05_25,25/05/2024,25/05/2024,1.0,True
+10 May,sales_2024_05_26,26/05/2024,26/05/2024,1.0,True
+10 May,sales_2024_05_27,27/05/2024,27/05/2024,1.0,True
+10 May,sales_2024_05_28,28/05/2024,28/05/2024,1.0,True
+10 May,sales_2024_05_29,29/05/2024,29/05/2024,1.0,True
+10 May,sales_2024_05_30,30/05/2024,30/05/2024,1.0,True
+10 May,sales_2024_05_31,31/05/2024,31/05/2024,1.0,True
+10 Jun,store_code,Store Code,Store Code,1.0,True
+10 Jun,store_name,Store Name,Store Name,1.0,True
+10 Jun,region,Region,Region,1.0,True
+10 Jun,sales_2024_06_01,Jun 1,Jun 1,0.98,True
+10 Jun,sales_2024_06_02,Jun 2,Jun 2,1.0,True
+10 Jun,sales_2024_06_03,Jun 3,Jun 3,1.0,True
+10 Jun,sales_2024_06_04,Jun 4,Jun 4,1.0,True
+10 Jun,sales_2024_06_05,Jun 5,Jun 5,1.0,True
+10 Jun,sales_2024_06_06,Jun 6,Jun 6,0.99,True
+10 Jun,sales_2024_06_07,Jun 7,Jun 7,0.99,True
+10 Jun,sales_2024_06_08,Jun 8,Jun 8,0.97,True
+10 Jun,sales_2024_06_09,Jun 9,Jun 9,0.97,True
+10 Jun,sales_2024_06_10,Jun 10,Jun 10,1.0,True
+10 Jun,sales_2024_06_11,Jun 11,Jun 11,0.96,True
+10 Jun,sales_2024_06_12,Jun 12,Jun 12,0.99,True
+10 Jun,sales_2024_06_13,Jun 13,Jun 13,1.0,True
+10 Jun,sales_2024_06_14,Jun 14,Jun 14,0.99,True
+10 Jun,sales_2024_06_15,Jun 15,Jun 15,1.0,True
+10 Jun,sales_2024_06_16,Jun 16,Jun 16,0.97,True
+10 Jun,sales_2024_06_17,Jun 17,Jun 17,1.0,True
+10 Jun,sales_2024_06_18,Jun 18,Jun 18,1.0,True
+10 Jun,sales_2024_06_19,Jun 19,Jun 19,1.0,True
+10 Jun,sales_2024_06_20,Jun 20,Jun 20,1.0,True
+10 Jun,sales_2024_06_21,Jun 21,Jun 21,1.0,True
+10 Jun,sales_2024_06_22,Jun 22,Jun 22,1.0,True
+10 Jun,sales_2024_06_23,Jun 23,Jun 23,1.0,True
+10 Jun,sales_2024_06_24,Jun 24,Jun 24,1.0,True
+10 Jun,sales_2024_06_25,Jun 25,Jun 25,1.0,True
+10 Jun,sales_2024_06_26,Jun 26,Jun 26,1.0,True
+10 Jun,sales_2024_06_27,Jun 27,Jun 27,1.0,True
+10 Jun,sales_2024_06_28,Jun 28,Jun 28,1.0,True
+10 Jun,sales_2024_06_29,Jun 29,Jun 29,1.0,True
+10 Jun,sales_2024_06_30,none,none,0.76,True
+10 Jun,store_code,Store Code,Store Code,1.0,True
+10 Jun,store_name,Store Name,Store Name,1.0,True
+10 Jun,region,Region,Region,1.0,True
+10 Jun,sales_2024_06_01,Jun 1,Jun 1,0.98,True
+10 Jun,sales_2024_06_02,Jun 2,Jun 2,0.98,True
+10 Jun,sales_2024_06_03,Jun 3,Jun 3,1.0,True
+10 Jun,sales_2024_06_04,Jun 4,Jun 4,1.0,True
+10 Jun,sales_2024_06_05,Jun 5,Jun 5,1.0,True
+10 Jun,sales_2024_06_06,Jun 6,Jun 6,0.99,True
+10 Jun,sales_2024_06_07,Jun 7,Jun 7,0.99,True
+10 Jun,sales_2024_06_08,Jun 8,Jun 8,0.96,True
+10 Jun,sales_2024_06_09,Jun 9,Jun 9,0.97,True
+10 Jun,sales_2024_06_10,Jun 10,Jun 10,0.99,True
+10 Jun,sales_2024_06_11,Jun 11,Jun 11,0.99,True
+10 Jun,sales_2024_06_12,Jun 12,Jun 12,1.0,True
+10 Jun,sales_2024_06_13,Jun 13,Jun 13,0.99,True
+10 Jun,sales_2024_06_14,Jun 14,Jun 14,0.99,True
+10 Jun,sales_2024_06_15,Jun 15,Jun 15,1.0,True
+10 Jun,sales_2024_06_16,Jun 16,Jun 16,0.97,True
+10 Jun,sales_2024_06_17,Jun 17,Jun 17,1.0,True
+10 Jun,sales_2024_06_18,Jun 18,Jun 18,1.0,True
+10 Jun,sales_2024_06_19,Jun 19,Jun 19,1.0,True
+10 Jun,sales_2024_06_20,Jun 20,Jun 20,1.0,True
+10 Jun,sales_2024_06_21,Jun 21,Jun 21,1.0,True
+10 Jun,sales_2024_06_22,Jun 22,Jun 22,1.0,True
+10 Jun,sales_2024_06_23,Jun 23,Jun 23,1.0,True
+10 Jun,sales_2024_06_24,Jun 24,Jun 24,1.0,True
+10 Jun,sales_2024_06_25,Jun 25,Jun 25,1.0,True
+10 Jun,sales_2024_06_26,Jun 26,Jun 26,1.0,True
+10 Jun,sales_2024_06_27,Jun 27,Jun 27,1.0,True
+10 Jun,sales_2024_06_28,Jun 28,Jun 28,1.0,True
+10 Jun,sales_2024_06_29,Jun 29,Jun 29,1.0,True
+10 Jun,sales_2024_06_30,none,none,0.54,True
+10 Jun,store_code,Store Code,Store Code,1.0,True
+10 Jun,store_name,Store Name,Store Name,1.0,True
+10 Jun,region,Region,Region,1.0,True
+10 Jun,sales_2024_06_01,Jun 1,Jun 1,0.98,True
+10 Jun,sales_2024_06_02,Jun 2,Jun 2,0.99,True
+10 Jun,sales_2024_06_03,Jun 3,Jun 3,0.98,True
+10 Jun,sales_2024_06_04,Jun 4,Jun 4,0.99,True
+10 Jun,sales_2024_06_05,Jun 5,Jun 5,1.0,True
+10 Jun,sales_2024_06_06,Jun 6,Jun 6,1.0,True
+10 Jun,sales_2024_06_07,Jun 7,Jun 7,0.97,True
+10 Jun,sales_2024_06_08,Jun 8,Jun 8,0.97,True
+10 Jun,sales_2024_06_09,Jun 9,Jun 9,0.98,True
+10 Jun,sales_2024_06_10,Jun 10,Jun 10,1.0,True
+10 Jun,sales_2024_06_11,Jun 11,Jun 11,0.97,True
+10 Jun,sales_2024_06_12,Jun 12,Jun 12,1.0,True
+10 Jun,sales_2024_06_13,Jun 13,Jun 13,1.0,True
+10 Jun,sales_2024_06_14,Jun 14,Jun 14,1.0,True
+10 Jun,sales_2024_06_15,Jun 15,Jun 15,0.97,True
+10 Jun,sales_2024_06_16,Jun 16,Jun 16,1.0,True
+10 Jun,sales_2024_06_17,Jun 17,Jun 17,1.0,True
+10 Jun,sales_2024_06_18,Jun 18,Jun 18,1.0,True
+10 Jun,sales_2024_06_19,Jun 19,Jun 19,1.0,True
+10 Jun,sales_2024_06_20,Jun 20,Jun 20,1.0,True
+10 Jun,sales_2024_06_21,Jun 21,Jun 21,1.0,True
+10 Jun,sales_2024_06_22,Jun 22,Jun 22,1.0,True
+10 Jun,sales_2024_06_23,Jun 23,Jun 23,1.0,True
+10 Jun,sales_2024_06_24,Jun 24,Jun 24,1.0,True
+10 Jun,sales_2024_06_25,Jun 25,Jun 25,1.0,True
+10 Jun,sales_2024_06_26,Jun 26,Jun 26,1.0,True
+10 Jun,sales_2024_06_27,Jun 27,Jun 27,1.0,True
+10 Jun,sales_2024_06_28,Jun 28,Jun 28,1.0,True
+10 Jun,sales_2024_06_29,Jun 29,Jun 29,1.0,True
+10 Jun,sales_2024_06_30,none,none,0.76,True
+10 Jun,store_code,Store Code,Store Code,1.0,True
+10 Jun,store_name,Store Name,Store Name,1.0,True
+10 Jun,region,Region,Region,1.0,True
+10 Jun,sales_2024_06_01,Jun 1,Jun 1,0.98,True
+10 Jun,sales_2024_06_02,Jun 2,Jun 2,0.99,True
+10 Jun,sales_2024_06_03,Jun 3,Jun 3,0.98,True
+10 Jun,sales_2024_06_04,Jun 4,Jun 4,0.97,True
+10 Jun,sales_2024_06_05,Jun 5,Jun 5,1.0,True
+10 Jun,sales_2024_06_06,Jun 6,Jun 6,0.97,True
+10 Jun,sales_2024_06_07,Jun 7,Jun 7,0.97,True
+10 Jun,sales_2024_06_08,Jun 8,Jun 8,0.95,True
+10 Jun,sales_2024_06_09,Jun 9,Jun 9,0.97,True
+10 Jun,sales_2024_06_10,Jun 10,Jun 10,0.97,True
+10 Jun,sales_2024_06_11,Jun 11,Jun 11,0.96,True
+10 Jun,sales_2024_06_12,Jun 12,Jun 12,0.99,True
+10 Jun,sales_2024_06_13,Jun 13,Jun 13,0.97,True
+10 Jun,sales_2024_06_14,Jun 14,Jun 14,0.97,True
+10 Jun,sales_2024_06_15,Jun 15,Jun 15,0.97,True
+10 Jun,sales_2024_06_16,Jun 16,Jun 16,0.99,True
+10 Jun,sales_2024_06_17,Jun 17,Jun 17,0.99,True
+10 Jun,sales_2024_06_18,Jun 18,Jun 18,1.0,True
+10 Jun,sales_2024_06_19,Jun 19,Jun 19,1.0,True
+10 Jun,sales_2024_06_20,Jun 20,Jun 20,1.0,True
+10 Jun,sales_2024_06_21,Jun 21,Jun 21,1.0,True
+10 Jun,sales_2024_06_22,Jun 22,Jun 22,1.0,True
+10 Jun,sales_2024_06_23,Jun 23,Jun 23,1.0,True
+10 Jun,sales_2024_06_24,Jun 24,Jun 24,0.98,True
+10 Jun,sales_2024_06_25,Jun 25,Jun 25,1.0,True
+10 Jun,sales_2024_06_26,Jun 26,Jun 26,1.0,True
+10 Jun,sales_2024_06_27,Jun 27,Jun 27,1.0,True
+10 Jun,sales_2024_06_28,Jun 28,Jun 28,1.0,True
+10 Jun,sales_2024_06_29,Jun 29,Jun 29,1.0,True
+10 Jun,sales_2024_06_30,none,none,0.74,True
+10 Jun,store_code,Store Code,Store Code,1.0,True
+10 Jun,store_name,Store Name,Store Name,1.0,True
+10 Jun,region,Region,Region,1.0,True
+10 Jun,sales_2024_06_01,Jun 1,Jun 1,0.98,True
+10 Jun,sales_2024_06_02,Jun 2,Jun 2,0.99,True
+10 Jun,sales_2024_06_03,Jun 3,Jun 3,0.97,True
+10 Jun,sales_2024_06_04,Jun 4,Jun 4,0.97,True
+10 Jun,sales_2024_06_05,Jun 5,Jun 5,0.99,True
+10 Jun,sales_2024_06_06,Jun 6,Jun 6,0.96,True
+10 Jun,sales_2024_06_07,Jun 7,Jun 7,0.97,True
+10 Jun,sales_2024_06_08,Jun 8,Jun 8,0.97,True
+10 Jun,sales_2024_06_09,Jun 9,Jun 9,1.0,True
+10 Jun,sales_2024_06_10,Jun 10,Jun 10,1.0,True
+10 Jun,sales_2024_06_11,Jun 11,Jun 11,0.99,True
+10 Jun,sales_2024_06_12,Jun 12,Jun 12,0.99,True
+10 Jun,sales_2024_06_13,Jun 13,Jun 13,1.0,True
+10 Jun,sales_2024_06_14,Jun 14,Jun 14,0.99,True
+10 Jun,sales_2024_06_15,Jun 15,Jun 15,1.0,True
+10 Jun,sales_2024_06_16,Jun 16,Jun 16,1.0,True
+10 Jun,sales_2024_06_17,Jun 17,Jun 17,1.0,True
+10 Jun,sales_2024_06_18,Jun 18,Jun 18,1.0,True
+10 Jun,sales_2024_06_19,Jun 19,Jun 19,1.0,True
+10 Jun,sales_2024_06_20,Jun 20,Jun 20,1.0,True
+10 Jun,sales_2024_06_21,Jun 21,Jun 21,1.0,True
+10 Jun,sales_2024_06_22,Jun 22,Jun 22,1.0,True
+10 Jun,sales_2024_06_23,Jun 23,Jun 23,1.0,True
+10 Jun,sales_2024_06_24,Jun 24,Jun 24,1.0,True
+10 Jun,sales_2024_06_25,Jun 25,Jun 25,1.0,True
+10 Jun,sales_2024_06_26,Jun 26,Jun 26,1.0,True
+10 Jun,sales_2024_06_27,Jun 27,Jun 27,1.0,True
+10 Jun,sales_2024_06_28,Jun 28,Jun 28,1.0,True
+10 Jun,sales_2024_06_29,Jun 29,Jun 29,1.0,True
+10 Jun,sales_2024_06_30,none,none,0.68,True
+10 Jul,store_code,Store Code,Store Code,1.0,True
+10 Jul,store_name,Store Name,Store Name,1.0,True
+10 Jul,region,Region,Region,1.0,True
+10 Jul,sales_2024_07_01,01.07.,01.07.,1.0,True
+10 Jul,sales_2024_07_02,02.07.,02.07.,0.99,True
+10 Jul,sales_2024_07_03,03.07.,03.07.,1.0,True
+10 Jul,sales_2024_07_04,04.07.,04.07.,1.0,True
+10 Jul,sales_2024_07_05,05.07.,05.07.,1.0,True
+10 Jul,sales_2024_07_06,06.07.,06.07.,0.99,True
+10 Jul,sales_2024_07_07,07.07.,07.07.,0.99,True
+10 Jul,sales_2024_07_08,08.07.,08.07.,0.91,True
+10 Jul,sales_2024_07_09,09.07.,09.07.,0.99,True
+10 Jul,sales_2024_07_10,10.07.,10.07.,0.97,True
+10 Jul,sales_2024_07_11,11.07.,11.07.,0.97,True
+10 Jul,sales_2024_07_12,12.07.,12.07.,0.97,True
+10 Jul,sales_2024_07_13,13.07.,13.07.,0.96,True
+10 Jul,sales_2024_07_14,14.07.,14.07.,0.99,True
+10 Jul,sales_2024_07_15,15.07.,15.07.,1.0,True
+10 Jul,sales_2024_07_16,16.07.,16.07.,0.97,True
+10 Jul,sales_2024_07_17,17.07.,17.07.,0.98,True
+10 Jul,sales_2024_07_18,18.07.,18.07.,0.97,True
+10 Jul,sales_2024_07_19,19.07.,19.07.,0.98,True
+10 Jul,sales_2024_07_20,20.07.,20.07.,0.98,True
+10 Jul,sales_2024_07_21,21.07.,21.07.,0.98,True
+10 Jul,sales_2024_07_22,22.07.,22.07.,0.95,True
+10 Jul,sales_2024_07_23,23.07.,23.07.,0.98,True
+10 Jul,sales_2024_07_24,24.07.,24.07.,0.97,True
+10 Jul,sales_2024_07_25,25.07.,25.07.,0.97,True
+10 Jul,sales_2024_07_26,26.07.,26.07.,0.98,True
+10 Jul,sales_2024_07_27,27.07.,27.07.,0.98,True
+10 Jul,sales_2024_07_28,28.07.,28.07.,0.98,True
+10 Jul,sales_2024_07_29,29.07.,29.07.,0.98,True
+10 Jul,sales_2024_07_30,30.07.,30.07.,1.0,True
+10 Jul,sales_2024_07_31,31.07.,31.07.,0.98,True
+10 Jul,store_code,Store Code,Store Code,1.0,True
+10 Jul,store_name,Store Name,Store Name,1.0,True
+10 Jul,region,Region,Region,1.0,True
+10 Jul,sales_2024_07_01,01.07.,01.07.,1.0,True
+10 Jul,sales_2024_07_02,02.07.,02.07.,0.99,True
+10 Jul,sales_2024_07_03,03.07.,03.07.,1.0,True
+10 Jul,sales_2024_07_04,04.07.,04.07.,1.0,True
+10 Jul,sales_2024_07_05,05.07.,05.07.,1.0,True
+10 Jul,sales_2024_07_06,06.07.,06.07.,0.99,True
+10 Jul,sales_2024_07_07,07.07.,07.07.,0.96,True
+10 Jul,sales_2024_07_08,08.07.,08.07.,0.92,True
+10 Jul,sales_2024_07_09,09.07.,09.07.,0.99,True
+10 Jul,sales_2024_07_10,10.07.,10.07.,0.96,True
+10 Jul,sales_2024_07_11,11.07.,11.07.,0.97,True
+10 Jul,sales_2024_07_12,12.07.,12.07.,0.97,True
+10 Jul,sales_2024_07_13,13.07.,13.07.,0.97,True
+10 Jul,sales_2024_07_14,14.07.,14.07.,0.99,True
+10 Jul,sales_2024_07_15,15.07.,15.07.,0.98,True
+10 Jul,sales_2024_07_16,16.07.,16.07.,0.99,True
+10 Jul,sales_2024_07_17,17.07.,17.07.,0.98,True
+10 Jul,sales_2024_07_18,18.07.,18.07.,0.97,True
+10 Jul,sales_2024_07_19,19.07.,19.07.,0.98,True
+10 Jul,sales_2024_07_20,20.07.,20.07.,0.98,True
+10 Jul,sales_2024_07_21,21.07.,21.07.,0.98,True
+10 Jul,sales_2024_07_22,22.07.,22.07.,0.94,True
+10 Jul,sales_2024_07_23,23.07.,23.07.,0.97,True
+10 Jul,sales_2024_07_24,24.07.,24.07.,0.95,True
+10 Jul,sales_2024_07_25,25.07.,25.07.,0.98,True
+10 Jul,sales_2024_07_26,26.07.,26.07.,0.98,True
+10 Jul,sales_2024_07_27,27.07.,27.07.,0.98,True
+10 Jul,sales_2024_07_28,28.07.,28.07.,0.97,True
+10 Jul,sales_2024_07_29,29.07.,29.07.,0.98,True
+10 Jul,sales_2024_07_30,30.07.,30.07.,0.98,True
+10 Jul,sales_2024_07_31,31.07.,31.07.,0.98,True
+10 Jul,store_code,Store Code,Store Code,1.0,True
+10 Jul,store_name,Store Name,Store Name,1.0,True
+10 Jul,region,Region,Region,1.0,True
+10 Jul,sales_2024_07_01,01.07.,01.07.,1.0,True
+10 Jul,sales_2024_07_02,02.07.,02.07.,0.99,True
+10 Jul,sales_2024_07_03,03.07.,03.07.,0.98,True
+10 Jul,sales_2024_07_04,04.07.,04.07.,0.99,True
+10 Jul,sales_2024_07_05,05.07.,05.07.,1.0,True
+10 Jul,sales_2024_07_06,06.07.,06.07.,1.0,True
+10 Jul,sales_2024_07_07,07.07.,07.07.,0.97,True
+10 Jul,sales_2024_07_08,08.07.,08.07.,0.93,True
+10 Jul,sales_2024_07_09,09.07.,09.07.,0.97,True
+10 Jul,sales_2024_07_10,10.07.,10.07.,0.96,True
+10 Jul,sales_2024_07_11,11.07.,11.07.,0.97,True
+10 Jul,sales_2024_07_12,12.07.,12.07.,0.97,True
+10 Jul,sales_2024_07_13,13.07.,13.07.,1.0,True
+10 Jul,sales_2024_07_14,14.07.,14.07.,0.99,True
+10 Jul,sales_2024_07_15,15.07.,15.07.,1.0,True
+10 Jul,sales_2024_07_16,16.07.,16.07.,0.99,True
+10 Jul,sales_2024_07_17,17.07.,17.07.,0.97,True
+10 Jul,sales_2024_07_18,18.07.,18.07.,1.0,True
+10 Jul,sales_2024_07_19,19.07.,19.07.,0.97,True
+10 Jul,sales_2024_07_20,20.07.,20.07.,0.97,True
+10 Jul,sales_2024_07_21,21.07.,21.07.,0.98,True
+10 Jul,sales_2024_07_22,22.07.,22.07.,0.95,True
+10 Jul,sales_2024_07_23,23.07.,23.07.,0.98,True
+10 Jul,sales_2024_07_24,24.07.,24.07.,0.97,True
+10 Jul,sales_2024_07_25,25.07.,25.07.,0.98,True
+10 Jul,sales_2024_07_26,26.07.,26.07.,0.98,True
+10 Jul,sales_2024_07_27,27.07.,27.07.,0.98,True
+10 Jul,sales_2024_07_28,28.07.,28.07.,0.97,True
+10 Jul,sales_2024_07_29,29.07.,29.07.,0.98,True
+10 Jul,sales_2024_07_30,30.07.,30.07.,1.0,True
+10 Jul,sales_2024_07_31,31.07.,31.07.,0.98,True
+10 Jul,store_code,Store Code,Store Code,1.0,True
+10 Jul,store_name,Store Name,Store Name,1.0,True
+10 Jul,region,Region,Region,1.0,True
+10 Jul,sales_2024_07_01,01.07.,01.07.,0.96,True
+10 Jul,sales_2024_07_02,02.07.,02.07.,0.97,True
+10 Jul,sales_2024_07_03,03.07.,03.07.,0.96,True
+10 Jul,sales_2024_07_04,04.07.,04.07.,0.97,True
+10 Jul,sales_2024_07_05,05.07.,05.07.,0.97,True
+10 Jul,sales_2024_07_06,06.07.,06.07.,0.99,True
+10 Jul,sales_2024_07_07,07.07.,07.07.,0.92,True
+10 Jul,sales_2024_07_08,08.07.,08.07.,0.92,True
+10 Jul,sales_2024_07_09,09.07.,09.07.,0.96,True
+10 Jul,sales_2024_07_10,10.07.,10.07.,0.95,True
+10 Jul,sales_2024_07_11,11.07.,11.07.,0.96,True
+10 Jul,sales_2024_07_12,12.07.,12.07.,0.95,True
+10 Jul,sales_2024_07_13,13.07.,13.07.,0.97,True
+10 Jul,sales_2024_07_14,14.07.,14.07.,0.97,True
+10 Jul,sales_2024_07_15,15.07.,15.07.,0.98,True
+10 Jul,sales_2024_07_16,16.07.,16.07.,0.96,True
+10 Jul,sales_2024_07_17,17.07.,17.07.,0.97,True
+10 Jul,sales_2024_07_18,18.07.,18.07.,0.97,True
+10 Jul,sales_2024_07_19,19.07.,19.07.,0.97,True
+10 Jul,sales_2024_07_20,20.07.,20.07.,0.97,True
+10 Jul,sales_2024_07_21,21.07.,21.07.,0.97,True
+10 Jul,sales_2024_07_22,22.07.,22.07.,0.97,True
+10 Jul,sales_2024_07_23,23.07.,23.07.,0.98,True
+10 Jul,sales_2024_07_24,24.07.,24.07.,0.97,True
+10 Jul,sales_2024_07_25,25.07.,25.07.,0.97,True
+10 Jul,sales_2024_07_26,26.07.,26.07.,0.98,True
+10 Jul,sales_2024_07_27,27.07.,27.07.,0.98,True
+10 Jul,sales_2024_07_28,28.07.,28.07.,0.97,True
+10 Jul,sales_2024_07_29,29.07.,29.07.,1.0,True
+10 Jul,sales_2024_07_30,30.07.,30.07.,1.0,True
+10 Jul,sales_2024_07_31,31.07.,31.07.,0.97,True
+10 Jul,store_code,Store Code,Store Code,1.0,True
+10 Jul,store_name,Store Name,Store Name,1.0,True
+10 Jul,region,Region,Region,1.0,True
+10 Jul,sales_2024_07_01,01.07.,01.07.,1.0,True
+10 Jul,sales_2024_07_02,02.07.,02.07.,1.0,True
+10 Jul,sales_2024_07_03,03.07.,03.07.,1.0,True
+10 Jul,sales_2024_07_04,04.07.,04.07.,1.0,True
+10 Jul,sales_2024_07_05,05.07.,05.07.,1.0,True
+10 Jul,sales_2024_07_06,06.07.,06.07.,1.0,True
+10 Jul,sales_2024_07_07,07.07.,07.07.,0.98,True
+10 Jul,sales_2024_07_08,08.07.,08.07.,0.94,True
+10 Jul,sales_2024_07_09,09.07.,09.07.,0.99,True
+10 Jul,sales_2024_07_10,10.07.,10.07.,0.99,True
+10 Jul,sales_2024_07_11,11.07.,11.07.,0.97,True
+10 Jul,sales_2024_07_12,12.07.,12.07.,0.97,True
+10 Jul,sales_2024_07_13,13.07.,13.07.,1.0,True
+10 Jul,sales_2024_07_14,14.07.,14.07.,0.98,True
+10 Jul,sales_2024_07_15,15.07.,15.07.,1.0,True
+10 Jul,sales_2024_07_16,16.07.,16.07.,0.99,True
+10 Jul,sales_2024_07_17,17.07.,17.07.,0.98,True
+10 Jul,sales_2024_07_18,18.07.,18.07.,0.97,True
+10 Jul,sales_2024_07_19,19.07.,19.07.,0.98,True
+10 Jul,sales_2024_07_20,20.07.,20.07.,1.0,True
+10 Jul,sales_2024_07_21,21.07.,21.07.,0.98,True
+10 Jul,sales_2024_07_22,22.07.,22.07.,0.95,True
+10 Jul,sales_2024_07_23,23.07.,23.07.,0.98,True
+10 Jul,sales_2024_07_24,24.07.,24.07.,0.98,True
+10 Jul,sales_2024_07_25,25.07.,25.07.,0.98,True
+10 Jul,sales_2024_07_26,26.07.,26.07.,1.0,True
+10 Jul,sales_2024_07_27,27.07.,27.07.,0.98,True
+10 Jul,sales_2024_07_28,28.07.,28.07.,0.98,True
+10 Jul,sales_2024_07_29,29.07.,29.07.,1.0,True
+10 Jul,sales_2024_07_30,30.07.,30.07.,1.0,True
+10 Jul,sales_2024_07_31,31.07.,31.07.,0.98,True
+10 Aug,store_code,Store Code,Store Code,1.0,True
+10 Aug,store_name,Store Name,Store Name,1.0,True
+10 Aug,region,Region,Region,1.0,True
+10 Aug,sales_2024_08_01,1/8,1/8,1.0,True
+10 Aug,sales_2024_08_02,2/8,2/8,1.0,True
+10 Aug,sales_2024_08_03,3/8,3/8,1.0,True
+10 Aug,sales_2024_08_04,4/8,4/8,0.97,True
+10 Aug,sales_2024_08_05,5/8,5/8,1.0,True
+10 Aug,sales_2024_08_06,6/8,6/8,1.0,True
+10 Aug,sales_2024_08_07,7/8,none,0.82,False
+10 Aug,sales_2024_08_08,8/8,8/8,0.95,True
+10 Aug,sales_2024_08_09,9/8,9/8,0.98,True
+10 Aug,sales_2024_08_10,10/8,10/8,1.0,True
+10 Aug,sales_2024_08_11,11/8,11/8,0.97,True
+10 Aug,sales_2024_08_12,12/8,12/8,1.0,True
+10 Aug,sales_2024_08_13,13/8,13/8,1.0,True
+10 Aug,sales_2024_08_14,14/8,14/8,0.97,True
+10 Aug,sales_2024_08_15,15/8,15/8,1.0,True
+10 Aug,sales_2024_08_16,16/8,16/8,0.98,True
+10 Aug,sales_2024_08_17,17/8,17/8,1.0,True
+10 Aug,sales_2024_08_18,18/8,18/8,1.0,True
+10 Aug,sales_2024_08_19,19/8,19/8,1.0,True
+10 Aug,sales_2024_08_20,20/8,20/8,1.0,True
+10 Aug,sales_2024_08_21,21/8,21/8,1.0,True
+10 Aug,sales_2024_08_22,22/8,22/8,1.0,True
+10 Aug,sales_2024_08_23,23/8,23/8,1.0,True
+10 Aug,sales_2024_08_24,24/8,24/8,1.0,True
+10 Aug,sales_2024_08_25,25/8,25/8,1.0,True
+10 Aug,sales_2024_08_26,26/8,26/8,1.0,True
+10 Aug,sales_2024_08_27,27/8,27/8,1.0,True
+10 Aug,sales_2024_08_28,28/8,28/8,1.0,True
+10 Aug,sales_2024_08_29,29/8,29/8,1.0,True
+10 Aug,sales_2024_08_30,30/8,30/8,1.0,True
+10 Aug,sales_2024_08_31,31/8,31/8,1.0,True
+10 Aug,store_code,Store Code,Store Code,1.0,True
+10 Aug,store_name,Store Name,Store Name,1.0,True
+10 Aug,region,Region,Region,1.0,True
+10 Aug,sales_2024_08_01,1/8,1/8,0.97,True
+10 Aug,sales_2024_08_02,2/8,2/8,0.97,True
+10 Aug,sales_2024_08_03,3/8,3/8,0.99,True
+10 Aug,sales_2024_08_04,4/8,4/8,0.99,True
+10 Aug,sales_2024_08_05,5/8,5/8,0.99,True
+10 Aug,sales_2024_08_06,6/8,6/8,0.99,True
+10 Aug,sales_2024_08_07,7/8,none,0.77,False
+10 Aug,sales_2024_08_08,8/8,8/8,0.95,True
+10 Aug,sales_2024_08_09,9/8,9/8,0.97,True
+10 Aug,sales_2024_08_10,10/8,10/8,0.97,True
+10 Aug,sales_2024_08_11,11/8,11/8,0.95,True
+10 Aug,sales_2024_08_12,12/8,12/8,0.97,True
+10 Aug,sales_2024_08_13,13/8,13/8,0.98,True
+10 Aug,sales_2024_08_14,14/8,14/8,0.97,True
+10 Aug,sales_2024_08_15,15/8,15/8,0.95,True
+10 Aug,sales_2024_08_16,16/8,16/8,0.98,True
+10 Aug,sales_2024_08_17,17/8,17/8,1.0,True
+10 Aug,sales_2024_08_18,18/8,18/8,1.0,True
+10 Aug,sales_2024_08_19,19/8,19/8,1.0,True
+10 Aug,sales_2024_08_20,20/8,20/8,1.0,True
+10 Aug,sales_2024_08_21,21/8,21/8,1.0,True
+10 Aug,sales_2024_08_22,22/8,22/8,1.0,True
+10 Aug,sales_2024_08_23,23/8,23/8,1.0,True
+10 Aug,sales_2024_08_24,24/8,24/8,1.0,True
+10 Aug,sales_2024_08_25,25/8,25/8,1.0,True
+10 Aug,sales_2024_08_26,26/8,26/8,1.0,True
+10 Aug,sales_2024_08_27,27/8,27/8,1.0,True
+10 Aug,sales_2024_08_28,28/8,28/8,1.0,True
+10 Aug,sales_2024_08_29,29/8,29/8,1.0,True
+10 Aug,sales_2024_08_30,30/8,30/8,1.0,True
+10 Aug,sales_2024_08_31,31/8,31/8,1.0,True
+10 Aug,store_code,Store Code,Store Code,1.0,True
+10 Aug,store_name,Store Name,Store Name,1.0,True
+10 Aug,region,Region,Region,1.0,True
+10 Aug,sales_2024_08_01,1/8,1/8,0.99,True
+10 Aug,sales_2024_08_02,2/8,2/8,1.0,True
+10 Aug,sales_2024_08_03,3/8,3/8,1.0,True
+10 Aug,sales_2024_08_04,4/8,4/8,0.97,True
+10 Aug,sales_2024_08_05,5/8,5/8,0.99,True
+10 Aug,sales_2024_08_06,6/8,6/8,0.99,True
+10 Aug,sales_2024_08_07,7/8,none,0.67,False
+10 Aug,sales_2024_08_08,8/8,8/8,0.95,True
+10 Aug,sales_2024_08_09,9/8,9/8,0.99,True
+10 Aug,sales_2024_08_10,10/8,10/8,0.97,True
+10 Aug,sales_2024_08_11,11/8,11/8,0.97,True
+10 Aug,sales_2024_08_12,12/8,12/8,0.97,True
+10 Aug,sales_2024_08_13,13/8,13/8,0.98,True
+10 Aug,sales_2024_08_14,14/8,14/8,0.95,True
+10 Aug,sales_2024_08_15,15/8,15/8,0.94,True
+10 Aug,sales_2024_08_16,16/8,16/8,0.98,True
+10 Aug,sales_2024_08_17,17/8,17/8,1.0,True
+10 Aug,sales_2024_08_18,18/8,18/8,1.0,True
+10 Aug,sales_2024_08_19,19/8,19/8,1.0,True
+10 Aug,sales_2024_08_20,20/8,20/8,1.0,True
+10 Aug,sales_2024_08_21,21/8,21/8,1.0,True
+10 Aug,sales_2024_08_22,22/8,22/8,1.0,True
+10 Aug,sales_2024_08_23,23/8,23/8,1.0,True
+10 Aug,sales_2024_08_24,24/8,24/8,1.0,True
+10 Aug,sales_2024_08_25,25/8,25/8,1.0,True
+10 Aug,sales_2024_08_26,26/8,26/8,1.0,True
+10 Aug,sales_2024_08_27,27/8,27/8,1.0,True
+10 Aug,sales_2024_08_28,28/8,28/8,1.0,True
+10 Aug,sales_2024_08_29,29/8,29/8,1.0,True
+10 Aug,sales_2024_08_30,30/8,30/8,1.0,True
+10 Aug,sales_2024_08_31,31/8,31/8,1.0,True
+10 Aug,store_code,Store Code,Store Code,1.0,True
+10 Aug,store_name,Store Name,Store Name,1.0,True
+10 Aug,region,Region,Region,1.0,True
+10 Aug,sales_2024_08_01,1/8,1/8,1.0,True
+10 Aug,sales_2024_08_02,2/8,2/8,1.0,True
+10 Aug,sales_2024_08_03,3/8,3/8,1.0,True
+10 Aug,sales_2024_08_04,4/8,4/8,1.0,True
+10 Aug,sales_2024_08_05,5/8,5/8,1.0,True
+10 Aug,sales_2024_08_06,6/8,6/8,1.0,True
+10 Aug,sales_2024_08_07,7/8,none,0.79,False
+10 Aug,sales_2024_08_08,8/8,8/8,0.94,True
+10 Aug,sales_2024_08_09,9/8,9/8,0.97,True
+10 Aug,sales_2024_08_10,10/8,10/8,1.0,True
+10 Aug,sales_2024_08_11,11/8,11/8,0.97,True
+10 Aug,sales_2024_08_12,12/8,12/8,0.98,True
+10 Aug,sales_2024_08_13,13/8,13/8,0.98,True
+10 Aug,sales_2024_08_14,14/8,14/8,0.98,True
+10 Aug,sales_2024_08_15,15/8,15/8,0.98,True
+10 Aug,sales_2024_08_16,16/8,16/8,1.0,True
+10 Aug,sales_2024_08_17,17/8,17/8,1.0,True
+10 Aug,sales_2024_08_18,18/8,18/8,1.0,True
+10 Aug,sales_2024_08_19,19/8,19/8,1.0,True
+10 Aug,sales_2024_08_20,20/8,20/8,1.0,True
+10 Aug,sales_2024_08_21,21/8,21/8,1.0,True
+10 Aug,sales_2024_08_22,22/8,22/8,1.0,True
+10 Aug,sales_2024_08_23,23/8,23/8,1.0,True
+10 Aug,sales_2024_08_24,24/8,24/8,1.0,True
+10 Aug,sales_2024_08_25,25/8,25/8,1.0,True
+10 Aug,sales_2024_08_26,26/8,26/8,1.0,True
+10 Aug,sales_2024_08_27,27/8,27/8,1.0,True
+10 Aug,sales_2024_08_28,28/8,28/8,1.0,True
+10 Aug,sales_2024_08_29,29/8,29/8,1.0,True
+10 Aug,sales_2024_08_30,30/8,30/8,1.0,True
+10 Aug,sales_2024_08_31,31/8,31/8,1.0,True
+10 Aug,store_code,Store Code,Store Code,1.0,True
+10 Aug,store_name,Store Name,Store Name,1.0,True
+10 Aug,region,Region,Region,1.0,True
+10 Aug,sales_2024_08_01,1/8,1/8,0.95,True
+10 Aug,sales_2024_08_02,2/8,2/8,0.97,True
+10 Aug,sales_2024_08_03,3/8,3/8,0.97,True
+10 Aug,sales_2024_08_04,4/8,4/8,0.96,True
+10 Aug,sales_2024_08_05,5/8,5/8,0.97,True
+10 Aug,sales_2024_08_06,6/8,6/8,0.99,True
+10 Aug,sales_2024_08_07,7/8,none,0.67,False
+10 Aug,sales_2024_08_08,8/8,8/8,0.91,True
+10 Aug,sales_2024_08_09,9/8,9/8,0.95,True
+10 Aug,sales_2024_08_10,10/8,10/8,0.98,True
+10 Aug,sales_2024_08_11,11/8,11/8,0.95,True
+10 Aug,sales_2024_08_12,12/8,12/8,0.97,True
+10 Aug,sales_2024_08_13,13/8,13/8,0.98,True
+10 Aug,sales_2024_08_14,14/8,14/8,0.95,True
+10 Aug,sales_2024_08_15,15/8,15/8,0.95,True
+10 Aug,sales_2024_08_16,16/8,16/8,0.97,True
+10 Aug,sales_2024_08_17,17/8,17/8,1.0,True
+10 Aug,sales_2024_08_18,18/8,18/8,1.0,True
+10 Aug,sales_2024_08_19,19/8,19/8,1.0,True
+10 Aug,sales_2024_08_20,20/8,20/8,1.0,True
+10 Aug,sales_2024_08_21,21/8,21/8,1.0,True
+10 Aug,sales_2024_08_22,22/8,22/8,1.0,True
+10 Aug,sales_2024_08_23,23/8,23/8,1.0,True
+10 Aug,sales_2024_08_24,24/8,24/8,0.98,True
+10 Aug,sales_2024_08_25,25/8,25/8,1.0,True
+10 Aug,sales_2024_08_26,26/8,26/8,1.0,True
+10 Aug,sales_2024_08_27,27/8,27/8,1.0,True
+10 Aug,sales_2024_08_28,28/8,28/8,1.0,True
+10 Aug,sales_2024_08_29,29/8,29/8,1.0,True
+10 Aug,sales_2024_08_30,30/8,30/8,1.0,True
+10 Aug,sales_2024_08_31,31/8,31/8,0.98,True
+10 Sep,store_code,Store Code,Store Code,1.0,True
+10 Sep,store_name,Store Name,Store Name,1.0,True
+10 Sep,region,Region,Region,1.0,True
+10 Sep,sales_2024_09_01,20240901,20240901,1.0,True
+10 Sep,sales_2024_09_02,20240902,20240902,1.0,True
+10 Sep,sales_2024_09_03,20240903,20240903,1.0,True
+10 Sep,sales_2024_09_04,20240904,20240904,1.0,True
+10 Sep,sales_2024_09_05,20240905,20240905,1.0,True
+10 Sep,sales_2024_09_06,20240906,20240906,1.0,True
+10 Sep,sales_2024_09_07,20240907,20240907,1.0,True
+10 Sep,sales_2024_09_08,20240908,20240908,0.98,True
+10 Sep,sales_2024_09_09,none,none,0.82,True
+10 Sep,sales_2024_09_30,none,none,0.78,True
+10 Sep,sales_2024_12_31,none,none,1.0,True
+10 Sep,full_year_total,none,none,1.0,True
+10 Sep,store_code,Store Code,Store Code,1.0,True
+10 Sep,store_name,Store Name,Store Name,1.0,True
+10 Sep,region,Region,Region,1.0,True
+10 Sep,sales_2024_09_01,20240901,20240901,1.0,True
+10 Sep,sales_2024_09_02,20240902,20240902,1.0,True
+10 Sep,sales_2024_09_03,20240903,20240903,1.0,True
+10 Sep,sales_2024_09_04,20240904,20240904,0.98,True
+10 Sep,sales_2024_09_05,20240905,20240905,0.97,True
+10 Sep,sales_2024_09_06,20240906,20240906,0.98,True
+10 Sep,sales_2024_09_07,20240907,20240907,1.0,True
+10 Sep,sales_2024_09_08,20240908,20240908,0.98,True
+10 Sep,sales_2024_09_09,none,none,0.78,True
+10 Sep,sales_2024_09_30,none,none,0.5,True
+10 Sep,sales_2024_12_31,none,none,1.0,True
+10 Sep,full_year_total,none,none,1.0,True
+10 Sep,store_code,Store Code,Store Code,1.0,True
+10 Sep,store_name,Store Name,Store Name,1.0,True
+10 Sep,region,Region,Region,1.0,True
+10 Sep,sales_2024_09_01,20240901,20240901,0.98,True
+10 Sep,sales_2024_09_02,20240902,20240902,0.98,True
+10 Sep,sales_2024_09_03,20240903,20240903,0.97,True
+10 Sep,sales_2024_09_04,20240904,20240904,0.97,True
+10 Sep,sales_2024_09_05,20240905,20240905,0.99,True
+10 Sep,sales_2024_09_06,20240906,20240906,0.97,True
+10 Sep,sales_2024_09_07,20240907,20240907,1.0,True
+10 Sep,sales_2024_09_08,20240908,20240908,0.98,True
+10 Sep,sales_2024_09_09,none,none,0.45,True
+10 Sep,sales_2024_09_30,none,none,0.36,True
+10 Sep,sales_2024_12_31,none,none,1.0,True
+10 Sep,full_year_total,none,none,1.0,True
+10 Sep,store_code,Store Code,Store Code,1.0,True
+10 Sep,store_name,Store Name,Store Name,1.0,True
+10 Sep,region,Region,Region,1.0,True
+10 Sep,sales_2024_09_01,20240901,20240901,1.0,True
+10 Sep,sales_2024_09_02,20240902,20240902,0.98,True
+10 Sep,sales_2024_09_03,20240903,20240903,0.97,True
+10 Sep,sales_2024_09_04,20240904,20240904,1.0,True
+10 Sep,sales_2024_09_05,20240905,20240905,1.0,True
+10 Sep,sales_2024_09_06,20240906,20240906,1.0,True
+10 Sep,sales_2024_09_07,20240907,20240907,1.0,True
+10 Sep,sales_2024_09_08,20240908,20240908,0.98,True
+10 Sep,sales_2024_09_09,none,none,0.6,True
+10 Sep,sales_2024_09_30,none,none,0.16,True
+10 Sep,sales_2024_12_31,none,none,1.0,True
+10 Sep,full_year_total,none,none,1.0,True
+10 Sep,store_code,Store Code,Store Code,1.0,True
+10 Sep,store_name,Store Name,Store Name,1.0,True
+10 Sep,region,Region,Region,1.0,True
+10 Sep,sales_2024_09_01,20240901,20240901,1.0,True
+10 Sep,sales_2024_09_02,20240902,20240902,0.98,True
+10 Sep,sales_2024_09_03,20240903,20240903,0.98,True
+10 Sep,sales_2024_09_04,20240904,20240904,1.0,True
+10 Sep,sales_2024_09_05,20240905,20240905,1.0,True
+10 Sep,sales_2024_09_06,20240906,20240906,0.97,True
+10 Sep,sales_2024_09_07,20240907,20240907,1.0,True
+10 Sep,sales_2024_09_08,20240908,20240908,1.0,True
+10 Sep,sales_2024_09_09,none,none,0.76,True
+10 Sep,sales_2024_09_30,none,none,1.0,True
+10 Sep,sales_2024_12_31,none,none,1.0,True
+10 Sep,full_year_total,none,none,1.0,True

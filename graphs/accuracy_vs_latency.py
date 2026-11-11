@@ -15,6 +15,7 @@ from matplotlib.ticker import FuncFormatter
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RESULTS = os.path.join(ROOT, "results")
 GRAPHS = os.path.join(ROOT, "graphs")
+FIGURES = os.path.join(ROOT, "figures")
 
 # results folder -> name on the chart, and where its label sits next to the dot
 # (MiMo and Qwen have almost the same accuracy and latency, so their labels go on opposite sides)
@@ -124,11 +125,12 @@ def plot(summary, path):
 
 def main():
     os.makedirs(GRAPHS, exist_ok=True)
+    os.makedirs(FIGURES, exist_ok=True)
     summary = summarise(load_runs())
     print(summary.to_string(index=False))
     summary.to_csv(os.path.join(GRAPHS, "accuracy_summary.csv"), index=False)
-    plot(summary, os.path.join(GRAPHS, "accuracy_vs_latency.png"))
-    print("saved graphs/accuracy_vs_latency.png and graphs/accuracy_summary.csv")
+    plot(summary, os.path.join(FIGURES, "accuracy_vs_latency.png"))
+    print("saved figures/accuracy_vs_latency.png and graphs/accuracy_summary.csv")
 
 if __name__ == "__main__":
     main()

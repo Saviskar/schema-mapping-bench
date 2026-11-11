@@ -1,0 +1,91 @@
+model,case,runs,invalid_runs,min_acc,max_acc,range_pp,range_without_invalid_pp
+Jev,01 Suppliers,5,0,100.0,100.0,0.0,0.0
+Jev,02 Shipments,5,0,86.7,86.7,0.0,0.0
+Jev,03 Stock,5,0,100.0,100.0,0.0,0.0
+Jev,04 Regional sales,5,0,91.7,91.7,0.0,0.0
+Jev,05 Products,5,0,87.5,87.5,0.0,0.0
+Jev,06 PO lines,5,0,77.8,77.8,0.0,0.0
+Jev,07 Payroll,5,0,100.0,100.0,0.0,0.0
+Jev,08 Cold chain,5,0,92.9,100.0,7.1,7.1
+Jev,09 POS,5,0,100.0,100.0,0.0,0.0
+Jev,10 Jan,5,0,100.0,100.0,0.0,0.0
+Jev,10 Feb,5,0,100.0,100.0,0.0,0.0
+Jev,10 Mar,5,0,8.8,8.8,0.0,0.0
+Jev,10 Apr,5,0,100.0,100.0,0.0,0.0
+Jev,10 May,5,0,97.1,100.0,2.9,2.9
+Jev,10 Jun,5,0,100.0,100.0,0.0,0.0
+Jev,10 Jul,5,0,100.0,100.0,0.0,0.0
+Jev,10 Aug,5,0,97.1,97.1,0.0,0.0
+Jev,10 Sep,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,01 Suppliers,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,02 Shipments,5,0,80.0,86.7,6.7,6.7
+GLM 4.6V Flash,03 Stock,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,04 Regional sales,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,05 Products,5,0,87.5,93.8,6.2,6.2
+GLM 4.6V Flash,06 PO lines,5,5,0.0,0.0,0.0,
+GLM 4.6V Flash,07 Payroll,5,5,0.0,0.0,0.0,
+GLM 4.6V Flash,08 Cold chain,5,0,57.1,85.7,28.6,28.6
+GLM 4.6V Flash,09 POS,5,0,92.9,92.9,0.0,0.0
+GLM 4.6V Flash,10 Jan,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,10 Feb,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,10 Mar,5,0,8.8,8.8,0.0,0.0
+GLM 4.6V Flash,10 Apr,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,10 May,5,0,8.8,97.1,88.2,88.2
+GLM 4.6V Flash,10 Jun,5,0,97.0,97.0,0.0,0.0
+GLM 4.6V Flash,10 Jul,5,0,100.0,100.0,0.0,0.0
+GLM 4.6V Flash,10 Aug,5,0,8.8,100.0,91.2,91.2
+GLM 4.6V Flash,10 Sep,5,0,86.7,100.0,13.3,13.3
+Qwen3 8B,01 Suppliers,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,02 Shipments,5,0,86.7,100.0,13.3,13.3
+Qwen3 8B,03 Stock,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,04 Regional sales,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,05 Products,5,0,93.8,93.8,0.0,0.0
+Qwen3 8B,06 PO lines,5,0,44.4,66.7,22.2,22.2
+Qwen3 8B,07 Payroll,5,0,78.9,94.7,15.8,15.8
+Qwen3 8B,08 Cold chain,5,0,71.4,78.6,7.1,7.1
+Qwen3 8B,09 POS,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,10 Jan,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,10 Feb,5,0,9.4,100.0,90.6,90.6
+Qwen3 8B,10 Mar,5,0,8.8,8.8,0.0,0.0
+Qwen3 8B,10 Apr,5,0,100.0,100.0,0.0,0.0
+Qwen3 8B,10 May,5,0,8.8,97.1,88.2,88.2
+Qwen3 8B,10 Jun,5,0,9.1,97.0,87.9,87.9
+Qwen3 8B,10 Jul,5,0,8.8,100.0,91.2,91.2
+Qwen3 8B,10 Aug,5,0,8.8,100.0,91.2,91.2
+Qwen3 8B,10 Sep,5,0,20.0,80.0,60.0,60.0
+MiMo 9B,01 Suppliers,5,0,92.9,100.0,7.1,7.1
+MiMo 9B,02 Shipments,5,0,60.0,86.7,26.7,26.7
+MiMo 9B,03 Stock,5,0,100.0,100.0,0.0,0.0
+MiMo 9B,04 Regional sales,5,0,91.7,100.0,8.3,8.3
+MiMo 9B,05 Products,5,2,0.0,93.8,93.8,0.0
+MiMo 9B,06 PO lines,5,5,0.0,0.0,0.0,
+MiMo 9B,07 Payroll,5,3,0.0,100.0,100.0,10.5
+MiMo 9B,08 Cold chain,5,2,0.0,100.0,100.0,0.0
+MiMo 9B,09 POS,5,0,100.0,100.0,0.0,0.0
+MiMo 9B,10 Jan,5,0,97.1,100.0,2.9,2.9
+MiMo 9B,10 Feb,5,1,0.0,100.0,100.0,3.1
+MiMo 9B,10 Mar,5,0,0.0,8.8,8.8,8.8
+MiMo 9B,10 Apr,5,0,0.0,100.0,100.0,100.0
+MiMo 9B,10 May,5,0,8.8,97.1,88.2,88.2
+MiMo 9B,10 Jun,5,0,97.0,100.0,3.0,3.0
+MiMo 9B,10 Jul,5,0,5.9,100.0,94.1,94.1
+MiMo 9B,10 Aug,5,1,0.0,100.0,100.0,94.1
+MiMo 9B,10 Sep,5,0,46.7,100.0,53.3,53.3
+DeepSeek R1 8B,01 Suppliers,5,0,0.0,100.0,100.0,100.0
+DeepSeek R1 8B,02 Shipments,5,0,73.3,86.7,13.3,13.3
+DeepSeek R1 8B,03 Stock,5,0,90.9,100.0,9.1,9.1
+DeepSeek R1 8B,04 Regional sales,5,0,100.0,100.0,0.0,0.0
+DeepSeek R1 8B,05 Products,5,0,0.0,12.5,12.5,12.5
+DeepSeek R1 8B,06 PO lines,5,0,0.0,7.4,7.4,7.4
+DeepSeek R1 8B,07 Payroll,5,0,0.0,57.9,57.9,57.9
+DeepSeek R1 8B,08 Cold chain,5,0,0.0,21.4,21.4,21.4
+DeepSeek R1 8B,09 POS,5,0,0.0,14.3,14.3,14.3
+DeepSeek R1 8B,10 Jan,5,0,97.1,100.0,2.9,2.9
+DeepSeek R1 8B,10 Feb,5,0,9.4,100.0,90.6,90.6
+DeepSeek R1 8B,10 Mar,5,0,5.9,8.8,2.9,2.9
+DeepSeek R1 8B,10 Apr,5,0,6.1,100.0,93.9,93.9
+DeepSeek R1 8B,10 May,5,0,2.9,8.8,5.9,5.9
+DeepSeek R1 8B,10 Jun,5,0,0.0,97.0,97.0,97.0
+DeepSeek R1 8B,10 Jul,5,0,5.9,8.8,2.9,2.9
+DeepSeek R1 8B,10 Aug,5,0,2.9,8.8,5.9,5.9
+DeepSeek R1 8B,10 Sep,5,0,20.0,93.3,73.3,73.3

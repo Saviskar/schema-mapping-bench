@@ -1,0 +1,91 @@
+model,case,valid_runs,unusable_runs,invalid_picks,total_picks
+Jev,01 Suppliers,5,0,0,70
+Jev,02 Shipments,5,0,0,75
+Jev,03 Stock,5,0,0,55
+Jev,04 Regional sales,5,0,0,60
+Jev,05 Products,5,0,0,80
+Jev,06 PO lines,5,0,0,135
+Jev,07 Payroll,5,0,0,95
+Jev,08 Cold chain,5,0,0,70
+Jev,09 POS,5,0,0,70
+Jev,10 Jan,5,0,0,170
+Jev,10 Feb,5,0,0,160
+Jev,10 Mar,5,0,0,170
+Jev,10 Apr,5,0,0,165
+Jev,10 May,5,0,0,170
+Jev,10 Jun,5,0,0,165
+Jev,10 Jul,5,0,0,170
+Jev,10 Aug,5,0,0,170
+Jev,10 Sep,5,0,0,75
+GLM 4.6V Flash,01 Suppliers,5,0,0,70
+GLM 4.6V Flash,02 Shipments,5,0,0,75
+GLM 4.6V Flash,03 Stock,5,0,0,55
+GLM 4.6V Flash,04 Regional sales,5,0,0,60
+GLM 4.6V Flash,05 Products,5,0,0,80
+GLM 4.6V Flash,06 PO lines,5,5,135,135
+GLM 4.6V Flash,07 Payroll,5,5,95,95
+GLM 4.6V Flash,08 Cold chain,5,0,0,70
+GLM 4.6V Flash,09 POS,5,0,0,70
+GLM 4.6V Flash,10 Jan,5,0,0,170
+GLM 4.6V Flash,10 Feb,5,0,0,160
+GLM 4.6V Flash,10 Mar,5,0,0,170
+GLM 4.6V Flash,10 Apr,5,0,0,165
+GLM 4.6V Flash,10 May,5,0,0,170
+GLM 4.6V Flash,10 Jun,5,0,0,165
+GLM 4.6V Flash,10 Jul,5,0,0,170
+GLM 4.6V Flash,10 Aug,5,0,0,170
+GLM 4.6V Flash,10 Sep,5,0,0,75
+Qwen3 8B,01 Suppliers,5,0,0,70
+Qwen3 8B,02 Shipments,5,0,0,75
+Qwen3 8B,03 Stock,5,0,0,55
+Qwen3 8B,04 Regional sales,5,0,0,60
+Qwen3 8B,05 Products,5,0,0,80
+Qwen3 8B,06 PO lines,5,0,0,135
+Qwen3 8B,07 Payroll,5,0,0,95
+Qwen3 8B,08 Cold chain,5,0,0,70
+Qwen3 8B,09 POS,5,0,0,70
+Qwen3 8B,10 Jan,5,0,0,170
+Qwen3 8B,10 Feb,5,0,0,160
+Qwen3 8B,10 Mar,5,0,0,170
+Qwen3 8B,10 Apr,5,0,0,165
+Qwen3 8B,10 May,5,0,0,170
+Qwen3 8B,10 Jun,5,0,0,165
+Qwen3 8B,10 Jul,5,0,0,170
+Qwen3 8B,10 Aug,5,0,0,170
+Qwen3 8B,10 Sep,5,0,0,75
+MiMo 9B,01 Suppliers,5,0,0,70
+MiMo 9B,02 Shipments,5,0,0,75
+MiMo 9B,03 Stock,5,0,0,55
+MiMo 9B,04 Regional sales,5,0,0,60
+MiMo 9B,05 Products,5,2,32,80
+MiMo 9B,06 PO lines,5,5,135,135
+MiMo 9B,07 Payroll,5,3,57,95
+MiMo 9B,08 Cold chain,5,2,28,70
+MiMo 9B,09 POS,5,0,0,70
+MiMo 9B,10 Jan,5,0,0,170
+MiMo 9B,10 Feb,5,1,32,160
+MiMo 9B,10 Mar,5,0,0,170
+MiMo 9B,10 Apr,5,0,0,165
+MiMo 9B,10 May,5,0,0,170
+MiMo 9B,10 Jun,5,0,0,165
+MiMo 9B,10 Jul,5,0,0,170
+MiMo 9B,10 Aug,5,1,34,170
+MiMo 9B,10 Sep,5,0,0,75
+DeepSeek R1 8B,01 Suppliers,5,0,0,70
+DeepSeek R1 8B,02 Shipments,5,0,0,75
+DeepSeek R1 8B,03 Stock,5,0,0,55
+DeepSeek R1 8B,04 Regional sales,5,0,0,60
+DeepSeek R1 8B,05 Products,5,0,0,80
+DeepSeek R1 8B,06 PO lines,5,0,0,135
+DeepSeek R1 8B,07 Payroll,5,0,0,95
+DeepSeek R1 8B,08 Cold chain,5,0,0,70
+DeepSeek R1 8B,09 POS,5,0,0,70
+DeepSeek R1 8B,10 Jan,5,0,0,170
+DeepSeek R1 8B,10 Feb,5,0,0,160
+DeepSeek R1 8B,10 Mar,5,0,0,170
+DeepSeek R1 8B,10 Apr,5,0,0,165
+DeepSeek R1 8B,10 May,5,0,0,170
+DeepSeek R1 8B,10 Jun,5,0,0,165
+DeepSeek R1 8B,10 Jul,5,0,0,170
+DeepSeek R1 8B,10 Aug,5,0,0,170
+DeepSeek R1 8B,10 Sep,5,0,0,75
