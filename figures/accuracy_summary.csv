@@ -1,0 +1,6 @@
+model,runs,accuracy_all,accuracy_01_09,accuracy_10,median_latency_s
+Jev,90,89.5,91.7,88.4,2.3
+Qwen3 8B,90,66.8,86.3,57.0,288.73
+GLM 4.6V Flash,90,76.0,61.0,83.5,190.87
+MiMo 9B,90,66.3,61.4,68.8,175.03
+DeepSeek R1 8B,90,34.1,33.8,34.2,703.17
